@@ -1,0 +1,185 @@
+# .gitignore
+# Ignore everything
+*
+
+# Allow only these
+!.gitignore
+!README.md
+!waybar*
+!niri*
+!ox*
+!rofi*
+!hypr*
+!micro*
+!bat*
+!wofi*
+!zed*
+!alacritty*
+!autostart*
+
+# fish
+!fish*
+!fish/themes*
+!fish/config.fish
+
+
+
+# ------------------------------------------------------------
+# More Ignoring
+# ------------------------------------------------------------
+
+# --- Generic secret file names / patterns
+*.env
+.env
+.env.*
+*.secret
+*.secrets
+*credentials*
+*credential*
+*token*
+*tokens*
+*apikey*
+*api_key*
+*password*
+*passwd*
+*auth*
+*oauth*
+
+# --- Private keys / certs
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.der
+*.crt
+*.cer
+*.jks
+*.keystore
+*.asc
+*.gpg
+*.kbx
+*.age
+
+# --- Browsers & apps with session/cookie/token stores
+chromium/
+mozilla/
+evolution/
+spotify/
+
+# --- Account & SSO stores (often point to keyrings but can spill tokens)
+goa-1.0/
+libaccounts-glib/
+kdeconnect/
+
+# --- GitHub CLI (hosts.yml contains tokens)
+gh/
+# If you really want to keep aliases/config, re-allow just those:
+# !gh/aliases.yml
+# !gh/config.yml
+
+# --- Common cloud/CLI creds (some live under ~/.config)
+rclone/rclone.conf
+gcloud/           # ~/.config/gcloud
+azure/            # ~/.config/azure
+aws/              # some distros put under ~/.config/aws too
+docker/config.json
+npm/              # ~/.config/npm (rare)
+pip/pip.conf
+helm/
+sops/
+age/
+
+# --- Desktop keyrings (encrypted but don’t commit)
+../.local/share/keyrings/
+../.local/share/kwalletd/
+
+# --- SSH & GPG (usually outside .config, but ignore if symlinked in)
+../.ssh/
+../.gnupg/
+
+# --- Dconf/KDE/other stateful binary configs (big/noisy/occasionally sensitive)
+dconf/
+kactivitymanagerd-statsrc
+kglobalshortcutsrc
+plasmashellrc
+konsolesshconfig
+
+# --- Caches, databases, logs, lockfiles
+**/Cache/
+**/cache/
+**/*.log
+**/*.lock
+**/*.ldb
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.pid
+
+# --- Editor/OS cruft
+**/*~
+**/.DS_Store
+**/Thumbs.db
+**/.directory
+**/.Trash-*
+
+# --- Temporary or local lists
+list.txt
+
+# --- Git internals (just in case this lives inside another repo)
+.git/
+.gitignore.lock
+
+
+# --- Cloud sync tools (contain access tokens & secrets)
+rclone/
+rclone.conf
+rcloud/
+rcloud.conf
+rclone.conf.bak
+rclone.conf.old
+
+
+# --- OBS websocket & scene/state (passwords/tokens often present)
+obs-studio/plugin_config/obs-websocket/config.json
+obs-studio/logs/
+obs-studio/basic/scenes/*.json
+obs-studio/basic/scenes/*.json.bak
+
+# --- Evolution (mail account secrets/refresh tokens can land here)
+evolution/
+
+# --- Fish: avoid committing plaintext API keys or exported env vars
+fish/fish_variables
+fish/conf.d/fish_ai.fish
+fish/functions/fish_ai_*.fish
+fish/**/fish_ai*/            # in case the plugin writes a config dir/file
+fish/**/config.ini           # common for plugins; may hold api_key
+fish/**/config.toml
+fish/**/config.yaml
+
+# --- Spotify (device ids, tokens, IPs)
+spotify/
+
+# --- Git hook samples / local dev tooling (never needed in dotfiles)
+.git/hooks/
+
+# --- Fish shell (AI plugin writes API keys)
+fish/conf.d/fish_ai.fish
+fish/functions/fish_ai_*.fish
+fish/fish_variables
+
+
+# --- Rclone or similar sync tools (access tokens)
+rclone/
+rclone.conf
+rcloud/
+rcloud.conf
+
+# --- Miscellaneous sensitive or noisy files
+.git/hooks/
+list.txt
+*.log
+
+# just in case
+find_secwords.log
