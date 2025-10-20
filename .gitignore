@@ -22,7 +22,7 @@
 !fish/themes*
 !fish/config.fish
 
-
+!nvim*
 
 # ------------------------------------------------------------
 # More Ignoring
