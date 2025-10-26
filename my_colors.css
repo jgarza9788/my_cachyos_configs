@@ -1,0 +1,78 @@
+/* colors.css — VS Code Dark+ (default) inspired */
+
+/* Core VS Code tokens */
+@define-color foreground        #D4D4D4;  /* editorForeground */
+@define-color background        #1E1E1E;  /* editor background */
+@define-color background-alt    rgba(30,30,30,0.22);
+@define-color background-alt2    rgba(30,30,30,0.75);
+@define-color transparent       rgba(0,0,0,0.0);
+@define-color cursor            #AEAFAD;  /* editorCursor.foreground */
+@define-color border            #3C3C3C;  /* panel/contrast border */
+
+/* VS Code blues */
+@define-color vscode-blue       #0E639C;  /* button.background, activityBar badge */
+@define-color vscode-blue-bright #3794FF; /* focus/active accents */
+@define-color vscode-blue-dim   #007ACC;  /* classic VS Code blue */
+
+/* Selection & highlight */
+@define-color selection         #264F78;  /* editor.selectionBackground */
+@define-color selection-inactive rgba(38,79,120,0.5);
+
+/* Status & diagnostics (approx from VS Code) */
+@define-color info              #3794FF;  /* editorInfo.foreground */
+@define-color warning           #CCA700;  /* editorWarning.foreground */
+@define-color critical          #F48771;  /* errorForeground */
+@define-color success           #89D185;  /* gitDecoration.addedResourceForeground (green-ish) */
+
+/* Neutral ramp (for blocks, dividers, disabled) */
+@define-color neutral-0         #111111;
+@define-color neutral-1         #1A1A1A;
+@define-color neutral-2         #252525;
+@define-color neutral-3         #2E2E2E;
+@define-color neutral-4         #383838;
+@define-color neutral-5         #4B4B4B;
+@define-color neutral-6         #6E6E6E;
+@define-color neutral-7         #A6A6A6;
+
+/* 16-color-ish ramp (for terminals or extra accents; tuned to VS Code feel) */
+@define-color color0  #1E1E1E; /* black */
+@define-color color1  #F44747; /* red   (VS Code error tone) */
+@define-color color2  #89D185; /* green */
+@define-color color3  #CCA700; /* yellow/warning */
+@define-color color4  #0E639C; /* blue  (primary accent) */
+@define-color color5  #B267E6; /* magenta */
+@define-color color6  #4EC9B0; /* cyan */
+@define-color color7  #D4D4D4; /* white */
+@define-color color8  #808080; /* bright black */
+@define-color color9  #F48771; /* bright red */
+@define-color color10 #B7E1BE; /* bright green */
+@define-color color11 #E5C07B; /* bright yellow */
+@define-color color12 #3794FF; /* bright blue */
+@define-color color13 #D19A66; /* bright magenta (earthy) */
+@define-color color14 #9CDCFE; /* bright cyan (type highlights) */
+@define-color color15 #FFFFFF; /* bright white */
+
+/* ---------- Semantic aliases (use these in your styles) ---------- */
+@define-color fg              @foreground;
+@define-color bg              @background;
+@define-color bg-alt          @background-alt;
+
+@define-color panel           rgba(30,30,30,0.55);
+@define-color panel-border    rgba(60,60,60,0.95);
+@define-color muted           rgba(212,212,212,0.60);
+
+@define-color accent          @vscode-blue;
+@define-color accent-dim      @vscode-blue-dim;
+@define-color accent-bright   @vscode-blue-bright;
+
+@define-color block-bg        rgba(37,37,37,0.70);  /* neutral-2 with alpha */
+@define-color block-bg-hover  rgba(37,37,37,0.88);
+@define-color block-fg        @fg;
+
+@define-color notif-bg        rgba(30,30,30,0.92);
+@define-color notif-border    rgba(60,60,60,0.9);
+@define-color notif-shadow    rgba(0,0,0,0.60);
+
+@define-color popup-bg        rgba(30,30,30,0.96);
+@define-color popup-border    rgba(60,60,60,0.8);
+@define-color popup-shadow    rgba(0,0,0,0.66);

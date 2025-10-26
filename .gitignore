@@ -5,17 +5,34 @@
 # Allow only these
 !.gitignore
 !README.md
-!waybar*
-!niri*
-!ox*
-!rofi*
-!hypr*
-!micro*
-!bat*
-!wofi*
-!zed*
-!alacritty*
-!autostart*
+!/waybar-*/
+!/waybar-*/*
+!/waybar/
+!/waybar/*
+!/niri/
+!/niri/*
+!/ox/
+!/ox/*
+!/rofi/
+!/rofi/*
+!/quickshell/
+!/quickshell/*
+!/hypr/
+!/hypr/*
+!/micro/
+!/micro/*
+!/bat/
+!/bat/*
+!/wofi/
+!/wofi/*
+!/zed/
+!/zed/*
+!/alacritty/
+!/alacritty/*
+!/autostart/
+!/autostart/*
+
+!my_colors.css
 
 # fish
 !fish*

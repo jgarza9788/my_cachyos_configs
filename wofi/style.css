@@ -1,0 +1,42 @@
+window {
+margin: 0px;
+border: 1px solid #101216;
+background-color: #101216;
+
+font-family: "FiraCode Mono Nerd Font", "JetBrains Mono", "Noto Sans Mono", monospace;
+font-size: 13pt;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #e6e6e6;
+background-color: #101216;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: #101216;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #101216;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #e6e6e6;
+}
+
+#entry:selected {
+background-color: #2f3540;
+}

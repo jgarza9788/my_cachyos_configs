@@ -1,0 +1,68 @@
+/* Niri Waybar — dark glass look */
+@define-color fg #e6e6e6;
+/* @define-color bg rgba(16,18,22,0.95); */
+@define-color bg rgba(16,18,22,0.00);
+/* @define-color bg-solid #101216; */
+@define-color bg-solid rgba(16,18,22,0.95);
+@define-color accent #7dd3fc;      /* tweak to taste */
+@define-color accent-hi #22d3ee;
+
+* {
+  font-family: JetBrainsMono Nerd Font, Iosevka, monospace;
+  font-size: 10pt;
+  color: @fg;
+}
+
+window#waybar {
+  background: @bg;
+  /* border: 1px solid rgba(255,255,255,0.08); */
+  /* border: 1px solid @accent; */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* General module look */
+#workspaces, #window, #clock, #cpu, #memory, #temperature, #pulseaudio,
+#battery, #network, #tray {
+  padding: 3px 5px;
+  /* background: rgba(255,255,255,0.03); */
+  background: rgba(255,255,255,0.00);
+  border-radius: 5px;
+  margin: 0 1px;
+}
+
+/* Workspaces as pills */
+#workspaces button {
+  padding: 2px 5px;
+  margin: 0 2px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  transition: background 120ms ease, color 120ms ease, box-shadow 120ms ease;
+}
+#workspaces button:hover { background: rgba(255,255,255,0.10); }
+#workspaces button.focused,
+#workspaces button.active {
+  background: linear-gradient(135deg, @accent, @accent-hi);
+  color: #0a0c0f;
+  box-shadow: 0 6px 16px rgba(34, 211, 238, 0.35);
+}
+#workspaces button.urgent { background: #fb7185; color: #fff; }
+#workspaces button.empty { opacity: 0.55; }
+
+/* Window title stretches */
+#window { background: transparent; }
+window#waybar.empty #window { opacity: 0.0; }
+
+/* Status section details */
+#clock { font-weight: 600; }
+#pulseaudio.muted { opacity: 0.55; }
+#battery.warning { color: #facc15; }
+#battery.critical { color: #fb7185; }
+
+/* Tray tweaks */
+#tray > .passive { opacity: 0.7; }
+#tray > .needs-attention { color: #fb7185; }
+
+/* Subtle separators if you add them */
+.modules-right > widget:not(:last-child),
+.modules-left > widget:not(:last-child) { margin-right: 4px; }

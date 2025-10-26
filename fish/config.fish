@@ -148,7 +148,15 @@ alias code="flatpak run com.visualstudio.code"
 alias terminal="flatpak run app.devsuite.Ptyxis"
 alias Ptyxis="flatpak run app.devsuite.Ptyxis"
 
-alias hist="fzf"
+
+# fuzzy history search
+function fh
+    history | string replace -r '^[0-9-]+ [0-9:]+ ' '' | fzf | read -l cmd
+    if test -n "$cmd"
+        commandline -r "$cmd"
+    end
+end
+alias hist="fh"
 
 
 set -U fish_autosuggestion_enabled 1

@@ -1,0 +1,16 @@
+
+
+//configuration {
+//    modi: "combi";
+//    combi-modi: "window,drun,run";
+//    show-icons: true;
+//    display-combi: "All";
+//}
+
+
+//@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+//@theme "/home/jgarza/.config/rofi/themes/rounded-blue-dark.rasi"
+//@theme "/home/jgarza/.config/rofi/themes/rounded-mine-dark.rasi"
+//@theme "/home/jgarza/.config/rofi/themes/squared-mine.rasi"
+
+@theme "/home/jgarza/.config/rofi/themes/vs-code-style.rasi"

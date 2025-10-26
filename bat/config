@@ -1,0 +1,17 @@
+# ~/.config/bat/config
+
+# Theme (run `bat --list-themes` to see all)
+#--theme="Nord"
+
+# Show line numbers and grid
+--style="numbers,grid"
+
+# Enable paging (use "never" to disable)
+#--paging=auto
+--paging=never
+
+# Use less as pager
+--pager="less -RF"
+
+# Always show non-printable characters
+#--show-all
