@@ -31,6 +31,17 @@
 !/alacritty/*
 !/autostart/
 !/autostart/*
+!/cava/
+!/cava/*
+!/kitty/
+!/kitty/*
+!/swaylock/
+!/swaylock/*
+!/swaync/
+!/swaync/*
+!/fish/
+!/fish/*
+
 
 !my_colors.css
 
