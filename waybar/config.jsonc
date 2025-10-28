@@ -1,194 +1,63 @@
 {
-  // Waybar for Niri — sleek + legible, sized for 1080p–4K
-  "layer": "top",
-  "position": "bottom",
-  //"position": "top",
-  "height": 12,
-  "margin": "-3 3 3 3", //for bottom position
-  //"margin": "6 6 0 6", //for top position
-  "spacing": 20,
-  "gtk-layer-shell": true,
+    "include": [
+        "$HOME/.config/waybar/modules/modules-main.jsonc",
+        "$HOME/.config/waybar/modules/modules-groups.jsonc",
+        "$HOME/.config/waybar/modules/modules-custom.jsonc",
+    ],
 
-  "modules-left": [
-    "hyprland/workspaces",
-    "niri/workspaces",
-    // "custom/sep",
-    "niri/window"
-  ],
+    "layer": "top",
+    //"position": "top",
+    "position": "bottom",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+    "height": 20,
+    "margin-top": -5,
+    "margin-bottom": 5,
+    "margin-left": 5,
+    "margin-right": 5,
 
-  "modules-center": [
-    "clock"
-    //"niri/workspaces",
-  ],
+    "modules-left": [
+        // "custom/launch_rofi", 
+        "custom/round_left",
+        "niri/workspaces",
+        "custom/round_right",
+        "custom/spacer",
+        "custom/round_left",
+        "niri/window",
+        "custom/round_right"
+        // "niri/window"
+        // "idle_inhibitor",
+        
+    ],
 
-  "modules-right": [
-    "cpu",
-    "memory",
-    "temperature",
-    "network",
-    "pulseaudio",
-    //"battery",
-    "tray"
-    //"clock"
+    "modules-center": [
+        //"power-profiles-daemon",
+        "custom/round_left",
+        "clock",
+        "custom/round_right"
+        //"custom/notify"
+    ],
 
-  ],
-
-
-    "hyprland/workspaces": {
-    // Show all workspaces across monitors? flip to true if you prefer
-    "all-outputs": false,
-    "format": "{icon}",
-    "format-icons": {
-      // state-based icons
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-      
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "󰀨",
-      "default": "",
-
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-      
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "󰓏",
-      "default": "",
-      */
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-
-      // optional name matches if you name workspaces in Niri:
-      "web": "",
-      "term": "",
-      "code": "",
-      "chat": "",
-      "media": ""
-    },
-    "disable-click": false
-  },
+    "modules-right": [
+        "custom/updater", 
+        // "custom/clipboard",
+        // "battery", 
+        // "backlight",  
+        "pulseaudio", 
+        "pulseaudio#microphone", 
+        "group/network", 
+        "custom/round_right",
+        "tray"
+        // "custom/spacer",
+        // "custom/round_left",
+        // "custom/power_btn",
+        // "custom/round_right"
+        
+    ],
 
 
 
-  "niri/workspaces": {
-    // Show all workspaces across monitors? flip to true if you prefer
-    "all-outputs": false,
-    "format": "{icon}",
-    "format-icons": {
-      // state-based icons
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-      
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-      
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "󰓏",
-      "default": "",
-      */
-      /*
-      "focused": "",
-      "active": "",
-      "empty": "",
-      "urgent": "",
-      "default": "",
-      */
-
-      // optional name matches if you name workspaces in Niri:
-      "web": "",
-      "term": "",
-      "code": "",
-      "chat": "",
-      "media": ""
-    },
-    "disable-click": false
-  },
-
-  "niri/window": {
-    "format": "{}",
-    "expand": true,
-    "icon": true,
-    "icon-size": 18,
-    //"icon-size": 24,
-    // Optional title rewrites
-    "rewrite": {
-      "(.*) — Mozilla Firefox": " $1",
-      "(.*) - Visual Studio Code": " $1",
-      "(.*) - zsh": " $1"
-    }
-  },
-
-  "clock": {
-    //"format": "  {:%a %b %d  %H:%M}",
-    "format": "{:%Y.%m.%d %H:%M}",
-    "tooltip-format": "{:%A, %B %d, %Y}\nWeek {:%V}"
-  },
-
-  "cpu": { "format": "  {usage}%", "tooltip": true },
-  "memory": { "format": "  {used:0.1f}G", "tooltip": true },
-  "temperature": { "hwmon-path": "/sys/class/thermal/thermal_zone0/temp", "format": "  {temperatureC}°C" },
-
-  "network": {
-    "format-wifi": "  {essid} ({signalStrength}%)",
-    "format-ethernet": "󰈁  {ipaddr}",
-    "format-disconnected": "󰲛  offline",
-    "tooltip": true
-  },
-
-  "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-icons": { "default": ["", "", ""] },
-    "scroll-step": 2
-  },
-
-  
-  "battery": {
-    "states": { "warning": 25, "critical": 12 },
-    "format": "{icon}  {capacity}%",
-    "format-charging": "  {capacity}%",
-    "format-icons": ["","","","",""]
-  },
-  
-
-  "tray": { "icon-size": 16, "spacing": 6 },
-
-  "custom/sep": { "format": " " } // tiny flex gap between workspaces and title
 }

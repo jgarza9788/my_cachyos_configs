@@ -145,7 +145,7 @@ flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=auto com.visualstudio
 flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=auto app.devsuite.Ptyxis
 # then:
 alias code="flatpak run com.visualstudio.code"
-alias terminal="flatpak run app.devsuite.Ptyxis"
+alias terminal="kitty"
 alias Ptyxis="flatpak run app.devsuite.Ptyxis"
 
 
@@ -162,3 +162,5 @@ alias hist="fh"
 set -U fish_autosuggestion_enabled 1
 # fish_update_completions >/dev/null 2>&1 &
 set -U fish_color_autosuggestion '555'  # darker gray
+
+zoxide init fish | source

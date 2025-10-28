@@ -1,0 +1,28 @@
+# ~/.config/swaylock/config
+
+# --- Appearance ---
+image=/home/jgarza/Wallpapers/current.png
+scaling=fill
+effect-blur=15x5
+indicator-caps-lock
+indicator-idle-visible
+indicator-radius=120
+indicator-thickness=10
+indicator-color=222222bb
+
+# --- Text & Colors ---
+ring-color=88c0d0ff
+inside-color=2e3440aa
+line-color=00000000
+text-color=eceff4ff
+key-hl-color=8fbcbbff
+bs-hl-color=bf616aff
+layout-bg-color=00000000
+layout-text-color=eceff4ff
+
+# --- Misc ---
+font=JetBrainsMono Nerd Font
+show-failed-attempts
+screenshots
+fade-in=0.5
+
