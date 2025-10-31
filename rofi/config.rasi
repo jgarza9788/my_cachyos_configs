@@ -1,2 +1,5 @@
 
 @theme "/home/jgarza/.config/rofi/themes/style-4.5.rasi"
+
+//sort: true;
+//sorting-method: fzf;

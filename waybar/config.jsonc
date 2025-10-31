@@ -8,49 +8,62 @@
     "layer": "top",
     //"position": "top",
     "position": "bottom",
+    // "position": "left",
     "mod": "dock",
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
     "height": 20,
+    // "width": 20,
     "margin-top": -5,
     "margin-bottom": 5,
     "margin-left": 5,
     "margin-right": 5,
 
     "modules-left": [
+        // "custom/round_left",
         // "custom/launch_rofi", 
-        "custom/round_left",
+        // "custom/round_right",
+        // "custom/spacer",
+        // "custom/round_left",
         "niri/workspaces",
-        "custom/round_right",
+        // "custom/round_right",
         "custom/spacer",
-        "custom/round_left",
-        "niri/window",
-        "custom/round_right"
-        // "niri/window"
-        // "idle_inhibitor",
+        // "custom/round_left",
+        "niri/window"
+        // "custom/round_right"
         
     ],
 
     "modules-center": [
         //"power-profiles-daemon",
-        "custom/round_left",
+        // "custom/round_left",
         "clock",
-        "custom/round_right"
-        //"custom/notify"
+        "mpris"
+        // "custom/round_right"
+        // "custom/notify"
     ],
 
     "modules-right": [
         "custom/updater", 
+        // "custom/spacer",
         // "custom/clipboard",
         // "battery", 
         // "backlight",  
         "pulseaudio", 
+        "custom/spacer",
         "pulseaudio#microphone", 
+        "custom/spacer",
         "group/network", 
-        "custom/round_right",
-        "tray"
+        // "custom/round_right",
+        // "tray"
+        "custom/spacer",
+        // "custom/round_left",
+        "custom/wifi",
+        "custom/spacer",
+        "custom/bluetooth"
+        // "custom/round_right"
         // "custom/spacer",
         // "custom/round_left",
         // "custom/power_btn",

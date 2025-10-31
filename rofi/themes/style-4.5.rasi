@@ -1,0 +1,217 @@
+// Config //
+configuration {
+    modi:                        "drun,filebrowser,window,web,sys,history,combi";
+    show-icons:                  true;
+    display-drun:                "";
+    display-run:                 "";
+    display-filebrowser:         "";
+    display-window:              "";
+    display-web:                 "󰖟";
+    display-sys:                 "󰐥";
+    display-combi:               "";
+    display-history:             "";
+    hover-select:                 true;
+    drun-display-format:         "{name}";
+    window-format:               "{w}{t}";
+    font:                        "JetBrainsMono Nerd Font 10";
+
+    //look into /usr/share/icons
+    icon-theme:                  "TokyoNight";
+    //icon-theme:                  "Tela-circle-dracula";
+}
+
+/*****----- Global Properties -----*****/
+@import "~/.config/rofi/themes/rofi-colors.rasi"
+
+
+// Main //
+window {
+    height:                      800px;
+    width:                       900px;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border-color:                transparent;
+    border-radius:               30px;
+    background-color:            @background;
+
+    //children:                    [ "image", "listbox", "mode-switcher" ];
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0em;
+    orientation:                 vertical;
+    children:                    [ "inputbar" , "dummybox" ];
+    background-color:            transparent;
+
+    //children:                    [ "image", "listbox", "mode-switcher" ];
+    children:                    [ "image", "mode-switcher" ];
+}
+
+image {
+    //background-image:            url("~/.config/niri/.cache/current_wallpaper.png", width);
+    background-image:            url("~/.config/niri/.cache/current_wallpaper.png", height);
+    children:                    [ "inputbar" ,"listbox"];
+    //enabled: false;
+}
+
+
+// Inputs //
+inputbar {
+    enabled:                    true;
+    text-color:                 @foreground;
+    spacing:                    10px;
+    padding:                    15px;
+    margin:                     10px;
+    border-radius:              30px;
+	background-color:		    @background;
+    children:                   [ "textbox-prompt-colon", "entry" ];
+}
+
+textbox-prompt-colon {
+    enabled:                    true;
+    expand:                     false;
+    str:                        " ";
+    text-color:                 inherit;
+	background-color:			transparent;
+}
+
+entry {
+    enabled:                    true;
+    text-color:                 inherit;
+    cursor:                     text;
+    placeholder:                "Search..";
+    placeholder-color:          inherit;
+    background-color:           transparent;
+}
+
+// Lists //
+listbox {
+    padding:                     0em;
+    spacing:                     0em;
+    children:                    [ "listview" ];
+    background-color:            transparent;
+}
+
+listview {
+//    padding:                     20px;
+    padding:                     10px;
+    spacing:                     5px;
+    enabled:                     true;
+    columns:                     1;
+    lines:                       13;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    expand:                      false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @foreground;
+    border-radius:               30px 30px 0px 0px;
+}
+dummy {
+    background-color:            transparent;
+}
+
+
+// Modes //
+mode-switcher {
+    orientation:                 horizontal;
+    enabled:                     true;
+    //padding:                     0px 30px 15px 30px;
+    padding:                     6px 0px 0px 0px;
+    //spacing:                     2em;
+    spacing:                     0.8em;
+    background-color:            transparent; 
+}
+
+button {
+    cursor:                      pointer;
+    //border-radius:               30px;
+    border-radius:               10px;
+    //padding:                     15px;
+    padding:                     6px 10px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+button selected {
+    background-color:            @foreground;
+    text-color:                  @background;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     12px 12px;
+    //orientation:                 vertical;
+    orientation:                 horizontal;
+    cursor:                      pointer;
+    border:                      0px solid;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    border-radius:               30px;
+
+    background-color: @background;
+
+}
+
+/*
+element selected.normal {
+    background-color:            transparent;
+    //background-color:            #ff0000;
+    text-color:                  @foreground;
+}
+*/
+
+/* When selected or hovered */
+element selected.normal,
+element selected.active,
+element selected.urgent {
+    background-color: @foreground;
+    text-color:       @background;   
+}
+
+/* Optional subtle hover effect (when using rofi-latest with hover-select=true) */
+element normal.active {
+    //background-color: @transparent;
+    background-color: @background;
+}
+
+element-icon {
+    padding:                     0px;
+    border-radius:               6px;
+    //size:                        2.5em;
+    size:                        1.5em;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
+element-text {
+    padding:                     2px 0;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
+/*
+element-text selected {
+    border-radius:               6px;
+    background-color:            @foreground;
+    text-color:                  @background;
+}
+*/
+

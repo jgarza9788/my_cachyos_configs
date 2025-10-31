@@ -147,7 +147,7 @@ flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=auto app.devsuite.Pty
 alias code="flatpak run com.visualstudio.code"
 alias terminal="kitty"
 alias Ptyxis="flatpak run app.devsuite.Ptyxis"
-
+alias files="nautilus"
 
 # fuzzy history search
 function fh
