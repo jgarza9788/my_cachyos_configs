@@ -11,10 +11,10 @@ wallCache="$cache_dir/.wallpaper"
 [[ ! -f "$wallCache" ]] && touch "$wallCache"
 
 # Transition config
-FPS=30
+FPS=60
 
 # TYPE="simple"	  # Smooth crossfade between the current and new wallpaper (default).
-TYPE="fade"	    # Alias for simple; smooth dissolve transition.
+# TYPE="fade"	    # Alias for simple; smooth dissolve transition.
 # TYPE="grow"	    # The new wallpaper expands outward from the center.
 # TYPE="outer"	  # The new wallpaper appears from the edges inward.
 # TYPE="center"	  # Expands from the center evenly in all directions.
@@ -23,9 +23,10 @@ TYPE="fade"	    # Alias for simple; smooth dissolve transition.
 # TYPE="circle"	  # Circular reveal (expands like a spotlight).
 # TYPE="any"	    # Randomly selects one of the available transition types.
 # TYPE="random"	  # Alias for any (behaves the same).
-# TYPE="pixelate"
 
-DURATION=10
+TYPE="center"
+
+DURATION=5
 BEZIER=".28,.58,.99,.37"
 SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
 
@@ -109,3 +110,4 @@ fi
 sleep 0.5
 "$scripts_dir/wallcache.sh"
 "$scripts_dir/pywal.sh"
+

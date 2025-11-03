@@ -25,6 +25,12 @@
 !/bat/**
 !/wofi/
 !/wofi/**
+!/tofi/
+!/tofi/**
+!/wal/
+!/wal/**
+!/wallust/
+!/wallust/
 !/zed/
 !/zed/**
 !/alacritty/

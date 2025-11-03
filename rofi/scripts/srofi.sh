@@ -239,7 +239,7 @@ web_mode() {
 
 
 # --- History (fish, bash, zsh) ----------------------------------------------
-HIST_LIMIT="${HIST_LIMIT:-2000}"   # total cap after merge/dedupe
+HIST_LIMIT="${HIST_LIMIT:-1000}"   # total cap after merge/dedupe
 
 KEEP_TERM_OPEN=1
 # KEEP_TERM_OPEN=1  → keeps the terminal open after running the command
@@ -321,7 +321,9 @@ hist_zsh() {
 
 history_entries() {
   # Merge: prefer newest (we reversed some streams with tac)
-  { hist_fish; hist_zsh; hist_bash; } \
+  # only need one of these
+  # { hist_fish; hist_zsh; hist_bash; } \
+  { hist_fish;  } \
   | awk -v RS='\n' -F '\0' '1' \
   | awk -F'\0' 'seen[$0]++==0' \
   | head -n "$HIST_LIMIT"
@@ -345,7 +347,7 @@ history_mode() {
   esac
 }
 
-
+epoch1=$(date +%s%3N)
 
 # --- Entry point for script-modi ---------------------------------------------
 if [[ "${1:-}" == "--web"   ]]; then web_mode; fi
@@ -365,35 +367,30 @@ MODI_SYS="sys:${SCRIPT_PATH} --sys"
 MODI_HIST="history:${SCRIPT_PATH} --history"
 
 # MODI_QCALC="qcalc:${SCRIPT_PATH} --qcalc"
-# MODI_FILES="files:${SCRIPT_PATH} --files"
+MODI_FILES="files:${SCRIPT_PATH} --files"
+
+# # If rofi-calc is installed, add native 'calc' mode to the combi too
+# if have rofi && rofi -help 2>/dev/null | grep -q '\bcalc\b'; then
+#   MODI="${MODI_CORE},${MODI_WEB},${MODI_HIST},${MODI_SYS}"
+#   # COMBI="window,drun,run,web,sys,history"
+#   COMBI="window,drun,web,history,sys"
+# else
+#   MODI="${MODI_CORE},${MODI_WEB},${MODI_HIST},${MODI_SYS}"
+#   # COMBI="window,drun,run,web,sys,history"
+#   COMBI="window,drun,web,history,sys"
+# fi
 
 
-
-# If rofi-calc is installed, add native 'calc' mode to the combi too
-if have rofi && rofi -help 2>/dev/null | grep -q '\bcalc\b'; then
-
-  MODI="${MODI_CORE},${MODI_WEB},${MODI_HIST},${MODI_SYS}"
-  # COMBI="window,drun,run,web,sys,history"
-  COMBI="window,drun,web,history,sys"
-
-else
-  # MODI="${MODI_CORE},${MODI_WEB},${MODI_SYS},${MODI_QCALC}"
-  # COMBI="window,drun,run,web,sys,qcalc"
-
-  # MODI="${MODI_CORE},${MODI_WEB},${MODI_FILES},${MODI_SYS},${MODI_QCALC}"
-  # COMBI="window,drun,run,web,files,sys,qcalc"
-  
-  MODI="${MODI_CORE},${MODI_WEB},${MODI_HIST},${MODI_SYS}"
-  # COMBI="window,drun,run,web,sys,history"
-  COMBI="window,drun,web,history,sys"
-fi
-
+MODI="${MODI_CORE},${MODI_WEB},${MODI_HIST},${MODI_SYS}"
+COMBI="window,drun,web,history,sys"
 
 # History mode entry point
 if [[ "${1:-}" == "--history" ]]; then history_mode; fi
 
 
-
+epoch2=$(date +%s%3N)
+diff=$((epoch2 - epoch1))
+echo $diff
 
 # exec rofi \
 #   -sort \
@@ -407,4 +404,5 @@ exec rofi \
   -sorting-method "fzf" \
   -modi "${MODI}" \
   -combi-modi "${COMBI}" \
-  -show combi 
+  -show combi \
+  --normal-window

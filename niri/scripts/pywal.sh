@@ -84,6 +84,27 @@ avatar_script="$scripts_dir/sddm_avatar.sh"
 background_color=$(jq -r '.special.background' "$colors_file")
 foreground_color=$(jq -r '.special.foreground' "$colors_file")
 
+colors_file="$HOME/.cache/wal/colors.json"
+color0=$(jq -r '.colors.color0' "$colors_file")
+color1=$(jq -r '.colors.color1' "$colors_file")
+color2=$(jq -r '.colors.color2' "$colors_file")
+color3=$(jq -r '.colors.color3' "$colors_file")
+
+# tofi colots
+tofiThemeConfig="$HOME/.config/tofi/themes/theme.conf"
+background_color_tofi="${background_color}e0"
+echo $background_color_tofi
+sed -i "s/background-color=.*$/background-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+sed -i "s/border-color=.*$/border-color=\"$color2\"/g" "$tofiThemeConfig"
+sed -i "s/prompt-background=.*$/prompt-background=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+sed -i "s/selection-color=.*$/selection-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+sed -i "s/prompt-color=.*$/prompt-color=\"$color2\"/g" "$tofiThemeConfig"
+sed -i "s/selection-background=.*$/selection-background=\"$color2\"/g" "$tofiThemeConfig"
+
+
+# sed -i "s/border-color .*$/inactive-color \"$inactive_border_color\"/g" "$tofiThemeConfig"
+
+
 sed -i "s/--prompt.foreground .*/--prompt.foreground \"$foreground_color\" \\\/g" "$sysupd_script"
 sed -i "s/--selected.background .*/--selected.background \"$foreground_color\" \\\/g" "$sysupd_script"
 sed -i "s/--selected.foreground .*/--selected.foreground \"$background_color\" \\\/g" "$sysupd_script"

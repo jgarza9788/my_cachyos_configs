@@ -2,9 +2,10 @@
 cursor {
     //Look in /home/jgarza/.icons
     //xcursor-theme "Bibata-Modern-Ice"
-    xcursor-theme "DeppinDark-cursors" 
+    //xcursor-theme "DeppinDark-cursors" 
+    xcursor-theme "capitaine-cursors" 
 
-    xcursor-size 64
+    xcursor-size 32
 }
 
 
@@ -72,8 +73,8 @@ layout {
     default-column-width { proportion 0.5; }
     focus-ring {
         width 3
-        active-color "#d3d8d8"
-        inactive-color "#909292"
+        active-color "#e6dfe5"
+        inactive-color "#E726CE"
     }
     border {
         off
@@ -95,13 +96,37 @@ spawn-at-startup "swaync"
 spawn-sh-at-startup "wl-paste --watch cliphist store"
 spawn-sh-at-startup "sh ~/.config/niri/scripts/startup.sh"
 spawn-sh-at-startup "sh ~/.config/niri/scripts/polkit.sh"
-
+spawn-sh-at-startup "sh ~/.config/tofi/scripts/app_cache.sh"
 
 
 //---------------------- layer rules ----------------------\\
 layer-rule {
     match namespace="^swww-daemon$"
     place-within-backdrop true
+}
+
+layer-rule {
+    // Get the namespace with: `niri msg layers`
+    //match namespace="^rofi$"
+    match namespace="^tofi$"
+
+
+    // Properties that apply continuously.
+    opacity 1.0
+
+    shadow {
+        on
+        // off
+        softness 120
+        spread 15
+        offset x=0 y=15
+        draw-behind-window true
+        color "#00000077"
+    }
+
+    geometry-corner-radius 30
+    place-within-backdrop false
+    //baba-is-float true
 }
 
 
@@ -115,12 +140,13 @@ animations {
     }
 
     window-open {
-        duration-ms 150
+        duration-ms 300
         curve "ease-out-expo"
     }
 
     window-close {
-        duration-ms 150
+        duration-ms 300
+      
         curve "ease-out-quad"
     }
 
@@ -249,6 +275,8 @@ window-rule {
     geometry-corner-radius 5
     clip-to-geometry true
 }
+
+
 
 
 
@@ -429,19 +457,19 @@ Mod+Shift+Ctrl+L     { move-column-to-monitor-right; }
 // Workspace focus/move
 Mod+Page_Down      { focus-workspace-down; }
 Mod+Page_Up        { focus-workspace-up; }
-Mod+U              { focus-workspace-down; }
-Mod+I              { focus-workspace-up; }
+//Mod+U              { focus-workspace-down; }
+//Mod+I              { focus-workspace-up; }
 
 Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
 Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
-Mod+Ctrl+U         { move-column-to-workspace-down; }
-Mod+Ctrl+I         { move-column-to-workspace-up; }
+//Mod+Ctrl+U         { move-column-to-workspace-down; }
+//Mod+Ctrl+I         { move-column-to-workspace-up; }
 // Mod+Ctrl+Page_Down { move-window-to-workspace-down; }
 
 Mod+Shift+Page_Down { move-workspace-down; }
 Mod+Shift+Page_Up   { move-workspace-up; }
-Mod+Shift+U         { move-workspace-down; }
-Mod+Shift+I         { move-workspace-up; }
+//Mod+Shift+U         { move-workspace-down; }
+//Mod+Shift+I         { move-workspace-up; }
 
 // Scroll bindings
 Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
@@ -530,15 +558,24 @@ Ctrl+Alt+Delete { quit; }
 //Mod+D { spawn "wofi" "--show" "drun";}
 //Mod+Space { spawn "wofi" "--show" "drun";}
 //Mod+Space { spawn "rofi" "-show" "drun";}
-Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
-Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
 //Mod+D       { spawn "~/.config/wofi/scripts/swofi.sh";}
 //Mod+Space   { spawn "~/.config/wofi/scripts/swofi.sh";}
 
+//Mod+D       { spawn "~/.config/tofi/scripts/stofi.sh";}
+//Mod+Space   { spawn "~/.config/tofi/scripts/stofi.sh";}
+
+Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
+Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
+
+
+
+
 // Clipboard
 //Mod+V { spawn "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
-Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
 //Mod+V  { spawn "~/.config/wofi/scripts/wofi-clip.sh";}
+
+Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
+//Mod+V  { spawn "~/.config/tofi/scripts/clipboard.sh";}
 
 // Web apps
 Mod+A  { spawn "~/.config/niri/scripts/webApp.sh" "https://chatgpt.com/";}
@@ -559,11 +596,20 @@ hotkey-overlay {
 }
 
 //---------------------- environment ----------------------\\
+
 environment {
+    DISPLAY ":1"
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+    QT_QPA_PLATFORM "wayland"
+    QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
+    XDG_SESSION_TYPE "wayland"
+    XDG_CURRENT_DESKTOP "niri"
+
     QT_QPA_PLATFORMTHEME "qt5ct:qt6ct"
 
     ///usr/share/themes
     ///home/jgarza/.themes
     //GTK_THEME "TokyoNight"
-    GTK_THEME ""
+    GTK_THEME "Flat-Remix-GTK-Blue-Dark"
 }
+

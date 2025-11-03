@@ -8,9 +8,7 @@
   font-weight: bold;
   font-size: 14px;
   min-height: 0;
-  
   transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1); 
-
 }
 
 window#waybar{
@@ -69,19 +67,22 @@ tooltip label {
   min-width: 64px;
 }
 
+
 #custom-spacer {
   background-color: transparent;
+  min-width: 1rem;
 }
 
 
 #workspaces button {
 
   margin: 4px 4px;
-  padding: 4px;
+  padding: 0 8px;
 
-  background-color: alpha(@color2,0.0);
+  background-color: alpha(@color2,0.25);
+  /* color: @background; */
   color: @foreground;
-  border-radius: 8px;
+  border-radius: 24px;
 
 }
 
@@ -93,6 +94,7 @@ tooltip label {
   border-radius: 24px
 
 }
+
 
 #workspaces button.urgent {
   color: #ff0000;
@@ -129,3 +131,6 @@ tooltip label {
   padding: 0px 12px;
   
 }
+
+
+

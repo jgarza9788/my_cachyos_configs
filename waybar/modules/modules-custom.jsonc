@@ -184,4 +184,42 @@
         "on-scroll-down": "~/.config/niri/scripts/volumecontrol.sh --dec",
         "orientation": "vertical"
     },
+
+    
+
+    /*
+    "custom/niri-windows": {
+        "exec": "env NWB_ACTIVE=' ' NWB_INACTIVE=' ' NWB_SEP='' ~/.config/niri/scripts/niri_window_bar.sh -f",
+        "framerate": 30,
+    },
+
+    "custom/niri-windows-alt": {
+        "exec": "env NWB_ACTIVE='|' NWB_INACTIVE='-' NWB_SEP='' ~/.config/niri/scripts/niri_window_bar.sh -f",
+        "framerate": 30,
+    },
+    */
+
+/*
+    Usage: waybar-niri-windows [options]
+  -f, --focused string
+        Symbol for focused columns (default "⊙")
+  -F, --focused-floating string
+        Symbol for focused floating windows (default "⊛")
+  -u, --unfocused string
+        Symbol for unfocused columns (default "⋅")
+  -U, --unfocused-floating string
+        Symbol for unfocused floating windows (default "∗")
+*/
+    "custom/niri-windows": {
+        "exec": "~/.config/niri/scripts/waybar-niri-windows_linux_amd64 -f ' ' -F '󰄶 ' -u ' ' -U '󰄷 '",
+        "return-type": "json",
+        "restart-interval": 1,
+        "hide-empty-text": true,
+        "on-scroll-up": "niri msg action focus-column-left",
+        "on-scroll-down": "niri msg action focus-column-right",
+        "on-click": "niri msg action toggle-overview"
+    }
+
+
+    
 }

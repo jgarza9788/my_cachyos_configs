@@ -144,9 +144,10 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=auto com.visualstudio.code
 flatpak override --user --env=ELECTRON_OZONE_PLATFORM_HINT=auto app.devsuite.Ptyxis
 # then:
-alias code="flatpak run com.visualstudio.code"
+#alias code="flatpak run com.visualstudio.code"
+alias code="code-oss"
 alias terminal="kitty"
-alias Ptyxis="flatpak run app.devsuite.Ptyxis"
+# alias Ptyxis="flatpak run app.devsuite.Ptyxis"
 alias files="nautilus"
 
 # fuzzy history search

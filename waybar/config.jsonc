@@ -7,19 +7,29 @@
 
     "layer": "top",
     //"position": "top",
-    "position": "bottom",
-    // "position": "left",
+    
     "mod": "dock",
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
+
+
+    "position": "bottom",
     "height": 20,
-    // "width": 20,
     "margin-top": -5,
     "margin-bottom": 5,
     "margin-left": 5,
     "margin-right": 5,
+
+    // "position": "left",
+    // "width": 10,
+    // "margin-top": 5,
+    // "margin-bottom": 5,
+    // "margin-left": 5,
+    // "margin-right": -5,
+
+
 
     "modules-left": [
         // "custom/round_left",
@@ -29,6 +39,12 @@
         // "custom/round_left",
         "niri/workspaces",
         // "custom/round_right",
+        "custom/spacer",
+
+        
+        "custom/niri-windows",
+        // "custom/niri-windows-alt",
+
         "custom/spacer",
         // "custom/round_left",
         "niri/window"
@@ -40,7 +56,10 @@
         //"power-profiles-daemon",
         // "custom/round_left",
         "clock",
-        "mpris"
+        // "custom/cava",
+
+        "mpris",
+        ""
         // "custom/round_right"
         // "custom/notify"
     ],
@@ -51,17 +70,19 @@
         // "custom/clipboard",
         // "battery", 
         // "backlight",  
+        
         "pulseaudio", 
-        "custom/spacer",
+        
+        // "custom/spacer",
         "pulseaudio#microphone", 
-        "custom/spacer",
+        // "custom/spacer",
         "group/network", 
         // "custom/round_right",
-        // "tray"
-        "custom/spacer",
+        // "tray",
+        // "custom/spacer",
         // "custom/round_left",
         "custom/wifi",
-        "custom/spacer",
+        // "custom/spacer",
         "custom/bluetooth"
         // "custom/round_right"
         // "custom/spacer",

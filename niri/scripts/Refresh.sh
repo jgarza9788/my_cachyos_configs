@@ -14,6 +14,7 @@ file_exists() {
 # Kill already running processes
 _ps=(
     dunst
+    mako
     swaync
     rofi
     # waybar
@@ -26,7 +27,8 @@ done
 
 sleep 0.1
 if [[ -n "$(command -v swaync)" ]]; then
-    swaync &
+
+    swaync --style ~/.config/swaync/style.css --config ~/.config/swaync/config.json &
 elif [[ -n "$(command -v dunst)" ]]; then
     dunst &
 fi
