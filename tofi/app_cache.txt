@@ -146,7 +146,6 @@
   Displays Settings	nwg-displays
   Bluetooth Adapters	blueman-adapters
   Bluetooth Manager	blueman-manager
-  Neovim	nvim
   KDE Partition Manager	partitionmanager
   Satty	satty -f
   Yazi	yazi
@@ -283,3 +282,5 @@
   Electron 37	electron37
   Code - OSS - URL Handler	code-oss --open-url
   Code - OSS	code-oss
+  Brave	brave
+  Neovim	nvim

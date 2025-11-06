@@ -39,12 +39,8 @@
         // "custom/round_left",
         "niri/workspaces",
         // "custom/round_right",
-        "custom/spacer",
-
-        
+        "custom/spacer",        
         "custom/niri-windows",
-        // "custom/niri-windows-alt",
-
         "custom/spacer",
         // "custom/round_left",
         "niri/window"
@@ -58,8 +54,7 @@
         "clock",
         // "custom/cava",
 
-        "mpris",
-        ""
+        "mpris"
         // "custom/round_right"
         // "custom/notify"
     ],
@@ -77,13 +72,19 @@
         "pulseaudio#microphone", 
         // "custom/spacer",
         "group/network", 
+        // "network",
+        // "network#speed",
         // "custom/round_right",
-        // "tray",
+        // "custom/spacer",
+        // "custom/wallpaper",
+        // "custom/spacer",
+        "tray"
+        // "group/power"
         // "custom/spacer",
         // "custom/round_left",
-        "custom/wifi",
+        // "custom/wifi",
         // "custom/spacer",
-        "custom/bluetooth"
+        // "custom/bluetooth"
         // "custom/round_right"
         // "custom/spacer",
         // "custom/round_left",

@@ -73,8 +73,8 @@ layout {
     default-column-width { proportion 0.5; }
     focus-ring {
         width 3
-        active-color "#e6dfe5"
-        inactive-color "#E726CE"
+        active-color "#f0eae3"
+        inactive-color "#DCD4C3"
     }
     border {
         off
@@ -96,7 +96,10 @@ spawn-at-startup "swaync"
 spawn-sh-at-startup "wl-paste --watch cliphist store"
 spawn-sh-at-startup "sh ~/.config/niri/scripts/startup.sh"
 spawn-sh-at-startup "sh ~/.config/niri/scripts/polkit.sh"
-spawn-sh-at-startup "sh ~/.config/tofi/scripts/app_cache.sh"
+
+spawn-sh-at-startup "sh ~/.config/niri/scripts/wallpaper.sh"
+
+//spawn-sh-at-startup "sh ~/.config/tofi/scripts/app_cache.sh"
 
 
 //---------------------- layer rules ----------------------\\
@@ -107,8 +110,8 @@ layer-rule {
 
 layer-rule {
     // Get the namespace with: `niri msg layers`
-    //match namespace="^rofi$"
-    match namespace="^tofi$"
+    match namespace="^rofi$"
+    //match namespace="^tofi$"
 
 
     // Properties that apply continuously.
@@ -118,9 +121,9 @@ layer-rule {
         on
         // off
         softness 120
-        spread 15
-        offset x=0 y=15
-        draw-behind-window true
+        spread 30
+        offset x=0 y=60
+        draw-behind-window false
         color "#00000077"
     }
 
@@ -277,6 +280,19 @@ window-rule {
 }
 
 
+window-rule {
+    match app-id=r#"kitty$"# title="^fsel$"
+    open-floating true
+    
+    //default-column-width { proportion 0.33; }
+
+}
+
+window-rule {
+    match app-id="^clipboard$" title="^clipboard$"
+    open-floating true
+    
+}
 
 
 
@@ -564,18 +580,20 @@ Ctrl+Alt+Delete { quit; }
 //Mod+D       { spawn "~/.config/tofi/scripts/stofi.sh";}
 //Mod+Space   { spawn "~/.config/tofi/scripts/stofi.sh";}
 
-Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
-Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
+//Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
+//Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
 
-
+Mod+D       { spawn "~/.config/fsel/launchFSEL.sh";}
+Mod+Space   { spawn "~/.config/fsel/launchFSEL.sh";}
 
 
 // Clipboard
 //Mod+V { spawn "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
 //Mod+V  { spawn "~/.config/wofi/scripts/wofi-clip.sh";}
-
-Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
+//Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
 //Mod+V  { spawn "~/.config/tofi/scripts/clipboard.sh";}
+
+Mod+V  { spawn "~/.config/fsel/launchCLIPBOARD.sh";}
 
 // Web apps
 Mod+A  { spawn "~/.config/niri/scripts/webApp.sh" "https://chatgpt.com/";}
@@ -610,6 +628,10 @@ environment {
     ///usr/share/themes
     ///home/jgarza/.themes
     //GTK_THEME "TokyoNight"
-    GTK_THEME "Flat-Remix-GTK-Blue-Dark"
+    "GTK_THEME" "Adwaita:dark"
+
+    ///usr/share/icons
+    //"ICON_THEME" "Reversal"
+    "ICON_THEME" "Colloid-Dark"
 }
 
