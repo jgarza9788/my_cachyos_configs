@@ -5,8 +5,8 @@
 # Allow only these
 !.gitignore
 !README.md
-!/waybar-*/
-!/waybar-*/**
+!/waybar_*/
+!/waybar_*/**
 !/waybar/
 !/waybar/**
 !/niri/

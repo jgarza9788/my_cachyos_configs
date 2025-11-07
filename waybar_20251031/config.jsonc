@@ -17,7 +17,7 @@
 
     "position": "bottom",
     "height": 20,
-    "margin-top": 5,
+    "margin-top": -5,
     "margin-bottom": 5,
     "margin-left": 5,
     "margin-right": 5,
@@ -29,8 +29,6 @@
     // "margin-left": 5,
     // "margin-right": -5,
 
-
-
     "modules-left": [
         // "custom/round_left",
         // "custom/launch_rofi", 
@@ -39,8 +37,6 @@
         // "custom/round_left",
         "niri/workspaces",
         // "custom/round_right",
-        "custom/spacer",        
-        "custom/niri-windows",
         "custom/spacer",
         // "custom/round_left",
         "niri/window"
@@ -52,8 +48,6 @@
         //"power-profiles-daemon",
         // "custom/round_left",
         "clock",
-        // "custom/cava",
-
         "mpris"
         // "custom/round_right"
         // "custom/notify"
@@ -65,26 +59,18 @@
         // "custom/clipboard",
         // "battery", 
         // "backlight",  
-        
         "pulseaudio", 
-        
-        // "custom/spacer",
+        "custom/spacer",
         "pulseaudio#microphone", 
-        // "custom/spacer",
+        "custom/spacer",
         "group/network", 
-        // "network",
-        // "network#speed",
         // "custom/round_right",
-        // "custom/spacer",
-        // "custom/wallpaper",
-        // "custom/spacer",
-        "tray"
-        // "group/power"
-        // "custom/spacer",
+        // "tray"
+        "custom/spacer",
         // "custom/round_left",
-        // "custom/wifi",
-        // "custom/spacer",
-        // "custom/bluetooth"
+        "custom/wifi",
+        "custom/spacer",
+        "custom/bluetooth"
         // "custom/round_right"
         // "custom/spacer",
         // "custom/round_left",

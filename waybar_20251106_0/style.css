@@ -1,0 +1,139 @@
+@import "./theme.css";
+
+
+* {
+  border: none;
+  /* border-radius: 12px; */
+  font-family: "JetBrainsMono Nerd Font", "MesloLGS Nerd Font", "Font Awesome";
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1); 
+}
+
+window#waybar{
+  background: transparent;
+  color: @foreground;
+}
+
+
+tooltip {
+  background: @background;
+  color: @foreground;
+  opacity: 0.85;
+}
+
+/*
+tooltip label {
+}
+*/
+
+
+#custom-launch_rofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-weather,
+#custom-updater,
+#custom-system,
+#custom-cava,
+#window,
+#cpu,
+#disk,
+#idle_inhibitor,
+#custom-clipboard,
+#memory,
+#clock,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#taskbar,
+#custom-notify,
+#battery,
+#mpris,
+#custom-nightlight,
+#hyprland-keyboard,
+#power-profiles-daemon,
+#backlight,
+#custom-wifi,
+#custom-bluetooth
+{
+  background: @background;
+  opacity: 1;
+  border-radius: 12px;
+  padding: 0 0px;
+  min-width: 64px;
+}
+
+
+#custom-spacer {
+  background-color: transparent;
+  min-width: 1rem;
+}
+
+
+#workspaces button {
+
+  margin: 4px 4px;
+  /* padding: 0 8px; */
+  padding: 0 8px;
+
+  background-color: alpha(@color2,0.25);
+  /* color: @background; */
+  color: @foreground;
+  border-radius: 24px;
+
+}
+
+
+#workspaces button.focused {
+  color: @background;
+  background-color: @color2;
+  padding: 0 16px ;
+  border-radius: 24px
+
+}
+
+
+#workspaces button.urgent {
+  color: #ff0000;
+  background-color: #000000;
+}
+
+#workspaces button:hover {
+
+  color:  alpha(@background,0.66);
+  background-color: alpha(@color2,0.66);
+
+}
+
+#custom-niri-windows{
+  /* color: @color2; */
+}
+
+
+#custom-wifi:hover,
+#custom-bluetooth:hover
+{
+
+  color: @background; 
+  background-color: @color2;
+  border-radius: 24px;
+}
+
+
+
+.modules-left,
+.modules-right,
+.modules-center
+{
+  background: @background;
+  border-radius: 24px;
+  padding: 0px 12px;
+  
+}
+
+
+
