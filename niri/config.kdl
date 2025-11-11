@@ -73,8 +73,8 @@ layout {
     default-column-width { proportion 0.5; }
     focus-ring {
         width 3
-        active-color "#85c4c7"
-        inactive-color "#3541A2"
+        active-color "#e6dfe5"
+        inactive-color "#E726CE"
     }
     border {
         off
@@ -293,8 +293,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="^kitty$" title="^Clipboard$
-    "
+    match app-id=r#"kitty$"# title="^Clipboard$"
     open-floating true
 
     default-column-width { proportion 0.25; }
