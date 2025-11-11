@@ -40,7 +40,9 @@
         "niri/workspaces",
         // "custom/round_right",
         "custom/spacer",        
+        "custom/spacer",
         "custom/niri-windows",
+        "custom/spacer",
         "custom/spacer",
         // "custom/round_left",
         "niri/window"

@@ -26,7 +26,7 @@ FPS=60
 
 TYPE="center"
 
-DURATION=3
+DURATION=1
 BEZIER=".28,.58,.99,.37"
 SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
 

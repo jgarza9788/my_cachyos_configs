@@ -90,19 +90,56 @@ color1=$(jq -r '.colors.color1' "$colors_file")
 color2=$(jq -r '.colors.color2' "$colors_file")
 color3=$(jq -r '.colors.color3' "$colors_file")
 
-# tofi colots
-tofiThemeConfig="$HOME/.config/tofi/themes/theme.conf"
-background_color_tofi="${background_color}e0"
-echo $background_color_tofi
-sed -i "s/background-color=.*$/background-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
-sed -i "s/border-color=.*$/border-color=\"$color2\"/g" "$tofiThemeConfig"
-sed -i "s/prompt-background=.*$/prompt-background=\"$background_color_tofi\"/g" "$tofiThemeConfig"
-sed -i "s/selection-color=.*$/selection-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
-sed -i "s/prompt-color=.*$/prompt-color=\"$color2\"/g" "$tofiThemeConfig"
-sed -i "s/selection-background=.*$/selection-background=\"$color2\"/g" "$tofiThemeConfig"
+## tofi colors
+#tofiThemeConfig="$HOME/.config/tofi/themes/theme.conf"
+#background_color_tofi="${background_color}e0"
+#echo $background_color_tofi
+#sed -i "s/background-color=.*$/background-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+#sed -i "s/border-color=.*$/border-color=\"$color2\"/g" "$tofiThemeConfig"
+#sed -i "s/prompt-background=.*$/prompt-background=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+#sed -i "s/selection-color=.*$/selection-color=\"$background_color_tofi\"/g" "$tofiThemeConfig"
+#sed -i "s/prompt-color=.*$/prompt-color=\"$color2\"/g" "$tofiThemeConfig"
+#sed -i "s/selection-background=.*$/selection-background=\"$color2\"/g" "$tofiThemeConfig"
 
-
-# sed -i "s/border-color .*$/inactive-color \"$inactive_border_color\"/g" "$tofiThemeConfig"
+# btop dwon't update when the theme file changes anyways
+# btopTheme="$HOME/.config/btop/themes/mytheme.theme"
+# sed -i "s/theme\[main_bg\].*/theme[main_bg]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[main_fg\].*/theme[main_fg]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[title\].*/theme[title]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[hi_fg\].*/theme[hi_fg]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[selected_bg\].*/theme[selected_bg]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[selected_fg\].*/theme[selected_fg]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[inactive_fg\].*/theme[inactive_fg]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[proc_misc\].*/theme[proc_misc]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[cpu_box\].*/theme[cpu_box]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[mem_box\].*/theme[mem_box]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[net_box\].*/theme[net_box]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[proc_box\].*/theme[proc_box]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[div_line\].*/theme[div_line]=\"$foreground_color\"/g" "$btopTheme"
+# sed -i "s/theme\[temp_start\].*/theme[temp_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[temp_mid\].*/theme[temp_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[temp_end\].*/theme[temp_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[cpu_start\].*/theme[cpu_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[cpu_mid\].*/theme[cpu_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[cpu_end\].*/theme[cpu_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[free_start\].*/theme[free_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[free_mid\].*/theme[free_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[free_end\].*/theme[free_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[cached_start\].*/theme[cached_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[cached_mid\].*/theme[cached_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[cached_end\].*/theme[cached_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[available_start\].*/theme[available_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[available_mid\].*/theme[available_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[available_end\].*/theme[available_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[used_start\].*/theme[used_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[used_mid\].*/theme[used_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[used_end\].*/theme[used_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[download_start\].*/theme[download_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[download_mid\].*/theme[download_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[download_end\].*/theme[download_end]=\"$color3\"/g" "$btopTheme"
+# sed -i "s/theme\[upload_start\].*/theme[upload_start]=\"$color1\"/g" "$btopTheme"
+# sed -i "s/theme\[upload_mid\].*/theme[upload_mid]=\"$color2\"/g" "$btopTheme"
+# sed -i "s/theme\[upload_end\].*/theme[upload_end]=\"$color3\"/g" "$btopTheme"
 
 
 sed -i "s/--prompt.foreground .*/--prompt.foreground \"$foreground_color\" \\\/g" "$sysupd_script"

@@ -78,22 +78,28 @@ tooltip label {
 
   margin: 4px 4px;
   /* padding: 0 8px; */
-  padding: 0 8px;
+  padding: 0 3px;
+  min-width: 1rem;
 
-  background-color: alpha(@color2,0.25);
+  background-color: alpha(@color2,0.5);
   /* color: @background; */
-  color: @foreground;
+  color: alpha(@background,0.00);
+  /* color: alpha(@foreground,0.1); */
   border-radius: 24px;
+
+  /* text-shadow: 0px 0px 0px rgba(0,0,0,0.0); */
 
 }
 
 
 #workspaces button.focused {
   color: @background;
-  background-color: @color2;
+  /* color: @foreground; */
+  background-color: @color3;
   padding: 0 16px ;
-  border-radius: 24px
+  border-radius: 24px;
 
+  /* text-shadow: 0px 0px 4px rgba(0,0,0,0.8); */
 }
 
 
@@ -104,7 +110,8 @@ tooltip label {
 
 #workspaces button:hover {
 
-  color:  alpha(@background,0.66);
+  /* color:  alpha(@background,0.66); */
+  color:  alpha(@foreground,0.66);
   background-color: alpha(@color2,0.66);
 
 }
@@ -131,9 +138,16 @@ tooltip label {
 {
   background: @background;
   border-radius: 24px;
-  padding: 0px 12px;
-  
+  padding: 0px 6px;
 }
 
+.modules-left
+{
+  padding: 0 12px 0 0;
+}
 
+.modules-right
+{
+  padding: 0 0 0 12px;
+}
 
