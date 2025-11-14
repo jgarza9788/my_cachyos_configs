@@ -47,6 +47,8 @@
 !/swaync/**
 !/fish/
 !/fish/**
+!/fzfLauncher/
+!/fzfLauncher/**
 
 
 !my_colors.css

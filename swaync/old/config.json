@@ -1,0 +1,109 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+
+  "positionX": "right",
+  "positionY": "bottom",
+
+  "control-center-positionX": "none",
+  "control-center-positionY": "none",
+  "control-center-margin-top": 8,
+  "control-center-margin-bottom": 8,
+  "control-center-margin-right": 8,
+  "control-center-margin-left": 8,
+  "control-center-width": 650,
+  "control-center-height": -1,
+
+  "fit-to-screen": false,
+  "layer-shell-cover-screen": true,
+
+  "layer-shell": true,
+  "layer": "overlay",
+  "control-center-layer": "overlay",
+
+  "cssPriority": "user",           // keep using your style.css for flat + rounded UI
+  "notification-body-image-height": 400,
+  "notification-body-image-width": 400,
+  "notification-inline-replies": true,
+
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "notification-window-width": 350,
+
+  "keyboard-shortcuts": true,
+  "image-visibility": "always",
+  "transition-time": 200,
+  "hide-on-clear": true,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+
+  // --- CONTROL CENTER WIDGET STACK (flat + rounded via CSS) ---
+  "widgets": [
+    "title",
+    "mpris",            // music
+    "volume",
+    "buttons-grid",     // common actions
+    "dnd",
+    "inhibitors",
+    "notifications"
+  ],
+
+  "widget-config": {
+    "title": {
+      "text": "Control Center",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+
+    "mpris": {
+      // Keep the player visible; CSS handles the flat/rounded look
+      "autohide": false
+    },
+
+    "volume": {
+      "show-per-app": true,
+      "show-per-app-only-active": false,
+      "show-output-device": true,
+      "show-input-device": false
+    },
+
+    // Typical quick actions in a flat buttons grid.
+    // Notes:
+    // - The Wi-Fi / BT toggles assume nmcli/bluetoothctl are present.
+    // - Night Light uses wlsunset/gammastep if you have them; swap the command to your preference.
+    "buttons-grid": {
+      "buttons-per-row": 4,
+      "actions": [
+        { "label": " Lock",        "command": "loginctl lock-session" },
+        { "label": "󰍃 Logout",      "command": "loginctl terminate-session self" },
+        { "label": "󰤄 Suspend",     "command": "systemctl suspend" },
+        { "label": "󰜉 Reboot",      "command": "systemctl reboot" },
+
+        { "label": " Power",       "command": "systemctl poweroff" },
+        { "label": "  Wi-Fi",      "command": "bash -lc 'state=$(nmcli -t -f WIFI g 2>/dev/null); if [[ $state == \"enabled\" ]]; then nmcli r wifi off; else nmcli r wifi on; fi'" },
+        { "label": "󰂯 BT",          "command": "bash -lc 'bt=$(bluetoothctl show | awk -F: \"/Powered/ {gsub(/ /,\\\"\\\",$2); print $2}\" ); if [[ $bt == \"yes\" ]]; then bluetoothctl power off; else bluetoothctl power on; fi'" },
+        { "label": " DND",         "command": "swaync-client --toggle-dnd" },
+
+        // Pick ONE of these based on what you run; leave the other commented
+        { "label": "󰖔 NightLight", "command": "bash -lc 'pgrep -x wlsunset >/dev/null && pkill -x wlsunset || (wlsunset -T 4200 -S 06:30 -s 18:30 & disown)'" },
+        // { "label": "󰖔 NightLight", "command": "bash -lc 'pgrep -x gammastep >/dev/null && pkill -x gammastep || (gammastep -O 4200 & disown)'" },
+
+        { "label": "󰍹 CC Mode",     "command": "swaync-client -t -cc" }  // quick open/close control center
+      ]
+    },
+
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+
+    "inhibitors": {
+      "text": "Inhibitors",
+      "button-text": "Clear All",
+      "clear-all-button": true
+    },
+
+    "notifications": {
+      "vexpand": false
+    }
+  }
+}

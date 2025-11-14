@@ -54,7 +54,8 @@ output "eDP-1" {
 
 //---------------------- decoration ----------------------\\
 layout {
-    gaps 24
+    //gaps 24
+    gaps 10
     always-center-single-column
     center-focused-column "never"
 
@@ -73,8 +74,8 @@ layout {
     default-column-width { proportion 0.5; }
     focus-ring {
         width 3
-        active-color "#dfe7e9"
-        inactive-color "#4394A1"
+        active-color "#ece2cf"
+        inactive-color "#D3B89A"
     }
     border {
         off
@@ -591,25 +592,37 @@ Ctrl+Alt+Delete { quit; }
 //Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
 //Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
 
-Mod+D       { spawn "~/.config/fzfLauncher/launchFZFL.sh";}
-Mod+Space   { spawn "~/.config/fzfLauncher/launchFZFL.sh";}
+//Z for Ze windows!
+Mod+Z       { spawn "~/.config/fzfLauncher/launchWINDOWS.sh";}
 
+//X for everything
+Mod+X       { spawn "~/.config/fzfLauncher/launchALL.sh";}
+
+//space for everything except for clipboard
+Mod+Space   { spawn "~/.config/fzfLauncher/launchFAST.sh";}
+
+//A for Apps
+Mod+A       { spawn "~/.config/fzfLauncher/launchAPPS.sh";}
 
 // Clipboard
-//Mod+V { spawn "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
+//Mod+V  { spawn "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
 //Mod+V  { spawn "~/.config/wofi/scripts/wofi-clip.sh";}
 //Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
 //Mod+V  { spawn "~/.config/tofi/scripts/clipboard.sh";}
 
-Mod+V  { spawn "~/.config/fzfLauncher/launchCLIPBOARD.sh";}
+//V for the clipboard
+Mod+V    { spawn "~/.config/fzfLauncher/launchCLIPBOARD.sh";}
 
 // Web apps
-Mod+A  { spawn "~/.config/niri/scripts/webApp.sh" "https://chatgpt.com/";}
+//Mod+A  { spawn "~/.config/niri/scripts/webApp.sh" "https://chatgpt.com/";}
 Mod+M  { spawn "~/.config/niri/scripts/webApp.sh" "https://gmail.com/";}
 
 //// wallpapers
 //Mod+W                { spawn-sh "~/.config/niri/scripts/Wallpaper.sh"; }
 Mod+Shift+W          { spawn-sh "~/.config/niri/scripts/WallpaperSelect.sh"; }
+
+//notification
+Mod+N {spawn-sh "swaync-client -t";}
 
 }
 
@@ -629,10 +642,12 @@ environment {
     //ELECTRON_OZONE_PLATFORM_HINT "auto"
     //QT_QPA_PLATFORM "wayland"
     //QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
-    //QT_STYLE_OVERRIDE "kvantum"
-    //QT_QPA_PLATFORMTHEME "qt5ct:qt6ct"
     //XDG_CURRENT_DESKTOP "KDE"
     //KDE_SESSION_VERSION "6"
+
+    //QT Style 
+    QT_STYLE_OVERRIDE "kvantum"
+    QT_QPA_PLATFORMTHEME "qt5ct:qt6ct"
 
     //XDG_SESSION_TYPE "wayland"
     //XDG_CURRENT_DESKTOP "niri"

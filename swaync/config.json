@@ -9,8 +9,8 @@
   "control-center-margin-bottom": 8,
   "control-center-margin-right": 8,
   "control-center-margin-left": 8,
-  "control-center-width": 650,
-  "control-center-height": -1,
+  "control-center-width": 400,
+  "control-center-height": 600,
   "fit-to-screen": false,
   "layer-shell-cover-screen": true,
 
@@ -32,11 +32,17 @@
   "hide-on-action": true,
   "script-fail-notify": true,
 
-  "widgets": ["inhibitors", "dnd", "mpris", "notifications"],
+
+"widgets": [
+    "inhibitors",
+    "dnd",
+    "mpris",
+    "volume",
+    "buttons-grid",
+    "notifications"
+  ],
   "widget-config": {
-    "notifications": {
-      "vexpand": false
-    },
+    "notifications": { "vexpand": true },
     "inhibitors": {
       "text": "Inhibitors",
       "button-text": "Clear All",
@@ -47,15 +53,26 @@
       "clear-all-button": false,
       "button-text": "Clear All"
     },
-    "dnd": {
-      "text": "Do Not Disturb"
+    "dnd": { "text": "Do Not Disturb" },
+    "label": { "max-lines": 5, "text": "Label Text" },
+    "mpris": { "autohide": false },
+
+    "volume": {
+      "show-per-app": true,
+      "show-per-app-only-active": false,
+      "show-output-device": true,
+      "show-input-device": false
     },
-    "label": {
-      "max-lines": 5,
-      "text": "Label Text"
-    },
-    "mpris": {
-      "autohide": true
+
+    "buttons-grid": {
+      "buttons-per-row": 2,
+      "actions": [
+        { "label": " Lock",    "command": "loginctl lock-session" },
+        { "label": "󰍃 Logout",  "command": "loginctl terminate-session self" },
+        { "label": "󰜉 Reboot",  "command": "systemctl reboot" },
+        { "label": " Poweroff","command": "systemctl poweroff" }
+      ]
     }
   }
+
 }

@@ -58,7 +58,7 @@
 
         "mpris"
         // "custom/round_right"
-        // "custom/notify"
+        
     ],
 
     "modules-right": [
@@ -73,12 +73,13 @@
         // "custom/spacer",
         "pulseaudio#microphone", 
         // "custom/spacer",
-        "group/network", 
+        // "group/network", 
         // "network",
         // "network#speed",
         // "custom/round_right",
         // "custom/spacer",
         // "custom/wallpaper",
+        "custom/notify",
         // "custom/spacer",
         "tray"
         // "group/power"

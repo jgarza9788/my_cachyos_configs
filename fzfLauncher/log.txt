@@ -1,0 +1,326 @@
+2025-11-13 20:43:28 | open
+2025-11-13 20:43:28 | windows_entries exec-time 19710731ns
+2025-11-13 20:43:28 | cust_entries exec-time 1973379ns
+2025-11-13 20:43:28 | apps_entries exec-time 7286803ns
+2025-11-13 20:43:28 | hist_entries exec-time 43225648ns
+2025-11-13 20:43:28 | web_entries exec-time 4066560ns
+2025-11-13 20:43:29 | clipboard_entries exec-time 883201011ns
+2025-11-13 20:43:29 | sys_entries exec-time 4234002ns
+2025-11-13 20:44:01 | no selection (user cancelled)
+2025-11-13 20:44:10 | open
+2025-11-13 20:44:11 | windows_entries exec-time 18276370ns
+2025-11-13 20:44:11 | cust_entries exec-time 1518874ns
+2025-11-13 20:44:11 | apps_entries exec-time 6925272ns
+2025-11-13 20:44:11 | hist_entries exec-time 35803515ns
+2025-11-13 20:44:11 | web_entries exec-time 3637041ns
+2025-11-13 20:44:11 | clipboard_entries exec-time 779594986ns
+2025-11-13 20:44:11 | sys_entries exec-time 2553837ns
+2025-11-13 20:44:15 | sel:      : [2|1] bin — org.gnome.Nautilus	 /home/jgarza/.config/fzfLauncher/niri_jump.sh 6
+2025-11-13 20:44:15 | label:    : [2|1] bin — org.gnome.Nautilus
+2025-11-13 20:44:15 | cmd:      /home/jgarza/.config/fzfLauncher/niri_jump.sh 6
+2025-11-13 20:44:17 | open
+2025-11-13 20:44:18 | windows_entries exec-time 18334442ns
+2025-11-13 20:44:18 | cust_entries exec-time 1438921ns
+2025-11-13 20:44:18 | apps_entries exec-time 5503847ns
+2025-11-13 20:44:18 | hist_entries exec-time 34896595ns
+2025-11-13 20:44:18 | web_entries exec-time 4549229ns
+2025-11-13 20:44:18 | clipboard_entries exec-time 778485277ns
+2025-11-13 20:44:18 | sys_entries exec-time 2414154ns
+2025-11-13 20:44:21 | no selection (user cancelled)
+2025-11-13 20:44:21 | open
+2025-11-13 20:44:22 | windows_entries exec-time 17751107ns
+2025-11-13 20:44:22 | cust_entries exec-time 1384265ns
+2025-11-13 20:44:22 | apps_entries exec-time 5816439ns
+2025-11-13 20:44:22 | hist_entries exec-time 30256224ns
+2025-11-13 20:44:22 | web_entries exec-time 2654460ns
+2025-11-13 20:44:23 | clipboard_entries exec-time 653027026ns
+2025-11-13 20:44:23 | sys_entries exec-time 2548739ns
+2025-11-13 20:44:26 | no selection (user cancelled)
+2025-11-13 20:48:46 | open
+2025-11-13 20:48:46 | windows_entries exec-time 17282318ns
+2025-11-13 20:48:46 | cust_entries exec-time 1892202ns
+2025-11-13 20:48:46 | apps_entries exec-time 7517351ns
+2025-11-13 20:48:46 | hist_entries exec-time 43536531ns
+2025-11-13 20:48:46 | web_entries exec-time 4025298ns
+2025-11-13 20:48:47 | clipboard_entries exec-time 825806690ns
+2025-11-13 20:48:47 | sys_entries exec-time 2778277ns
+2025-11-13 20:48:53 | sel:     󰋚 : [fish] code ~/.config/	code ~/.config/
+2025-11-13 20:48:53 | label:   󰋚 : [fish] code ~/.config/
+2025-11-13 20:48:53 | cmd:     code ~/.config/
+2025-11-13 20:49:22 | open
+2025-11-13 20:49:22 | windows_entries exec-time 19224343ns
+2025-11-13 20:49:22 | cust_entries exec-time 1811381ns
+2025-11-13 20:49:22 | apps_entries exec-time 5676348ns
+2025-11-13 20:49:22 | hist_entries exec-time 36118046ns
+2025-11-13 20:49:22 | web_entries exec-time 3952914ns
+2025-11-13 20:49:22 | sys_entries exec-time 4315518ns
+2025-11-13 20:49:30 | no selection (user cancelled)
+2025-11-13 20:49:36 | open
+2025-11-13 20:49:37 | windows_entries exec-time 18982395ns
+2025-11-13 20:49:37 | cust_entries exec-time 1453456ns
+2025-11-13 20:49:37 | apps_entries exec-time 5297396ns
+2025-11-13 20:49:37 | hist_entries exec-time 41629765ns
+2025-11-13 20:49:37 | web_entries exec-time 3689997ns
+2025-11-13 20:49:37 | sys_entries exec-time 2730769ns
+2025-11-13 20:50:04 | no selection (user cancelled)
+2025-11-13 20:50:06 | open
+2025-11-13 20:50:07 | windows_entries exec-time 17583880ns
+2025-11-13 20:50:07 | cust_entries exec-time 1410069ns
+2025-11-13 20:50:07 | apps_entries exec-time 7734508ns
+2025-11-13 20:50:07 | hist_entries exec-time 35562889ns
+2025-11-13 20:50:07 | web_entries exec-time 3233832ns
+2025-11-13 20:50:07 | sys_entries exec-time 2957350ns
+2025-11-13 20:50:10 | sel:     󰋚 : [fish] ff	ff
+2025-11-13 20:50:10 | label:   󰋚 : [fish] ff
+2025-11-13 20:50:10 | cmd:     ff
+2025-11-13 20:50:31 | open
+2025-11-13 20:50:31 | windows_entries exec-time 17077375ns
+2025-11-13 20:50:31 | cust_entries exec-time 1496788ns
+2025-11-13 20:50:31 | apps_entries exec-time 7478772ns
+2025-11-13 20:50:31 | hist_entries exec-time 37574881ns
+2025-11-13 20:50:31 | web_entries exec-time 3188096ns
+2025-11-13 20:50:31 | sys_entries exec-time 2944258ns
+2025-11-13 20:50:36 | sel:      : [1|1] ~ - fish — kitty	 /home/jgarza/.config/fzfLauncher/niri_jump.sh 3
+2025-11-13 20:50:36 | label:    : [1|1] ~ - fish — kitty
+2025-11-13 20:50:36 | cmd:      /home/jgarza/.config/fzfLauncher/niri_jump.sh 3
+2025-11-13 20:50:59 | open
+2025-11-13 20:51:00 | windows_entries exec-time 18438269ns
+2025-11-13 20:51:00 | cust_entries exec-time 1673646ns
+2025-11-13 20:51:00 | apps_entries exec-time 5991071ns
+2025-11-13 20:51:00 | hist_entries exec-time 30163112ns
+2025-11-13 20:51:00 | web_entries exec-time 3160422ns
+2025-11-13 20:51:00 | sys_entries exec-time 2726869ns
+2025-11-13 20:51:13 | sel:      : [1|1] launchFZFF.sh - fzfLauncher - Code - OSS — code-oss	 /home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-13 20:51:13 | label:    : [1|1] launchFZFF.sh - fzfLauncher - Code - OSS — code-oss
+2025-11-13 20:51:13 | cmd:      /home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-13 20:56:29 | open
+2025-11-13 20:56:29 | windows_entries exec-time 17476748ns
+2025-11-13 20:56:29 | cust_entries exec-time 1562067ns
+2025-11-13 20:56:29 | apps_entries exec-time 6670581ns
+2025-11-13 20:56:29 | hist_entries exec-time 31199417ns
+2025-11-13 20:56:29 | web_entries exec-time 3345099ns
+2025-11-13 20:56:29 | sys_entries exec-time 3091672ns
+2025-11-13 20:56:31 | no selection (user cancelled)
+2025-11-13 20:56:32 | open
+2025-11-13 20:56:33 | windows_entries exec-time 18916297ns
+2025-11-13 20:56:36 | no selection (user cancelled)
+2025-11-13 20:56:37 | open
+2025-11-13 20:56:37 | windows_entries exec-time 16989413ns
+2025-11-13 20:56:38 | no selection (user cancelled)
+2025-11-13 20:56:45 | open
+2025-11-13 20:56:46 | windows_entries exec-time 17378570ns
+2025-11-13 20:56:46 | cust_entries exec-time 1527629ns
+2025-11-13 20:56:46 | apps_entries exec-time 5964237ns
+2025-11-13 20:56:46 | hist_entries exec-time 30625656ns
+2025-11-13 20:56:46 | web_entries exec-time 3004094ns
+2025-11-13 20:56:46 | clipboard_entries exec-time 767692158ns
+2025-11-13 20:56:46 | sys_entries exec-time 3784240ns
+2025-11-13 20:56:50 | no selection (user cancelled)
+2025-11-13 20:58:14 | open
+2025-11-13 20:58:14 | windows_entries exec-time 16081603ns
+2025-11-13 20:58:14 | cust_entries exec-time 1605978ns
+2025-11-13 20:58:14 | apps_entries exec-time 7335758ns
+2025-11-13 20:58:14 | hist_entries exec-time 35447983ns
+2025-11-13 20:58:14 | web_entries exec-time 3303811ns
+2025-11-13 20:58:14 | sys_entries exec-time 2878905ns
+2025-11-13 20:58:15 | no selection (user cancelled)
+2025-11-13 20:58:16 | open
+2025-11-13 20:58:21 | clipboard_entries exec-time 4413903694ns
+2025-11-13 20:58:42 | no selection (user cancelled)
+2025-11-13 21:03:28 | open
+2025-11-13 21:03:28 | windows_entries exec-time 17660434ns
+2025-11-13 21:03:28 | cust_entries exec-time 1472001ns
+2025-11-13 21:03:28 | apps_entries exec-time 5606668ns
+2025-11-13 21:03:28 | hist_entries exec-time 30539011ns
+2025-11-13 21:03:28 | web_entries exec-time 2692100ns
+2025-11-13 21:03:28 | sys_entries exec-time 3153928ns
+2025-11-13 21:03:30 | no selection (user cancelled)
+2025-11-13 21:03:31 | open
+2025-11-13 21:03:32 | windows_entries exec-time 20158404ns
+2025-11-13 21:03:35 | no selection (user cancelled)
+2025-11-13 21:03:36 | open
+2025-11-13 21:03:36 | windows_entries exec-time 17839173ns
+2025-11-13 21:03:36 | cust_entries exec-time 1359719ns
+2025-11-13 21:03:36 | apps_entries exec-time 6814083ns
+2025-11-13 21:03:36 | hist_entries exec-time 29687107ns
+2025-11-13 21:03:36 | web_entries exec-time 3115355ns
+2025-11-13 21:03:37 | clipboard_entries exec-time 734928000ns
+2025-11-13 21:03:37 | sys_entries exec-time 3315861ns
+2025-11-13 21:03:39 | no selection (user cancelled)
+2025-11-13 21:03:48 | open
+2025-11-13 21:03:53 | clipboard_entries exec-time 4733438911ns
+2025-11-13 21:03:57 | no selection (user cancelled)
+2025-11-13 21:03:58 | open
+2025-11-13 21:03:58 | windows_entries exec-time 18764332ns
+2025-11-13 21:03:58 | cust_entries exec-time 1343549ns
+2025-11-13 21:03:58 | apps_entries exec-time 5433286ns
+2025-11-13 21:03:58 | hist_entries exec-time 30094523ns
+2025-11-13 21:03:58 | web_entries exec-time 2756946ns
+2025-11-13 21:03:58 | sys_entries exec-time 2967699ns
+2025-11-13 21:04:00 | no selection (user cancelled)
+2025-11-13 21:04:01 | open
+2025-11-13 21:04:01 | windows_entries exec-time 18294251ns
+2025-11-13 21:04:01 | cust_entries exec-time 1551470ns
+2025-11-13 21:04:01 | apps_entries exec-time 5271412ns
+2025-11-13 21:04:01 | hist_entries exec-time 32990657ns
+2025-11-13 21:04:01 | web_entries exec-time 2961453ns
+2025-11-13 21:04:01 | sys_entries exec-time 3023592ns
+2025-11-13 21:04:03 | no selection (user cancelled)
+2025-11-13 21:04:04 | open
+2025-11-13 21:04:04 | windows_entries exec-time 13876142ns
+2025-11-13 21:04:04 | cust_entries exec-time 1228472ns
+2025-11-13 21:04:04 | apps_entries exec-time 4519005ns
+2025-11-13 21:04:04 | hist_entries exec-time 25866342ns
+2025-11-13 21:04:04 | web_entries exec-time 2392089ns
+2025-11-13 21:04:04 | sys_entries exec-time 2174793ns
+2025-11-13 21:04:06 | no selection (user cancelled)
+2025-11-13 21:04:07 | open
+2025-11-13 21:04:07 | windows_entries exec-time 17980092ns
+2025-11-13 21:04:07 | cust_entries exec-time 1591459ns
+2025-11-13 21:04:07 | apps_entries exec-time 6509487ns
+2025-11-13 21:04:07 | hist_entries exec-time 30443278ns
+2025-11-13 21:04:07 | web_entries exec-time 2981144ns
+2025-11-13 21:04:07 | sys_entries exec-time 3106244ns
+2025-11-13 21:04:10 | no selection (user cancelled)
+2025-11-13 21:04:11 | open
+2025-11-13 21:04:11 | windows_entries exec-time 18606120ns
+2025-11-13 21:04:11 | cust_entries exec-time 1473637ns
+2025-11-13 21:04:11 | apps_entries exec-time 5760566ns
+2025-11-13 21:04:11 | hist_entries exec-time 31194213ns
+2025-11-13 21:04:11 | web_entries exec-time 3442164ns
+2025-11-13 21:04:11 | sys_entries exec-time 3205020ns
+2025-11-13 21:04:14 | no selection (user cancelled)
+2025-11-13 21:04:15 | open
+2025-11-13 21:04:16 | windows_entries exec-time 16933603ns
+2025-11-13 21:04:16 | cust_entries exec-time 1505526ns
+2025-11-13 21:04:16 | apps_entries exec-time 7193341ns
+2025-11-13 21:04:16 | hist_entries exec-time 40134473ns
+2025-11-13 21:04:16 | web_entries exec-time 3082385ns
+2025-11-13 21:04:16 | sys_entries exec-time 3707010ns
+2025-11-13 21:04:17 | no selection (user cancelled)
+2025-11-13 21:04:18 | open
+2025-11-13 21:04:18 | windows_entries exec-time 13656892ns
+2025-11-13 21:04:18 | cust_entries exec-time 1335934ns
+2025-11-13 21:04:18 | apps_entries exec-time 4348936ns
+2025-11-13 21:04:18 | hist_entries exec-time 25812109ns
+2025-11-13 21:04:18 | web_entries exec-time 2385834ns
+2025-11-13 21:04:18 | sys_entries exec-time 2186022ns
+2025-11-13 21:04:46 | no selection (user cancelled)
+2025-11-13 21:06:35 | open
+2025-11-13 21:06:36 | windows_entries exec-time 18740948ns
+2025-11-13 21:06:36 | cust_entries exec-time 1911984ns
+2025-11-13 21:06:36 | apps_entries exec-time 7534139ns
+2025-11-13 21:06:36 | hist_entries exec-time 45604661ns
+2025-11-13 21:06:36 | web_entries exec-time 4613814ns
+2025-11-13 21:06:36 | sys_entries exec-time 4828640ns
+2025-11-13 21:06:37 | sel:      : Files	nautilus --new-window
+2025-11-13 21:06:37 | label:    : Files
+2025-11-13 21:06:37 | cmd:     nautilus --new-window
+2025-11-13 21:07:25 | open
+2025-11-13 21:07:26 | apps_entries exec-time 7675562ns
+2025-11-13 21:07:31 | sel:      : Web	epiphany
+2025-11-13 21:07:31 | label:    : Web
+2025-11-13 21:07:31 | cmd:     epiphany
+2025-11-13 21:10:33 | open
+2025-11-13 21:10:34 | windows_entries exec-time 16556686ns
+2025-11-13 21:10:47 | sel:      : [2|1] fzfLauncher — org.gnome.Nautilus	 /home/jgarza/.config/fzfLauncher/niri_jump.sh 89
+2025-11-13 21:10:47 | label:    : [2|1] fzfLauncher — org.gnome.Nautilus
+2025-11-13 21:10:47 | cmd:      /home/jgarza/.config/fzfLauncher/niri_jump.sh 89
+2025-11-13 21:10:49 | open
+2025-11-13 21:10:50 | apps_entries exec-time 6691060ns
+2025-11-13 21:10:52 | no selection (user cancelled)
+2025-11-13 21:10:53 | open
+2025-11-13 21:10:53 | windows_entries exec-time 17440631ns
+2025-11-13 21:11:00 | sel:      : [1|2] launchFZFFAST.sh - fzfLauncher - Code - OSS — code-oss	 /home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-13 21:11:00 | label:    : [1|2] launchFZFFAST.sh - fzfLauncher - Code - OSS — code-oss
+2025-11-13 21:11:00 | cmd:      /home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-13 21:11:04 | open
+2025-11-13 21:11:04 | apps_entries exec-time 7940856ns
+2025-11-13 21:11:07 | no selection (user cancelled)
+2025-11-13 21:11:08 | open
+2025-11-13 21:11:09 | windows_entries exec-time 16881506ns
+2025-11-13 21:11:09 | cust_entries exec-time 1603908ns
+2025-11-13 21:11:09 | apps_entries exec-time 7551845ns
+2025-11-13 21:11:09 | hist_entries exec-time 37173129ns
+2025-11-13 21:11:09 | web_entries exec-time 3052230ns
+2025-11-13 21:11:10 | clipboard_entries exec-time 809579496ns
+2025-11-13 21:11:10 | sys_entries exec-time 3969638ns
+2025-11-13 21:11:14 | no selection (user cancelled)
+2025-11-13 21:11:18 | open
+2025-11-13 21:11:23 | clipboard_entries exec-time 4770705455ns
+2025-11-13 21:11:27 | no selection (user cancelled)
+2025-11-13 21:11:30 | open
+2025-11-13 21:11:30 | windows_entries exec-time 17965970ns
+2025-11-13 21:11:30 | cust_entries exec-time 1752272ns
+2025-11-13 21:11:30 | apps_entries exec-time 5976082ns
+2025-11-13 21:11:30 | hist_entries exec-time 34619841ns
+2025-11-13 21:11:30 | web_entries exec-time 3235484ns
+2025-11-13 21:11:30 | sys_entries exec-time 3444329ns
+2025-11-13 21:11:44 | sel:      : windows_only	~/.config/fzfLauncher/launchWindows.sh
+2025-11-13 21:11:44 | label:    : windows_only
+2025-11-13 21:11:44 | cmd:     ~/.config/fzfLauncher/launchWindows.sh
+2025-11-13 21:11:45 | open
+2025-11-13 21:11:46 | windows_entries exec-time 17356100ns
+2025-11-13 21:11:50 | no selection (user cancelled)
+2025-11-13 21:11:53 | open
+2025-11-13 21:11:53 | windows_entries exec-time 16916003ns
+2025-11-13 21:11:53 | cust_entries exec-time 1512470ns
+2025-11-13 21:11:53 | apps_entries exec-time 6162234ns
+2025-11-13 21:11:54 | hist_entries exec-time 33749132ns
+2025-11-13 21:11:54 | web_entries exec-time 3112081ns
+2025-11-13 21:11:54 | sys_entries exec-time 2720584ns
+2025-11-13 21:11:56 | no selection (user cancelled)
+2025-11-13 21:21:34 | open
+2025-11-13 21:21:34 | windows_entries exec-time 19033815ns
+2025-11-13 21:21:34 | cust_entries exec-time 2075365ns
+2025-11-13 21:21:34 | apps_entries exec-time 7316582ns
+2025-11-13 21:21:34 | hist_entries exec-time 46076512ns
+2025-11-13 21:21:34 | web_entries exec-time 4355483ns
+2025-11-13 21:21:34 | sys_entries exec-time 3945680ns
+2025-11-13 21:21:36 | sel:      : Files	nautilus --new-window
+2025-11-13 21:21:36 | label:    : Files
+2025-11-13 21:21:36 | cmd:     nautilus --new-window
+2025-11-13 21:24:21 | open
+2025-11-13 21:24:21 | windows_entries exec-time 19285029ns
+2025-11-13 21:24:21 | cust_entries exec-time 1809379ns
+2025-11-13 21:24:22 | apps_entries exec-time 7751354ns
+2025-11-13 21:24:22 | hist_entries exec-time 48486715ns
+2025-11-13 21:24:22 | web_entries exec-time 4366386ns
+2025-11-13 21:24:22 | sys_entries exec-time 4170077ns
+2025-11-13 21:24:23 | sel:      : Chromium	/usr/bin/chromium
+2025-11-13 21:24:23 | label:    : Chromium
+2025-11-13 21:24:23 | cmd:     /usr/bin/chromium
+2025-11-13 21:28:47 | open
+2025-11-13 21:28:48 | apps_entries exec-time 7793624ns
+2025-11-13 21:28:54 | no selection (user cancelled)
+2025-11-13 21:28:56 | open
+2025-11-13 21:28:57 | windows_entries exec-time 17880494ns
+2025-11-13 21:28:57 | cust_entries exec-time 1426508ns
+2025-11-13 21:28:57 | apps_entries exec-time 7442297ns
+2025-11-13 21:28:57 | hist_entries exec-time 39197763ns
+2025-11-13 21:28:57 | web_entries exec-time 3144531ns
+2025-11-13 21:28:58 | clipboard_entries exec-time 797898412ns
+2025-11-13 21:28:58 | sys_entries exec-time 4152984ns
+2025-11-13 21:28:59 | no selection (user cancelled)
+2025-11-13 21:29:00 | open
+2025-11-13 21:29:00 | windows_entries exec-time 19199952ns
+2025-11-13 21:29:02 | no selection (user cancelled)
+2025-11-13 21:29:04 | open
+2025-11-13 21:29:09 | clipboard_entries exec-time 4805690842ns
+2025-11-13 21:29:11 | no selection (user cancelled)
+2025-11-13 21:29:12 | open
+2025-11-13 21:29:12 | windows_entries exec-time 16923997ns
+2025-11-13 21:29:12 | cust_entries exec-time 1264107ns
+2025-11-13 21:29:12 | apps_entries exec-time 6451725ns
+2025-11-13 21:29:12 | hist_entries exec-time 30639635ns
+2025-11-13 21:29:12 | web_entries exec-time 3244284ns
+2025-11-13 21:29:12 | sys_entries exec-time 2944769ns
+2025-11-13 21:29:14 | no selection (user cancelled)
+2025-11-13 21:29:15 | open
+2025-11-13 21:29:16 | windows_entries exec-time 17921715ns
+2025-11-13 21:29:16 | cust_entries exec-time 1859482ns
+2025-11-13 21:29:16 | apps_entries exec-time 6467476ns
+2025-11-13 21:29:16 | hist_entries exec-time 34949615ns
+2025-11-13 21:29:16 | web_entries exec-time 2879096ns
+2025-11-13 21:29:16 | sys_entries exec-time 3248073ns
+2025-11-13 21:29:17 | no selection (user cancelled)

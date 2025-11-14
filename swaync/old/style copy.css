@@ -1,0 +1,128 @@
+  
+
+@import "./colors.css";
+
+:root {
+  /* --border-radius: 10px; */
+  /* --cc-bg: transparent; */
+  /* --widget-background: alpha(@noti-bg, 0.5); */
+  /* --noti-bg-alpha: 0.6; */
+  /* --padding: calc(var(--border-radius) / 2); */
+
+  --cc-bg: alpha(@noti-bg, 0.7);
+  --noti-border-color: @noti-border-color;
+  --noti-bg: @noti-bg;
+  --noti-bg-alpha: 1.0;
+  --noti-bg-darker:  @noti-bg;
+  --noti-bg-hover:  @noti-bg-hover;
+  --noti-bg-focus:  @noti-bg-focus;
+  --noti-close-bg: @noti-close-bg;
+  --noti-close-bg-hover: @noti-close-bg-hover;
+  --text-color: @noti-fg;
+  --text-color-disabled: @noti-fg;
+  --bg-selected: @noti-bg-alt;
+  --notification-icon-size: 64px;
+  --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
+  --notification-group-icon-size: 32px;
+  --border: 1px solid var(--noti-border-color);
+  --border-radius: 12px;
+  --notification-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3),
+    0 1px 3px 1px rgba(0, 0, 0, 0.7), 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+  --font-size-body: 15px;
+  --font-size-summary: 16px;
+  /* Deprecated variables (because of their typos). Keeeping them around for backwards compatibility. */
+  --hover-tranistion: background 0.15s ease-in-out;
+  --group-collapse-tranistion: opacity 400ms ease-in-out;
+  --hover-transition: var(--hover-tranistion);
+  --group-collapse-transition: var(--group-collapse-tranistion);
+  
+}
+
+.control-center {
+  border-radius: 0;
+}
+
+.widgets > .widget,
+.widget-mpris > carouselindicatordots,
+.widget-mpris > box > button {
+  background: @noti-bg;
+  border-radius: var(--border-radius);
+  padding: calc(var(--border-radius) / 2);
+  border: var(--border);
+}
+
+
+
+.control-center-list-placeholder {
+  padding: var(--border-radius);
+}
+
+.close-button {
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 50%;
+  background: transparent;
+  color: @noti-fg;
+  transition: all 0.2s ease;
+}
+
+.close-button:hover {
+  background: transparent;
+  color: red;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.notification-default-action,
+.notification-action {
+  background: @noti-bg;
+  color: @noti-fg;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  /* -gtk-icon-effect: none; */
+  /* background: @noti-bg-hover-alt; */
+  /* border: 5px all solid @noti-fg; */
+}
+
+ 
+
+.notification-group {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  background: transparent;
+}
+
+.widget.widget-mpris {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+.widget.widget-mpris > carouselindicatordots {
+  --dots-padding: 4px;
+  padding: var(--dots-padding);
+  padding-left: var(--dots-padding);
+  padding-right: calc(6px + var(--dots-padding));
+  margin: 0;
+  margin-top: var(--padding);
+}
+.widget-mpris > box > button:hover {
+  background: @noti-bg;
+}
+.widget-mpris-player {
+  box-shadow: none;
+  border: var(--border);
+  margin: 0 var(--padding);
+}
+.widget-mpris-player:only-child {
+  margin: 0;
+}
+
+image {
+  border-radius: 0;
+  padding: 0 20px 0 0;
+}
+
+/* * { outline: 2px solid magenta; } */
