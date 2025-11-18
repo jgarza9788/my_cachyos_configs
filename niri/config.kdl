@@ -74,8 +74,8 @@ layout {
     default-column-width { proportion 0.5; }
     focus-ring {
         width 3
-        active-color "#ece2cf"
-        inactive-color "#D3B89A"
+        active-color "#c5c9e5"
+        inactive-color "#3385DC"
     }
     border {
         off
@@ -189,7 +189,7 @@ animations {
 }
 
 overview {
-	zoom 0.30
+	zoom 0.25
 	//backdrop-color "#263238"
     backdrop-color "#000000ff"
 }
@@ -288,8 +288,6 @@ window-rule {
 window-rule {
     match app-id=r#"kitty$"# title="^fzfLauncher$"
     open-floating true
-    
-    default-column-width { proportion 0.33; }
 
 }
 
@@ -297,7 +295,6 @@ window-rule {
     match app-id=r#"kitty$"# title="^Clipboard$"
     open-floating true
 
-    default-column-width { proportion 0.25; }
 }
 
 

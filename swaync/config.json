@@ -10,7 +10,7 @@
   "control-center-margin-right": 8,
   "control-center-margin-left": 8,
   "control-center-width": 400,
-  "control-center-height": 600,
+  "control-center-height": 800,
   "fit-to-screen": false,
   "layer-shell-cover-screen": true,
 
@@ -58,8 +58,15 @@
     "mpris": { "autohide": false },
 
     "volume": {
+      "label": "Volume",
       "show-per-app": true,
       "show-per-app-only-active": false,
+      "show-per-app-icon": true,
+      "show-per-app-label": true,
+
+      
+      "expand-per-app": true,
+
       "show-output-device": true,
       "show-input-device": false
     },

@@ -324,3 +324,562 @@
 2025-11-13 21:29:16 | web_entries exec-time 2879096ns
 2025-11-13 21:29:16 | sys_entries exec-time 3248073ns
 2025-11-13 21:29:17 | no selection (user cancelled)
+2025-11-13 21:45:32 | open
+2025-11-13 21:45:33 | windows_entries exec-time 17446980ns
+2025-11-13 21:45:33 | cust_entries exec-time 1507989ns
+2025-11-13 21:45:33 | apps_entries exec-time 5693042ns
+2025-11-13 21:45:33 | hist_entries exec-time 29218420ns
+2025-11-13 21:45:33 | web_entries exec-time 3108823ns
+2025-11-13 21:45:33 | sys_entries exec-time 4035473ns
+2025-11-13 21:45:38 | no selection (user cancelled)
+2025-11-13 21:45:43 | open
+2025-11-13 21:45:48 | clipboard_entries exec-time 4318047180ns
+2025-11-13 21:45:54 | no selection (user cancelled)
+2025-11-13 21:45:56 | open
+2025-11-13 21:45:56 | windows_entries exec-time 17393626ns
+2025-11-13 21:45:56 | cust_entries exec-time 1421090ns
+2025-11-13 21:45:56 | apps_entries exec-time 5768878ns
+2025-11-13 21:45:56 | hist_entries exec-time 29835335ns
+2025-11-13 21:45:56 | web_entries exec-time 2892210ns
+2025-11-13 21:45:56 | sys_entries exec-time 2863317ns
+2025-11-13 21:46:01 | no selection (user cancelled)
+2025-11-13 21:46:02 | open
+2025-11-13 21:46:02 | apps_entries exec-time 6797677ns
+2025-11-13 21:46:05 | no selection (user cancelled)
+2025-11-13 21:46:06 | open
+2025-11-13 21:46:07 | windows_entries exec-time 17428513ns
+2025-11-13 21:46:09 | no selection (user cancelled)
+2025-11-13 21:46:10 | open
+2025-11-13 21:46:10 | windows_entries exec-time 17216490ns
+2025-11-13 21:46:10 | cust_entries exec-time 1566803ns
+2025-11-13 21:46:10 | apps_entries exec-time 5829217ns
+2025-11-13 21:46:10 | hist_entries exec-time 29984916ns
+2025-11-13 21:46:10 | web_entries exec-time 2956925ns
+2025-11-13 21:46:11 | clipboard_entries exec-time 653841078ns
+2025-11-13 21:46:11 | sys_entries exec-time 2571021ns
+2025-11-13 21:46:12 | no selection (user cancelled)
+2025-11-13 21:46:13 | open
+2025-11-13 21:46:14 | windows_entries exec-time 16419266ns
+2025-11-13 21:46:14 | cust_entries exec-time 1511562ns
+2025-11-13 21:46:14 | apps_entries exec-time 6797073ns
+2025-11-13 21:46:14 | hist_entries exec-time 30017645ns
+2025-11-13 21:46:14 | web_entries exec-time 2712293ns
+2025-11-13 21:46:14 | sys_entries exec-time 2511333ns
+2025-11-13 21:46:15 | no selection (user cancelled)
+2025-11-13 21:46:16 | open
+2025-11-13 21:46:21 | clipboard_entries exec-time 4297117605ns
+2025-11-13 21:46:25 | no selection (user cancelled)
+2025-11-13 21:47:43 | open
+2025-11-13 21:47:44 | windows_entries exec-time 16796794ns
+2025-11-13 21:47:44 | cust_entries exec-time 1016879ns
+2025-11-13 21:47:44 | apps_entries exec-time 7474801ns
+2025-11-13 21:47:44 | hist_entries exec-time 30053617ns
+2025-11-13 21:47:44 | web_entries exec-time 3062103ns
+2025-11-13 21:47:44 | sys_entries exec-time 2887710ns
+2025-11-13 21:47:45 | no selection (user cancelled)
+2025-11-13 21:49:01 | open
+2025-11-13 21:49:02 | windows_entries exec-time 18061308ns
+2025-11-13 21:49:02 | cust_entries exec-time 1309538ns
+2025-11-13 21:49:02 | apps_entries exec-time 6279319ns
+2025-11-13 21:49:02 | hist_entries exec-time 30191743ns
+2025-11-13 21:49:02 | web_entries exec-time 3071999ns
+2025-11-13 21:49:02 | sys_entries exec-time 2742468ns
+2025-11-13 21:49:05 | sel:     󰋚 : [fish] ff	ff
+2025-11-13 21:49:05 | label:   󰋚 : [fish] ff
+2025-11-13 21:49:05 | cmd:     ff
+2025-11-13 21:50:03 | open
+2025-11-13 21:50:03 | windows_entries exec-time 17994096ns
+2025-11-13 21:50:03 | cust_entries exec-time 1387411ns
+2025-11-13 21:50:03 | apps_entries exec-time 5610071ns
+2025-11-13 21:50:03 | hist_entries exec-time 29362465ns
+2025-11-13 21:50:03 | web_entries exec-time 2938867ns
+2025-11-13 21:50:03 | sys_entries exec-time 2990703ns
+2025-11-13 21:50:07 | sel:      : Btrfs Assistant	btrfs-assistant-launcher
+2025-11-13 21:50:07 | label:    : Btrfs Assistant
+2025-11-13 21:50:07 | cmd:     btrfs-assistant-launcher
+2025-11-13 21:50:14 | open
+2025-11-13 21:50:15 | windows_entries exec-time 18523071ns
+2025-11-13 21:50:15 | cust_entries exec-time 1455692ns
+2025-11-13 21:50:15 | apps_entries exec-time 5791468ns
+2025-11-13 21:50:15 | hist_entries exec-time 30584284ns
+2025-11-13 21:50:15 | web_entries exec-time 3213613ns
+2025-11-13 21:50:15 | sys_entries exec-time 2715525ns
+2025-11-13 21:50:20 | sel:      : Btrfs Assistant	btrfs-assistant-launcher
+2025-11-13 21:50:20 | label:    : Btrfs Assistant
+2025-11-13 21:50:20 | cmd:     btrfs-assistant-launcher
+2025-11-13 21:51:52 | open
+2025-11-13 21:51:52 | windows_entries exec-time 18463565ns
+2025-11-13 21:51:52 | cust_entries exec-time 1432336ns
+2025-11-13 21:51:52 | apps_entries exec-time 5966689ns
+2025-11-13 21:51:52 | hist_entries exec-time 31942085ns
+2025-11-13 21:51:52 | web_entries exec-time 3159190ns
+2025-11-13 21:51:52 | sys_entries exec-time 2550533ns
+2025-11-13 21:54:40 | sel:      : Chromium	/usr/bin/chromium
+2025-11-13 21:54:40 | label:    : Chromium
+2025-11-13 21:54:40 | cmd:     /usr/bin/chromium
+2025-11-13 21:54:45 | open
+2025-11-13 21:54:46 | windows_entries exec-time 18035751ns
+2025-11-13 21:54:46 | cust_entries exec-time 1498608ns
+2025-11-13 21:54:46 | apps_entries exec-time 5167092ns
+2025-11-13 21:54:46 | hist_entries exec-time 29795664ns
+2025-11-13 21:54:46 | web_entries exec-time 2839373ns
+2025-11-13 21:54:46 | sys_entries exec-time 2662394ns
+2025-11-13 21:54:47 | sel:      : Firefox	/usr/lib/firefox/firefox
+2025-11-13 21:54:47 | label:    : Firefox
+2025-11-13 21:54:47 | cmd:     /usr/lib/firefox/firefox
+2025-11-13 21:54:55 | open
+2025-11-13 21:54:56 | windows_entries exec-time 17944841ns
+2025-11-13 21:54:56 | cust_entries exec-time 1522755ns
+2025-11-13 21:54:56 | apps_entries exec-time 6054515ns
+2025-11-13 21:54:56 | hist_entries exec-time 30543319ns
+2025-11-13 21:54:56 | web_entries exec-time 3222762ns
+2025-11-13 21:54:56 | sys_entries exec-time 2689842ns
+2025-11-13 21:54:59 | sel:     󰖟 : YouTube	chromium --app=https://youtube.com
+2025-11-13 21:54:59 | label:   󰖟 : YouTube
+2025-11-13 21:54:59 | cmd:     chromium --app=https://youtube.com
+2025-11-13 21:57:02 | open
+2025-11-13 21:57:03 | windows_entries exec-time 17150601ns
+2025-11-13 21:57:03 | cust_entries exec-time 1729141ns
+2025-11-13 21:57:03 | apps_entries exec-time 6597607ns
+2025-11-13 21:57:03 | hist_entries exec-time 30735340ns
+2025-11-13 21:57:03 | web_entries exec-time 3176276ns
+2025-11-13 21:57:03 | sys_entries exec-time 2900191ns
+2025-11-13 21:57:06 | sel:      : Spotify (Launcher)	spotify-launcher
+2025-11-13 21:57:06 | label:    : Spotify (Launcher)
+2025-11-13 21:57:06 | cmd:     spotify-launcher
+2025-11-13 21:58:56 | open
+2025-11-13 21:58:56 | windows_entries exec-time 18265501ns
+2025-11-13 21:58:56 | cust_entries exec-time 1731574ns
+2025-11-13 21:58:56 | apps_entries exec-time 6128657ns
+2025-11-13 21:58:56 | hist_entries exec-time 30757662ns
+2025-11-13 21:58:56 | web_entries exec-time 3091651ns
+2025-11-13 21:58:56 | sys_entries exec-time 2398182ns
+2025-11-13 21:58:59 | no selection (user cancelled)
+2025-11-13 22:01:29 | open
+2025-11-13 22:01:29 | windows_entries exec-time 18081190ns
+2025-11-13 22:01:29 | cust_entries exec-time 1304205ns
+2025-11-13 22:01:29 | apps_entries exec-time 7869400ns
+2025-11-13 22:01:29 | hist_entries exec-time 36278056ns
+2025-11-13 22:01:29 | web_entries exec-time 3425097ns
+2025-11-13 22:01:29 | sys_entries exec-time 2866428ns
+2025-11-13 22:01:30 | no selection (user cancelled)
+2025-11-13 22:02:09 | open
+2025-11-13 22:02:10 | windows_entries exec-time 17883752ns
+2025-11-13 22:02:10 | cust_entries exec-time 1735398ns
+2025-11-13 22:02:10 | apps_entries exec-time 5512137ns
+2025-11-13 22:02:10 | hist_entries exec-time 35990042ns
+2025-11-13 22:02:10 | web_entries exec-time 3006201ns
+2025-11-13 22:02:10 | sys_entries exec-time 3245593ns
+2025-11-13 22:02:10 | no selection (user cancelled)
+2025-11-13 22:02:32 | open
+2025-11-13 22:02:33 | windows_entries exec-time 17919770ns
+2025-11-13 22:02:33 | cust_entries exec-time 1893878ns
+2025-11-13 22:02:33 | apps_entries exec-time 6553386ns
+2025-11-13 22:02:33 | hist_entries exec-time 38489719ns
+2025-11-13 22:02:33 | web_entries exec-time 3878041ns
+2025-11-13 22:02:33 | sys_entries exec-time 4511331ns
+2025-11-13 22:02:33 | no selection (user cancelled)
+2025-11-13 22:03:06 | open
+2025-11-13 22:03:06 | windows_entries exec-time 17703214ns
+2025-11-13 22:03:06 | cust_entries exec-time 1957429ns
+2025-11-13 22:03:06 | apps_entries exec-time 5658210ns
+2025-11-13 22:03:06 | hist_entries exec-time 36874187ns
+2025-11-13 22:03:06 | web_entries exec-time 2991992ns
+2025-11-13 22:03:06 | sys_entries exec-time 3796431ns
+2025-11-13 22:03:07 | no selection (user cancelled)
+2025-11-13 22:03:38 | open
+2025-11-13 22:03:38 | windows_entries exec-time 19588497ns
+2025-11-13 22:03:38 | cust_entries exec-time 1988077ns
+2025-11-13 22:03:38 | apps_entries exec-time 5702654ns
+2025-11-13 22:03:38 | hist_entries exec-time 36948572ns
+2025-11-13 22:03:38 | web_entries exec-time 2924438ns
+2025-11-13 22:03:38 | sys_entries exec-time 4270595ns
+2025-11-13 22:03:39 | no selection (user cancelled)
+2025-11-13 22:04:29 | open
+2025-11-13 22:04:30 | windows_entries exec-time 17114272ns
+2025-11-13 22:04:30 | cust_entries exec-time 1501693ns
+2025-11-13 22:04:30 | apps_entries exec-time 7420197ns
+2025-11-13 22:04:30 | hist_entries exec-time 33461561ns
+2025-11-13 22:04:30 | web_entries exec-time 3157237ns
+2025-11-13 22:04:30 | sys_entries exec-time 2475753ns
+2025-11-13 22:04:31 | no selection (user cancelled)
+2025-11-13 22:05:21 | open
+2025-11-13 22:05:22 | windows_entries exec-time 17991699ns
+2025-11-13 22:05:22 | cust_entries exec-time 1559807ns
+2025-11-13 22:05:22 | apps_entries exec-time 7214704ns
+2025-11-13 22:05:22 | hist_entries exec-time 34492260ns
+2025-11-13 22:05:22 | web_entries exec-time 2736374ns
+2025-11-13 22:05:22 | sys_entries exec-time 2599374ns
+2025-11-13 22:05:22 | no selection (user cancelled)
+2025-11-13 22:05:27 | open
+2025-11-13 22:05:28 | windows_entries exec-time 18325251ns
+2025-11-13 22:05:28 | cust_entries exec-time 1741227ns
+2025-11-13 22:05:28 | apps_entries exec-time 7441383ns
+2025-11-13 22:05:28 | hist_entries exec-time 38144114ns
+2025-11-13 22:05:28 | web_entries exec-time 3182808ns
+2025-11-13 22:05:28 | sys_entries exec-time 4168052ns
+2025-11-13 22:05:28 | no selection (user cancelled)
+2025-11-13 22:07:33 | open
+2025-11-13 22:07:33 | windows_entries exec-time 17063083ns
+2025-11-13 22:07:33 | cust_entries exec-time 1461913ns
+2025-11-13 22:07:33 | apps_entries exec-time 7299144ns
+2025-11-13 22:07:33 | hist_entries exec-time 33944783ns
+2025-11-13 22:07:33 | web_entries exec-time 3049710ns
+2025-11-13 22:07:34 | sys_entries exec-time 2385746ns
+2025-11-13 22:07:34 | no selection (user cancelled)
+2025-11-13 22:12:41 | open
+2025-11-13 22:12:42 | windows_entries exec-time 17592293ns
+2025-11-13 22:12:42 | cust_entries exec-time 1645404ns
+2025-11-13 22:12:42 | apps_entries exec-time 6305056ns
+2025-11-13 22:12:42 | hist_entries exec-time 30556401ns
+2025-11-13 22:12:42 | web_entries exec-time 2693883ns
+2025-11-13 22:12:42 | sys_entries exec-time 2338780ns
+2025-11-13 22:12:44 | sel:      : Power	gnome-control-center power
+2025-11-13 22:12:44 | label:    : Power
+2025-11-13 22:12:44 | cmd:     gnome-control-center power
+2025-11-13 22:12:47 | open
+2025-11-13 22:12:47 | windows_entries exec-time 17299143ns
+2025-11-13 22:12:47 | cust_entries exec-time 1480659ns
+2025-11-13 22:12:47 | apps_entries exec-time 5617310ns
+2025-11-13 22:12:47 | hist_entries exec-time 30193283ns
+2025-11-13 22:12:47 | web_entries exec-time 2913216ns
+2025-11-13 22:12:47 | sys_entries exec-time 2583975ns
+2025-11-13 22:12:50 | sel:      : 󰐥 PowerOff	systemctl poweroff
+2025-11-13 22:12:50 | label:    : 󰐥 PowerOff
+2025-11-13 22:12:50 | cmd:     systemctl poweroff
+2025-11-14 20:19:28 | open
+2025-11-14 20:19:28 | windows_entries exec-time 17717553ns
+2025-11-14 20:19:28 | cust_entries exec-time 2380827ns
+2025-11-14 20:19:28 | apps_entries exec-time 5907087ns
+2025-11-14 20:19:28 | hist_entries exec-time 31096585ns
+2025-11-14 20:19:28 | web_entries exec-time 3229108ns
+2025-11-14 20:19:28 | sys_entries exec-time 2417167ns
+2025-11-14 20:19:42 | no selection (user cancelled)
+2025-11-14 20:19:45 | open
+2025-11-14 20:19:45 | windows_entries exec-time 18237547ns
+2025-11-14 20:19:45 | cust_entries exec-time 1697268ns
+2025-11-14 20:19:45 | apps_entries exec-time 8012766ns
+2025-11-14 20:19:45 | hist_entries exec-time 44718537ns
+2025-11-14 20:19:45 | web_entries exec-time 4351243ns
+2025-11-14 20:19:45 | sys_entries exec-time 4219464ns
+2025-11-14 20:19:51 | sel:     󰋚 : [fish] code ~/.config/swaync/	code ~/.config/swaync/
+2025-11-14 20:19:51 | label:   󰋚 : [fish] code ~/.config/swaync/
+2025-11-14 20:19:51 | cmd:     code ~/.config/swaync/
+2025-11-14 20:24:21 | open
+2025-11-14 20:24:22 | windows_entries exec-time 17235080ns
+2025-11-14 20:24:22 | cust_entries exec-time 2043847ns
+2025-11-14 20:24:22 | apps_entries exec-time 6983588ns
+2025-11-14 20:24:22 | hist_entries exec-time 34860528ns
+2025-11-14 20:24:22 | web_entries exec-time 2814647ns
+2025-11-14 20:24:22 | sys_entries exec-time 2431654ns
+2025-11-14 20:24:23 | no selection (user cancelled)
+2025-11-14 20:26:53 | open
+2025-11-14 20:26:53 | windows_entries exec-time 20157728ns
+2025-11-14 20:26:53 | cust_entries exec-time 2143566ns
+2025-11-14 20:26:53 | apps_entries exec-time 13261805ns
+2025-11-14 20:26:53 | hist_entries exec-time 47372292ns
+2025-11-14 20:26:53 | web_entries exec-time 4086086ns
+2025-11-14 20:26:53 | sys_entries exec-time 4125947ns
+2025-11-14 20:26:55 | sel:      : Spotify (Launcher)	spotify-launcher
+2025-11-14 20:26:55 | label:    : Spotify (Launcher)
+2025-11-14 20:26:55 | cmd:     spotify-launcher
+2025-11-14 20:27:22 | open
+2025-11-14 20:27:23 | windows_entries exec-time 17392555ns
+2025-11-14 20:27:23 | cust_entries exec-time 1581632ns
+2025-11-14 20:27:23 | apps_entries exec-time 7364372ns
+2025-11-14 20:27:23 | hist_entries exec-time 36197168ns
+2025-11-14 20:27:23 | web_entries exec-time 3917844ns
+2025-11-14 20:27:23 | sys_entries exec-time 3210089ns
+2025-11-14 20:27:23 | no selection (user cancelled)
+2025-11-14 20:28:55 | open
+2025-11-14 20:28:55 | windows_entries exec-time 18896602ns
+2025-11-14 20:28:55 | cust_entries exec-time 1443772ns
+2025-11-14 20:28:55 | apps_entries exec-time 7302907ns
+2025-11-14 20:28:55 | hist_entries exec-time 34141289ns
+2025-11-14 20:28:55 | web_entries exec-time 3778621ns
+2025-11-14 20:28:55 | sys_entries exec-time 3763436ns
+2025-11-14 20:28:56 | no selection (user cancelled)
+2025-11-14 20:32:31 | open
+2025-11-14 20:32:32 | windows_entries exec-time 19925639ns
+2025-11-14 20:32:32 | cust_entries exec-time 1550172ns
+2025-11-14 20:32:32 | apps_entries exec-time 6310827ns
+2025-11-14 20:32:32 | hist_entries exec-time 38600350ns
+2025-11-14 20:32:32 | web_entries exec-time 3819834ns
+2025-11-14 20:32:32 | sys_entries exec-time 3933122ns
+2025-11-14 20:32:33 | no selection (user cancelled)
+2025-11-14 20:36:04 | open
+2025-11-14 20:36:05 | apps_entries exec-time 7354868ns
+2025-11-14 20:36:06 | no selection (user cancelled)
+2025-11-14 20:36:07 | open
+2025-11-14 20:36:08 | windows_entries exec-time 18840287ns
+2025-11-14 20:36:08 | cust_entries exec-time 1475103ns
+2025-11-14 20:36:08 | apps_entries exec-time 6911988ns
+2025-11-14 20:36:08 | hist_entries exec-time 35336160ns
+2025-11-14 20:36:08 | web_entries exec-time 4238685ns
+2025-11-14 20:36:08 | sys_entries exec-time 4050132ns
+2025-11-14 20:36:10 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-14 20:36:10 | label:   󰖟 : ChatGPT
+2025-11-14 20:36:10 | cmd:     chromium --app=https://chat.openai.com
+2025-11-14 20:50:15 | open
+2025-11-14 20:50:16 | windows_entries exec-time 17576917ns
+2025-11-14 20:50:16 | cust_entries exec-time 1724035ns
+2025-11-14 20:50:16 | apps_entries exec-time 7235741ns
+2025-11-14 20:50:16 | hist_entries exec-time 33601490ns
+2025-11-14 20:50:16 | web_entries exec-time 3055895ns
+2025-11-14 20:50:16 | sys_entries exec-time 2556245ns
+2025-11-14 20:50:26 | sel:     󰋚 : [fish] code ~/.config/fzfLauncher/	code ~/.config/fzfLauncher/
+2025-11-14 20:50:26 | label:   󰋚 : [fish] code ~/.config/fzfLauncher/
+2025-11-14 20:50:26 | cmd:     code ~/.config/fzfLauncher/
+2025-11-14 20:50:30 | open
+2025-11-14 20:50:30 | windows_entries exec-time 19017187ns
+2025-11-14 20:50:30 | cust_entries exec-time 1589974ns
+2025-11-14 20:50:30 | apps_entries exec-time 5890279ns
+2025-11-14 20:50:30 | hist_entries exec-time 34007406ns
+2025-11-14 20:50:30 | web_entries exec-time 2941274ns
+2025-11-14 20:50:30 | sys_entries exec-time 2939798ns
+2025-11-14 20:50:32 | sel:      : Files	nautilus --new-window
+2025-11-14 20:50:32 | label:    : Files
+2025-11-14 20:50:32 | cmd:     nautilus --new-window
+2025-11-14 20:51:42 | open
+2025-11-14 20:51:43 | windows_entries exec-time 17198082ns
+2025-11-14 20:51:43 | cust_entries exec-time 1751885ns
+2025-11-14 20:51:43 | apps_entries exec-time 7030874ns
+2025-11-14 20:51:43 | hist_entries exec-time 36454704ns
+2025-11-14 20:51:43 | web_entries exec-time 3106042ns
+2025-11-14 20:51:43 | sys_entries exec-time 2404726ns
+2025-11-14 20:51:49 | sel:      : code - configs	code ~/.config/
+2025-11-14 20:51:49 | label:    : code - configs
+2025-11-14 20:51:49 | cmd:     code ~/.config/
+2025-11-14 20:53:34 | open
+2025-11-14 20:53:34 | windows_entries exec-time 19108151ns
+2025-11-14 20:53:34 | cust_entries exec-time 1821201ns
+2025-11-14 20:53:34 | apps_entries exec-time 7846081ns
+2025-11-14 20:53:34 | hist_entries exec-time 44085926ns
+2025-11-14 20:53:34 | web_entries exec-time 3586307ns
+2025-11-14 20:53:34 | sys_entries exec-time 4379602ns
+2025-11-14 20:53:35 | sel:      : Chromium	/usr/bin/chromium
+2025-11-14 20:53:35 | label:    : Chromium
+2025-11-14 20:53:35 | cmd:     /usr/bin/chromium
+2025-11-14 21:02:24 | open
+2025-11-14 21:02:24 | windows_entries exec-time 20381438ns
+2025-11-14 21:02:24 | cust_entries exec-time 1934510ns
+2025-11-14 21:02:24 | apps_entries exec-time 11630586ns
+2025-11-14 21:02:24 | hist_entries exec-time 48938127ns
+2025-11-14 21:02:24 | web_entries exec-time 4170807ns
+2025-11-14 21:02:24 | sys_entries exec-time 4101238ns
+2025-11-14 21:02:27 | no selection (user cancelled)
+2025-11-14 21:08:32 | open
+2025-11-14 21:08:33 | windows_entries exec-time 17313373ns
+2025-11-14 21:08:33 | cust_entries exec-time 1504194ns
+2025-11-14 21:08:33 | apps_entries exec-time 6406343ns
+2025-11-14 21:08:33 | hist_entries exec-time 31959367ns
+2025-11-14 21:08:33 | web_entries exec-time 3294064ns
+2025-11-14 21:08:33 | sys_entries exec-time 3948352ns
+2025-11-14 21:08:37 | no selection (user cancelled)
+2025-11-14 21:08:39 | open
+2025-11-14 21:08:39 | windows_entries exec-time 17612065ns
+2025-11-14 21:08:39 | cust_entries exec-time 1488397ns
+2025-11-14 21:08:39 | apps_entries exec-time 5597573ns
+2025-11-14 21:08:39 | hist_entries exec-time 33177572ns
+2025-11-14 21:08:39 | web_entries exec-time 3676427ns
+2025-11-14 21:08:39 | sys_entries exec-time 3669492ns
+2025-11-14 21:08:41 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-14 21:08:41 | label:   󰖟 : ChatGPT
+2025-11-14 21:08:41 | cmd:     chromium --app=https://chat.openai.com
+2025-11-14 21:16:31 | open
+2025-11-14 21:16:31 | windows_entries exec-time 19772400ns
+2025-11-14 21:16:31 | cust_entries exec-time 1750387ns
+2025-11-14 21:16:31 | apps_entries exec-time 7481479ns
+2025-11-14 21:16:31 | hist_entries exec-time 45833170ns
+2025-11-14 21:16:31 | web_entries exec-time 4183260ns
+2025-11-14 21:16:31 | sys_entries exec-time 3840417ns
+2025-11-14 21:16:33 | sel:      : Files	nautilus --new-window
+2025-11-14 21:16:33 | label:    : Files
+2025-11-14 21:16:33 | cmd:     nautilus --new-window
+2025-11-14 21:20:10 | open
+2025-11-14 21:20:16 | clipboard_entries exec-time 4873760311ns
+2025-11-14 21:20:22 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:20:22 | label:    : https://youtu.be/59FWX5HcL70
+2025-11-14 21:20:22 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:32:54 | open
+2025-11-14 21:32:59 | clipboard_entries exec-time 4604348201ns
+2025-11-14 21:33:02 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:33:02 | label:    : https://youtu.be/59FWX5HcL70
+2025-11-14 21:33:02 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:34:59 | open
+2025-11-14 21:35:04 | clipboard_entries exec-time 4622756228ns
+2025-11-14 21:35:04 | no selection (user cancelled)
+2025-11-14 21:35:28 | open
+2025-11-14 21:35:33 | clipboard_entries exec-time 4483198349ns
+2025-11-14 21:35:35 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:35:35 | label:    : https://youtu.be/59FWX5HcL70
+2025-11-14 21:35:35 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
+2025-11-14 21:36:01 | open
+2025-11-14 21:36:02 | clipboard_entries exec-time 770632236ns
+2025-11-14 21:36:06 | no selection (user cancelled)
+2025-11-14 21:48:40 | open
+2025-11-14 21:48:41 | windows_entries exec-time 18671653ns
+2025-11-14 21:48:41 | cust_entries exec-time 1656650ns
+2025-11-14 21:48:41 | apps_entries exec-time 6320415ns
+2025-11-14 21:48:41 | hist_entries exec-time 39791285ns
+2025-11-14 21:48:41 | web_entries exec-time 3063366ns
+2025-11-14 21:48:41 | sys_entries exec-time 2878957ns
+2025-11-14 21:48:47 | sel:      : 󰐥 PowerOff	systemctl poweroff
+2025-11-14 21:48:47 | label:    : 󰐥 PowerOff
+2025-11-14 21:48:47 | cmd:     systemctl poweroff
+2025-11-17 19:47:50 | open
+2025-11-17 19:47:51 | windows_entries exec-time 18140449ns
+2025-11-17 19:47:51 | cust_entries exec-time 10673549ns
+2025-11-17 19:47:51 | apps_entries exec-time 5944980ns
+2025-11-17 19:47:51 | hist_entries exec-time 70055637ns
+2025-11-17 19:47:51 | web_entries exec-time 9054150ns
+2025-11-17 19:47:51 | sys_entries exec-time 2699425ns
+2025-11-17 19:47:59 | no selection (user cancelled)
+2025-11-17 19:48:17 | open
+2025-11-17 19:48:17 | windows_entries exec-time 17989281ns
+2025-11-17 19:48:17 | cust_entries exec-time 1701996ns
+2025-11-17 19:48:17 | apps_entries exec-time 6053887ns
+2025-11-17 19:48:17 | hist_entries exec-time 29980294ns
+2025-11-17 19:48:17 | web_entries exec-time 2810942ns
+2025-11-17 19:48:17 | sys_entries exec-time 2565938ns
+2025-11-17 19:48:22 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:48:22 | label:    : run_update
+2025-11-17 19:48:22 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:50:44 | open
+2025-11-17 19:50:44 | windows_entries exec-time 16406039ns
+2025-11-17 19:50:44 | cust_entries exec-time 1599752ns
+2025-11-17 19:50:44 | apps_entries exec-time 6425654ns
+2025-11-17 19:50:44 | hist_entries exec-time 29242387ns
+2025-11-17 19:50:44 | web_entries exec-time 2828760ns
+2025-11-17 19:50:44 | sys_entries exec-time 2786716ns
+2025-11-17 19:50:46 | sel:     󰖟 : Plex	chromium --app=https://app.plex.tv
+2025-11-17 19:50:46 | label:   󰖟 : Plex
+2025-11-17 19:50:46 | cmd:     chromium --app=https://app.plex.tv
+2025-11-17 19:51:01 | open
+2025-11-17 19:51:01 | windows_entries exec-time 17454820ns
+2025-11-17 19:51:01 | cust_entries exec-time 1781841ns
+2025-11-17 19:51:01 | apps_entries exec-time 7463843ns
+2025-11-17 19:51:01 | hist_entries exec-time 44217680ns
+2025-11-17 19:51:01 | web_entries exec-time 4298519ns
+2025-11-17 19:51:01 | sys_entries exec-time 3810466ns
+2025-11-17 19:51:03 | sel:     󰋚 : [fish] chromium --app --help	chromium --app --help
+2025-11-17 19:51:03 | label:   󰋚 : [fish] chromium --app --help
+2025-11-17 19:51:03 | cmd:     chromium --app --help
+2025-11-17 19:51:11 | open
+2025-11-17 19:51:11 | windows_entries exec-time 17511570ns
+2025-11-17 19:51:11 | cust_entries exec-time 1630983ns
+2025-11-17 19:51:11 | apps_entries exec-time 6045154ns
+2025-11-17 19:51:11 | hist_entries exec-time 39006551ns
+2025-11-17 19:51:11 | web_entries exec-time 2854603ns
+2025-11-17 19:51:11 | sys_entries exec-time 2494682ns
+2025-11-17 19:51:13 | sel:      : Chromium	/usr/bin/chromium
+2025-11-17 19:51:13 | label:    : Chromium
+2025-11-17 19:51:13 | cmd:     /usr/bin/chromium
+2025-11-17 19:52:09 | open
+2025-11-17 19:52:09 | windows_entries exec-time 17018398ns
+2025-11-17 19:52:09 | cust_entries exec-time 1541428ns
+2025-11-17 19:52:09 | apps_entries exec-time 5576510ns
+2025-11-17 19:52:09 | hist_entries exec-time 32070300ns
+2025-11-17 19:52:09 | web_entries exec-time 3878381ns
+2025-11-17 19:52:09 | sys_entries exec-time 3203796ns
+2025-11-17 19:52:12 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:52:12 | label:    : run_update
+2025-11-17 19:52:12 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:52:52 | open
+2025-11-17 19:52:53 | windows_entries exec-time 16981621ns
+2025-11-17 19:52:53 | cust_entries exec-time 1672497ns
+2025-11-17 19:52:53 | apps_entries exec-time 7748245ns
+2025-11-17 19:52:53 | hist_entries exec-time 43079155ns
+2025-11-17 19:52:53 | web_entries exec-time 4165062ns
+2025-11-17 19:52:53 | sys_entries exec-time 4220762ns
+2025-11-17 19:52:55 | sel:      : Calculator	gnome-calculator
+2025-11-17 19:52:55 | label:    : Calculator
+2025-11-17 19:52:55 | cmd:     gnome-calculator
+2025-11-17 19:53:10 | open
+2025-11-17 19:53:10 | windows_entries exec-time 17366654ns
+2025-11-17 19:53:10 | cust_entries exec-time 1434951ns
+2025-11-17 19:53:10 | apps_entries exec-time 7412079ns
+2025-11-17 19:53:10 | hist_entries exec-time 30821152ns
+2025-11-17 19:53:10 | web_entries exec-time 2516320ns
+2025-11-17 19:53:10 | sys_entries exec-time 2328080ns
+2025-11-17 19:53:12 | sel:      : 󰜉 Restart	systemctl reboot
+2025-11-17 19:53:12 | label:    : 󰜉 Restart
+2025-11-17 19:53:12 | cmd:     systemctl reboot
+2025-11-17 19:54:25 | open
+2025-11-17 19:54:26 | windows_entries exec-time 13184449ns
+2025-11-17 19:54:26 | cust_entries exec-time 4649379ns
+2025-11-17 19:54:26 | apps_entries exec-time 6461454ns
+2025-11-17 19:54:26 | hist_entries exec-time 36680173ns
+2025-11-17 19:54:26 | web_entries exec-time 4164264ns
+2025-11-17 19:54:26 | sys_entries exec-time 2822217ns
+2025-11-17 19:54:34 | no selection (user cancelled)
+2025-11-17 19:54:37 | open
+2025-11-17 19:54:37 | windows_entries exec-time 13531524ns
+2025-11-17 19:54:37 | cust_entries exec-time 1209989ns
+2025-11-17 19:54:37 | apps_entries exec-time 4477681ns
+2025-11-17 19:54:37 | hist_entries exec-time 25771522ns
+2025-11-17 19:54:37 | web_entries exec-time 2435047ns
+2025-11-17 19:54:37 | sys_entries exec-time 2283345ns
+2025-11-17 19:54:41 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:54:41 | label:    : run_update
+2025-11-17 19:54:41 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-17 19:58:48 | open
+2025-11-17 19:58:48 | windows_entries exec-time 14338092ns
+2025-11-17 19:58:48 | cust_entries exec-time 1365049ns
+2025-11-17 19:58:48 | apps_entries exec-time 4222043ns
+2025-11-17 19:58:48 | hist_entries exec-time 25914851ns
+2025-11-17 19:58:48 | web_entries exec-time 2353449ns
+2025-11-17 19:58:48 | sys_entries exec-time 2204612ns
+2025-11-17 19:58:54 | sel:      : Chromium	/usr/bin/chromium
+2025-11-17 19:58:54 | label:    : Chromium
+2025-11-17 19:58:54 | cmd:     /usr/bin/chromium
+2025-11-17 20:01:50 | open
+2025-11-17 20:01:50 | windows_entries exec-time 13738394ns
+2025-11-17 20:01:50 | cust_entries exec-time 1491345ns
+2025-11-17 20:01:50 | apps_entries exec-time 5868154ns
+2025-11-17 20:01:50 | hist_entries exec-time 34046439ns
+2025-11-17 20:01:50 | web_entries exec-time 3155007ns
+2025-11-17 20:01:50 | sys_entries exec-time 3260565ns
+2025-11-17 20:01:52 | sel:      : Files	nautilus --new-window
+2025-11-17 20:01:52 | label:    : Files
+2025-11-17 20:01:52 | cmd:     nautilus --new-window
+2025-11-17 20:10:13 | open
+2025-11-17 20:10:13 | windows_entries exec-time 12637849ns
+2025-11-17 20:10:13 | cust_entries exec-time 970897ns
+2025-11-17 20:10:13 | apps_entries exec-time 4232672ns
+2025-11-17 20:10:13 | hist_entries exec-time 28119415ns
+2025-11-17 20:10:13 | web_entries exec-time 2321237ns
+2025-11-17 20:10:13 | sys_entries exec-time 2608409ns
+2025-11-17 20:10:28 | sel:      : 󰜉 Restart	systemctl reboot
+2025-11-17 20:10:28 | label:    : 󰜉 Restart
+2025-11-17 20:10:28 | cmd:     systemctl reboot
+2025-11-17 20:14:49 | open
+2025-11-17 20:14:49 | windows_entries exec-time 13087002ns
+2025-11-17 20:14:49 | cust_entries exec-time 1996911ns
+2025-11-17 20:14:49 | apps_entries exec-time 4546437ns
+2025-11-17 20:14:49 | hist_entries exec-time 26804271ns
+2025-11-17 20:14:49 | web_entries exec-time 2950295ns
+2025-11-17 20:14:49 | sys_entries exec-time 2076550ns
+2025-11-17 20:14:57 | sel:      : Chromium	/usr/bin/chromium
+2025-11-17 20:14:57 | label:    : Chromium
+2025-11-17 20:14:57 | cmd:     /usr/bin/chromium
+2025-11-17 20:17:12 | open
+2025-11-17 20:17:12 | windows_entries exec-time 12186856ns
+2025-11-17 20:17:12 | cust_entries exec-time 1463624ns
+2025-11-17 20:17:12 | apps_entries exec-time 4738875ns
+2025-11-17 20:17:12 | hist_entries exec-time 25727428ns
+2025-11-17 20:17:12 | web_entries exec-time 2490113ns
+2025-11-17 20:17:12 | sys_entries exec-time 2150280ns
+2025-11-17 20:17:16 | sel:     󰖟 : Google Drive	chromium --app=https://drive.google.com
+2025-11-17 20:17:16 | label:   󰖟 : Google Drive
+2025-11-17 20:17:16 | cmd:     chromium --app=https://drive.google.com
+2025-11-17 20:17:21 | open
+2025-11-17 20:17:22 | windows_entries exec-time 13550440ns
+2025-11-17 20:17:22 | cust_entries exec-time 1264634ns
+2025-11-17 20:17:22 | apps_entries exec-time 4573418ns
+2025-11-17 20:17:22 | hist_entries exec-time 25317976ns
+2025-11-17 20:17:22 | web_entries exec-time 2385139ns
+2025-11-17 20:17:22 | sys_entries exec-time 2275395ns
+2025-11-17 20:17:26 | sel:     󰖟 : GitHub	chromium --app=https://github.com
+2025-11-17 20:17:26 | label:   󰖟 : GitHub
+2025-11-17 20:17:26 | cmd:     chromium --app=https://github.com

@@ -1,6 +1,26 @@
-# fzfLauncher
+<h1 style="
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 3rem;
+  color: #00ff55;
+  /* background: #050608; */
+  padding: 20px;
+  /* display: inline-block; */
+  text-shadow:
+    0 0 2px #00ff55,
+    0 0 4px #00ff55,
+    0 0 8px #00ff55;
+  letter-spacing: 0.12em;
+">
+  𝚏𝚣𝚏𝙻𝚊𝚞𝚗𝚌𝚑𝚎𝚛
+</h1>
 
-`fzfLauncher` is a fuzzy launcher script for Linux / Wayland (with first-class Niri support).  
+
+[![Watch the video](https://img.youtube.com/vi/59FWX5HcL70/maxresdefault.jpg)](https://www.youtube.com/watch?v=59FWX5HcL70)
+
+
+---
+
+`fzfLauncher` is a fuzzy launcher script ( based on [fsel](https://github.com/Mjoyufull/fsel) ) for Linux / Wayland (with first-class Niri support).  
 It lets you drive almost everything from one fzf menu:
 
 - 🪟 Switch between **Niri windows**
@@ -12,6 +32,16 @@ It lets you drive almost everything from one fzf menu:
 - ⭐ Run your own **custom commands**
 
 The UI is driven by `fzf` and everything is just `label<TAB>command` under the hood.
+
+---
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Support](#support)
+- [Requirements](#requirements)
+  - [🔤 Recommended: Install a Nerd Font](#-recommended-install-a-nerd-font)
+- [Installation](#installation)
+
 
 ---
 
@@ -62,12 +92,44 @@ If icons appear as empty squares, your terminal is not using a Nerd Font.
 
 ## Installation
 
-1. Put the script somewhere in your `$PATH`, e.g.:
+1. This is a B.O.B. (Bunch of Bash)
+  * so put the files where you want. 
+    * please note the paths to the files will change
 
-   ```bash
-   mkdir -p "$HOME/.local/bin"
-   cp fzfLauncher.sh "$HOME/.local/bin/fzfLauncher"
-   chmod +x "$HOME/.local/bin/fzfLauncher"
-   ```
+2. add to niri config
 
+  * Hot Keys
+```json
+//Z for Ze windows!
+Mod+Z       { spawn "~/.config/fzfLauncher/launchWINDOWS.sh";}
+
+//X for everything
+Mod+X       { spawn "~/.config/fzfLauncher/launchALL.sh";}
+
+//space for everything except for clipboard
+Mod+Space   { spawn "~/.config/fzfLauncher/launchFAST.sh";}
+
+//A for Apps
+Mod+A       { spawn "~/.config/fzfLauncher/launchAPPS.sh";}
+
+// Clipboard - V for the clipboard
+Mod+V    { spawn "~/.config/fzfLauncher/launchCLIPBOARD.sh";}
+```
+
+  * Add windows rules
+    * this will make sure the fzflauncher appears in floating mode
+```json
+window-rule {
+    match app-id=r#"kitty$"# title="^fzfLauncher$"
+    open-floating true
+
+}
+
+window-rule {
+    match app-id=r#"kitty$"# title="^Clipboard$"
+    open-floating true
+
+}
+
+```
 
