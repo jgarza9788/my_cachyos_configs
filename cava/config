@@ -198,7 +198,6 @@
 # Shaders for sdl_glsl, located in $HOME/.config/cava/shaders
 ; vertex_shader = pass_through.vert
 ; fragment_shader = bar_spectrum.frag
-# ; fragment_shader = northern_lights.frag
 
 ; for glsl output mode, keep rendering even if no audio
 ; continuous_rendering = 0
@@ -244,14 +243,14 @@
 # for wallust
 gradient = 1
 gradient_count = 8
-gradient_color_1 = '#170000'
-gradient_color_2 = '#AC0A0A'
-gradient_color_3 = '#4D5B5C'
-gradient_color_4 = '#9B9E9E'
-gradient_color_5 = '#E2E3E3'
-gradient_color_6 = '#829291'
-gradient_color_7 = '#CED2D2'
-gradient_color_8 = '#E2E3E3'
+gradient_color_1 = '#464742'
+gradient_color_2 = '#43B19F'
+gradient_color_3 = '#5197D0'
+gradient_color_4 = '#93DA6D'
+gradient_color_5 = '#DAEFF4'
+gradient_color_6 = '#D98D5F'
+gradient_color_7 = '#93DA6D'
+gradient_color_8 = '#DAEFF4'
 
 
 [smoothing]
