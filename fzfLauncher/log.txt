@@ -1,1010 +1,1014 @@
-2025-11-13 21:45:56 | sys_entries exec-time 2863317ns
-2025-11-13 21:46:01 | no selection (user cancelled)
-2025-11-13 21:46:02 | open
-2025-11-13 21:46:02 | apps_entries exec-time 6797677ns
-2025-11-13 21:46:05 | no selection (user cancelled)
-2025-11-13 21:46:06 | open
-2025-11-13 21:46:07 | windows_entries exec-time 17428513ns
-2025-11-13 21:46:09 | no selection (user cancelled)
-2025-11-13 21:46:10 | open
-2025-11-13 21:46:10 | windows_entries exec-time 17216490ns
-2025-11-13 21:46:10 | cust_entries exec-time 1566803ns
-2025-11-13 21:46:10 | apps_entries exec-time 5829217ns
-2025-11-13 21:46:10 | hist_entries exec-time 29984916ns
-2025-11-13 21:46:10 | web_entries exec-time 2956925ns
-2025-11-13 21:46:11 | clipboard_entries exec-time 653841078ns
-2025-11-13 21:46:11 | sys_entries exec-time 2571021ns
-2025-11-13 21:46:12 | no selection (user cancelled)
-2025-11-13 21:46:13 | open
-2025-11-13 21:46:14 | windows_entries exec-time 16419266ns
-2025-11-13 21:46:14 | cust_entries exec-time 1511562ns
-2025-11-13 21:46:14 | apps_entries exec-time 6797073ns
-2025-11-13 21:46:14 | hist_entries exec-time 30017645ns
-2025-11-13 21:46:14 | web_entries exec-time 2712293ns
-2025-11-13 21:46:14 | sys_entries exec-time 2511333ns
-2025-11-13 21:46:15 | no selection (user cancelled)
-2025-11-13 21:46:16 | open
-2025-11-13 21:46:21 | clipboard_entries exec-time 4297117605ns
-2025-11-13 21:46:25 | no selection (user cancelled)
-2025-11-13 21:47:43 | open
-2025-11-13 21:47:44 | windows_entries exec-time 16796794ns
-2025-11-13 21:47:44 | cust_entries exec-time 1016879ns
-2025-11-13 21:47:44 | apps_entries exec-time 7474801ns
-2025-11-13 21:47:44 | hist_entries exec-time 30053617ns
-2025-11-13 21:47:44 | web_entries exec-time 3062103ns
-2025-11-13 21:47:44 | sys_entries exec-time 2887710ns
-2025-11-13 21:47:45 | no selection (user cancelled)
-2025-11-13 21:49:01 | open
-2025-11-13 21:49:02 | windows_entries exec-time 18061308ns
-2025-11-13 21:49:02 | cust_entries exec-time 1309538ns
-2025-11-13 21:49:02 | apps_entries exec-time 6279319ns
-2025-11-13 21:49:02 | hist_entries exec-time 30191743ns
-2025-11-13 21:49:02 | web_entries exec-time 3071999ns
-2025-11-13 21:49:02 | sys_entries exec-time 2742468ns
-2025-11-13 21:49:05 | sel:     󰋚 : [fish] ff	ff
-2025-11-13 21:49:05 | label:   󰋚 : [fish] ff
-2025-11-13 21:49:05 | cmd:     ff
-2025-11-13 21:50:03 | open
-2025-11-13 21:50:03 | windows_entries exec-time 17994096ns
-2025-11-13 21:50:03 | cust_entries exec-time 1387411ns
-2025-11-13 21:50:03 | apps_entries exec-time 5610071ns
-2025-11-13 21:50:03 | hist_entries exec-time 29362465ns
-2025-11-13 21:50:03 | web_entries exec-time 2938867ns
-2025-11-13 21:50:03 | sys_entries exec-time 2990703ns
-2025-11-13 21:50:07 | sel:      : Btrfs Assistant	btrfs-assistant-launcher
-2025-11-13 21:50:07 | label:    : Btrfs Assistant
-2025-11-13 21:50:07 | cmd:     btrfs-assistant-launcher
-2025-11-13 21:50:14 | open
-2025-11-13 21:50:15 | windows_entries exec-time 18523071ns
-2025-11-13 21:50:15 | cust_entries exec-time 1455692ns
-2025-11-13 21:50:15 | apps_entries exec-time 5791468ns
-2025-11-13 21:50:15 | hist_entries exec-time 30584284ns
-2025-11-13 21:50:15 | web_entries exec-time 3213613ns
-2025-11-13 21:50:15 | sys_entries exec-time 2715525ns
-2025-11-13 21:50:20 | sel:      : Btrfs Assistant	btrfs-assistant-launcher
-2025-11-13 21:50:20 | label:    : Btrfs Assistant
-2025-11-13 21:50:20 | cmd:     btrfs-assistant-launcher
-2025-11-13 21:51:52 | open
-2025-11-13 21:51:52 | windows_entries exec-time 18463565ns
-2025-11-13 21:51:52 | cust_entries exec-time 1432336ns
-2025-11-13 21:51:52 | apps_entries exec-time 5966689ns
-2025-11-13 21:51:52 | hist_entries exec-time 31942085ns
-2025-11-13 21:51:52 | web_entries exec-time 3159190ns
-2025-11-13 21:51:52 | sys_entries exec-time 2550533ns
-2025-11-13 21:54:40 | sel:      : Chromium	/usr/bin/chromium
-2025-11-13 21:54:40 | label:    : Chromium
-2025-11-13 21:54:40 | cmd:     /usr/bin/chromium
-2025-11-13 21:54:45 | open
-2025-11-13 21:54:46 | windows_entries exec-time 18035751ns
-2025-11-13 21:54:46 | cust_entries exec-time 1498608ns
-2025-11-13 21:54:46 | apps_entries exec-time 5167092ns
-2025-11-13 21:54:46 | hist_entries exec-time 29795664ns
-2025-11-13 21:54:46 | web_entries exec-time 2839373ns
-2025-11-13 21:54:46 | sys_entries exec-time 2662394ns
-2025-11-13 21:54:47 | sel:      : Firefox	/usr/lib/firefox/firefox
-2025-11-13 21:54:47 | label:    : Firefox
-2025-11-13 21:54:47 | cmd:     /usr/lib/firefox/firefox
-2025-11-13 21:54:55 | open
-2025-11-13 21:54:56 | windows_entries exec-time 17944841ns
-2025-11-13 21:54:56 | cust_entries exec-time 1522755ns
-2025-11-13 21:54:56 | apps_entries exec-time 6054515ns
-2025-11-13 21:54:56 | hist_entries exec-time 30543319ns
-2025-11-13 21:54:56 | web_entries exec-time 3222762ns
-2025-11-13 21:54:56 | sys_entries exec-time 2689842ns
-2025-11-13 21:54:59 | sel:     󰖟 : YouTube	chromium --app=https://youtube.com
-2025-11-13 21:54:59 | label:   󰖟 : YouTube
-2025-11-13 21:54:59 | cmd:     chromium --app=https://youtube.com
-2025-11-13 21:57:02 | open
-2025-11-13 21:57:03 | windows_entries exec-time 17150601ns
-2025-11-13 21:57:03 | cust_entries exec-time 1729141ns
-2025-11-13 21:57:03 | apps_entries exec-time 6597607ns
-2025-11-13 21:57:03 | hist_entries exec-time 30735340ns
-2025-11-13 21:57:03 | web_entries exec-time 3176276ns
-2025-11-13 21:57:03 | sys_entries exec-time 2900191ns
-2025-11-13 21:57:06 | sel:      : Spotify (Launcher)	spotify-launcher
-2025-11-13 21:57:06 | label:    : Spotify (Launcher)
-2025-11-13 21:57:06 | cmd:     spotify-launcher
-2025-11-13 21:58:56 | open
-2025-11-13 21:58:56 | windows_entries exec-time 18265501ns
-2025-11-13 21:58:56 | cust_entries exec-time 1731574ns
-2025-11-13 21:58:56 | apps_entries exec-time 6128657ns
-2025-11-13 21:58:56 | hist_entries exec-time 30757662ns
-2025-11-13 21:58:56 | web_entries exec-time 3091651ns
-2025-11-13 21:58:56 | sys_entries exec-time 2398182ns
-2025-11-13 21:58:59 | no selection (user cancelled)
-2025-11-13 22:01:29 | open
-2025-11-13 22:01:29 | windows_entries exec-time 18081190ns
-2025-11-13 22:01:29 | cust_entries exec-time 1304205ns
-2025-11-13 22:01:29 | apps_entries exec-time 7869400ns
-2025-11-13 22:01:29 | hist_entries exec-time 36278056ns
-2025-11-13 22:01:29 | web_entries exec-time 3425097ns
-2025-11-13 22:01:29 | sys_entries exec-time 2866428ns
-2025-11-13 22:01:30 | no selection (user cancelled)
-2025-11-13 22:02:09 | open
-2025-11-13 22:02:10 | windows_entries exec-time 17883752ns
-2025-11-13 22:02:10 | cust_entries exec-time 1735398ns
-2025-11-13 22:02:10 | apps_entries exec-time 5512137ns
-2025-11-13 22:02:10 | hist_entries exec-time 35990042ns
-2025-11-13 22:02:10 | web_entries exec-time 3006201ns
-2025-11-13 22:02:10 | sys_entries exec-time 3245593ns
-2025-11-13 22:02:10 | no selection (user cancelled)
-2025-11-13 22:02:32 | open
-2025-11-13 22:02:33 | windows_entries exec-time 17919770ns
-2025-11-13 22:02:33 | cust_entries exec-time 1893878ns
-2025-11-13 22:02:33 | apps_entries exec-time 6553386ns
-2025-11-13 22:02:33 | hist_entries exec-time 38489719ns
-2025-11-13 22:02:33 | web_entries exec-time 3878041ns
-2025-11-13 22:02:33 | sys_entries exec-time 4511331ns
-2025-11-13 22:02:33 | no selection (user cancelled)
-2025-11-13 22:03:06 | open
-2025-11-13 22:03:06 | windows_entries exec-time 17703214ns
-2025-11-13 22:03:06 | cust_entries exec-time 1957429ns
-2025-11-13 22:03:06 | apps_entries exec-time 5658210ns
-2025-11-13 22:03:06 | hist_entries exec-time 36874187ns
-2025-11-13 22:03:06 | web_entries exec-time 2991992ns
-2025-11-13 22:03:06 | sys_entries exec-time 3796431ns
-2025-11-13 22:03:07 | no selection (user cancelled)
-2025-11-13 22:03:38 | open
-2025-11-13 22:03:38 | windows_entries exec-time 19588497ns
-2025-11-13 22:03:38 | cust_entries exec-time 1988077ns
-2025-11-13 22:03:38 | apps_entries exec-time 5702654ns
-2025-11-13 22:03:38 | hist_entries exec-time 36948572ns
-2025-11-13 22:03:38 | web_entries exec-time 2924438ns
-2025-11-13 22:03:38 | sys_entries exec-time 4270595ns
-2025-11-13 22:03:39 | no selection (user cancelled)
-2025-11-13 22:04:29 | open
-2025-11-13 22:04:30 | windows_entries exec-time 17114272ns
-2025-11-13 22:04:30 | cust_entries exec-time 1501693ns
-2025-11-13 22:04:30 | apps_entries exec-time 7420197ns
-2025-11-13 22:04:30 | hist_entries exec-time 33461561ns
-2025-11-13 22:04:30 | web_entries exec-time 3157237ns
-2025-11-13 22:04:30 | sys_entries exec-time 2475753ns
-2025-11-13 22:04:31 | no selection (user cancelled)
-2025-11-13 22:05:21 | open
-2025-11-13 22:05:22 | windows_entries exec-time 17991699ns
-2025-11-13 22:05:22 | cust_entries exec-time 1559807ns
-2025-11-13 22:05:22 | apps_entries exec-time 7214704ns
-2025-11-13 22:05:22 | hist_entries exec-time 34492260ns
-2025-11-13 22:05:22 | web_entries exec-time 2736374ns
-2025-11-13 22:05:22 | sys_entries exec-time 2599374ns
-2025-11-13 22:05:22 | no selection (user cancelled)
-2025-11-13 22:05:27 | open
-2025-11-13 22:05:28 | windows_entries exec-time 18325251ns
-2025-11-13 22:05:28 | cust_entries exec-time 1741227ns
-2025-11-13 22:05:28 | apps_entries exec-time 7441383ns
-2025-11-13 22:05:28 | hist_entries exec-time 38144114ns
-2025-11-13 22:05:28 | web_entries exec-time 3182808ns
-2025-11-13 22:05:28 | sys_entries exec-time 4168052ns
-2025-11-13 22:05:28 | no selection (user cancelled)
-2025-11-13 22:07:33 | open
-2025-11-13 22:07:33 | windows_entries exec-time 17063083ns
-2025-11-13 22:07:33 | cust_entries exec-time 1461913ns
-2025-11-13 22:07:33 | apps_entries exec-time 7299144ns
-2025-11-13 22:07:33 | hist_entries exec-time 33944783ns
-2025-11-13 22:07:33 | web_entries exec-time 3049710ns
-2025-11-13 22:07:34 | sys_entries exec-time 2385746ns
-2025-11-13 22:07:34 | no selection (user cancelled)
-2025-11-13 22:12:41 | open
-2025-11-13 22:12:42 | windows_entries exec-time 17592293ns
-2025-11-13 22:12:42 | cust_entries exec-time 1645404ns
-2025-11-13 22:12:42 | apps_entries exec-time 6305056ns
-2025-11-13 22:12:42 | hist_entries exec-time 30556401ns
-2025-11-13 22:12:42 | web_entries exec-time 2693883ns
-2025-11-13 22:12:42 | sys_entries exec-time 2338780ns
-2025-11-13 22:12:44 | sel:      : Power	gnome-control-center power
-2025-11-13 22:12:44 | label:    : Power
-2025-11-13 22:12:44 | cmd:     gnome-control-center power
-2025-11-13 22:12:47 | open
-2025-11-13 22:12:47 | windows_entries exec-time 17299143ns
-2025-11-13 22:12:47 | cust_entries exec-time 1480659ns
-2025-11-13 22:12:47 | apps_entries exec-time 5617310ns
-2025-11-13 22:12:47 | hist_entries exec-time 30193283ns
-2025-11-13 22:12:47 | web_entries exec-time 2913216ns
-2025-11-13 22:12:47 | sys_entries exec-time 2583975ns
-2025-11-13 22:12:50 | sel:      : 󰐥 PowerOff	systemctl poweroff
-2025-11-13 22:12:50 | label:    : 󰐥 PowerOff
-2025-11-13 22:12:50 | cmd:     systemctl poweroff
-2025-11-14 20:19:28 | open
-2025-11-14 20:19:28 | windows_entries exec-time 17717553ns
-2025-11-14 20:19:28 | cust_entries exec-time 2380827ns
-2025-11-14 20:19:28 | apps_entries exec-time 5907087ns
-2025-11-14 20:19:28 | hist_entries exec-time 31096585ns
-2025-11-14 20:19:28 | web_entries exec-time 3229108ns
-2025-11-14 20:19:28 | sys_entries exec-time 2417167ns
-2025-11-14 20:19:42 | no selection (user cancelled)
-2025-11-14 20:19:45 | open
-2025-11-14 20:19:45 | windows_entries exec-time 18237547ns
-2025-11-14 20:19:45 | cust_entries exec-time 1697268ns
-2025-11-14 20:19:45 | apps_entries exec-time 8012766ns
-2025-11-14 20:19:45 | hist_entries exec-time 44718537ns
-2025-11-14 20:19:45 | web_entries exec-time 4351243ns
-2025-11-14 20:19:45 | sys_entries exec-time 4219464ns
-2025-11-14 20:19:51 | sel:     󰋚 : [fish] code ~/.config/swaync/	code ~/.config/swaync/
-2025-11-14 20:19:51 | label:   󰋚 : [fish] code ~/.config/swaync/
-2025-11-14 20:19:51 | cmd:     code ~/.config/swaync/
-2025-11-14 20:24:21 | open
-2025-11-14 20:24:22 | windows_entries exec-time 17235080ns
-2025-11-14 20:24:22 | cust_entries exec-time 2043847ns
-2025-11-14 20:24:22 | apps_entries exec-time 6983588ns
-2025-11-14 20:24:22 | hist_entries exec-time 34860528ns
-2025-11-14 20:24:22 | web_entries exec-time 2814647ns
-2025-11-14 20:24:22 | sys_entries exec-time 2431654ns
-2025-11-14 20:24:23 | no selection (user cancelled)
-2025-11-14 20:26:53 | open
-2025-11-14 20:26:53 | windows_entries exec-time 20157728ns
-2025-11-14 20:26:53 | cust_entries exec-time 2143566ns
-2025-11-14 20:26:53 | apps_entries exec-time 13261805ns
-2025-11-14 20:26:53 | hist_entries exec-time 47372292ns
-2025-11-14 20:26:53 | web_entries exec-time 4086086ns
-2025-11-14 20:26:53 | sys_entries exec-time 4125947ns
-2025-11-14 20:26:55 | sel:      : Spotify (Launcher)	spotify-launcher
-2025-11-14 20:26:55 | label:    : Spotify (Launcher)
-2025-11-14 20:26:55 | cmd:     spotify-launcher
-2025-11-14 20:27:22 | open
-2025-11-14 20:27:23 | windows_entries exec-time 17392555ns
-2025-11-14 20:27:23 | cust_entries exec-time 1581632ns
-2025-11-14 20:27:23 | apps_entries exec-time 7364372ns
-2025-11-14 20:27:23 | hist_entries exec-time 36197168ns
-2025-11-14 20:27:23 | web_entries exec-time 3917844ns
-2025-11-14 20:27:23 | sys_entries exec-time 3210089ns
-2025-11-14 20:27:23 | no selection (user cancelled)
-2025-11-14 20:28:55 | open
-2025-11-14 20:28:55 | windows_entries exec-time 18896602ns
-2025-11-14 20:28:55 | cust_entries exec-time 1443772ns
-2025-11-14 20:28:55 | apps_entries exec-time 7302907ns
-2025-11-14 20:28:55 | hist_entries exec-time 34141289ns
-2025-11-14 20:28:55 | web_entries exec-time 3778621ns
-2025-11-14 20:28:55 | sys_entries exec-time 3763436ns
-2025-11-14 20:28:56 | no selection (user cancelled)
-2025-11-14 20:32:31 | open
-2025-11-14 20:32:32 | windows_entries exec-time 19925639ns
-2025-11-14 20:32:32 | cust_entries exec-time 1550172ns
-2025-11-14 20:32:32 | apps_entries exec-time 6310827ns
-2025-11-14 20:32:32 | hist_entries exec-time 38600350ns
-2025-11-14 20:32:32 | web_entries exec-time 3819834ns
-2025-11-14 20:32:32 | sys_entries exec-time 3933122ns
-2025-11-14 20:32:33 | no selection (user cancelled)
-2025-11-14 20:36:04 | open
-2025-11-14 20:36:05 | apps_entries exec-time 7354868ns
-2025-11-14 20:36:06 | no selection (user cancelled)
-2025-11-14 20:36:07 | open
-2025-11-14 20:36:08 | windows_entries exec-time 18840287ns
-2025-11-14 20:36:08 | cust_entries exec-time 1475103ns
-2025-11-14 20:36:08 | apps_entries exec-time 6911988ns
-2025-11-14 20:36:08 | hist_entries exec-time 35336160ns
-2025-11-14 20:36:08 | web_entries exec-time 4238685ns
-2025-11-14 20:36:08 | sys_entries exec-time 4050132ns
-2025-11-14 20:36:10 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
-2025-11-14 20:36:10 | label:   󰖟 : ChatGPT
-2025-11-14 20:36:10 | cmd:     chromium --app=https://chat.openai.com
-2025-11-14 20:50:15 | open
-2025-11-14 20:50:16 | windows_entries exec-time 17576917ns
-2025-11-14 20:50:16 | cust_entries exec-time 1724035ns
-2025-11-14 20:50:16 | apps_entries exec-time 7235741ns
-2025-11-14 20:50:16 | hist_entries exec-time 33601490ns
-2025-11-14 20:50:16 | web_entries exec-time 3055895ns
-2025-11-14 20:50:16 | sys_entries exec-time 2556245ns
-2025-11-14 20:50:26 | sel:     󰋚 : [fish] code ~/.config/fzfLauncher/	code ~/.config/fzfLauncher/
-2025-11-14 20:50:26 | label:   󰋚 : [fish] code ~/.config/fzfLauncher/
-2025-11-14 20:50:26 | cmd:     code ~/.config/fzfLauncher/
-2025-11-14 20:50:30 | open
-2025-11-14 20:50:30 | windows_entries exec-time 19017187ns
-2025-11-14 20:50:30 | cust_entries exec-time 1589974ns
-2025-11-14 20:50:30 | apps_entries exec-time 5890279ns
-2025-11-14 20:50:30 | hist_entries exec-time 34007406ns
-2025-11-14 20:50:30 | web_entries exec-time 2941274ns
-2025-11-14 20:50:30 | sys_entries exec-time 2939798ns
-2025-11-14 20:50:32 | sel:      : Files	nautilus --new-window
-2025-11-14 20:50:32 | label:    : Files
-2025-11-14 20:50:32 | cmd:     nautilus --new-window
-2025-11-14 20:51:42 | open
-2025-11-14 20:51:43 | windows_entries exec-time 17198082ns
-2025-11-14 20:51:43 | cust_entries exec-time 1751885ns
-2025-11-14 20:51:43 | apps_entries exec-time 7030874ns
-2025-11-14 20:51:43 | hist_entries exec-time 36454704ns
-2025-11-14 20:51:43 | web_entries exec-time 3106042ns
-2025-11-14 20:51:43 | sys_entries exec-time 2404726ns
-2025-11-14 20:51:49 | sel:      : code - configs	code ~/.config/
-2025-11-14 20:51:49 | label:    : code - configs
-2025-11-14 20:51:49 | cmd:     code ~/.config/
-2025-11-14 20:53:34 | open
-2025-11-14 20:53:34 | windows_entries exec-time 19108151ns
-2025-11-14 20:53:34 | cust_entries exec-time 1821201ns
-2025-11-14 20:53:34 | apps_entries exec-time 7846081ns
-2025-11-14 20:53:34 | hist_entries exec-time 44085926ns
-2025-11-14 20:53:34 | web_entries exec-time 3586307ns
-2025-11-14 20:53:34 | sys_entries exec-time 4379602ns
-2025-11-14 20:53:35 | sel:      : Chromium	/usr/bin/chromium
-2025-11-14 20:53:35 | label:    : Chromium
-2025-11-14 20:53:35 | cmd:     /usr/bin/chromium
-2025-11-14 21:02:24 | open
-2025-11-14 21:02:24 | windows_entries exec-time 20381438ns
-2025-11-14 21:02:24 | cust_entries exec-time 1934510ns
-2025-11-14 21:02:24 | apps_entries exec-time 11630586ns
-2025-11-14 21:02:24 | hist_entries exec-time 48938127ns
-2025-11-14 21:02:24 | web_entries exec-time 4170807ns
-2025-11-14 21:02:24 | sys_entries exec-time 4101238ns
-2025-11-14 21:02:27 | no selection (user cancelled)
-2025-11-14 21:08:32 | open
-2025-11-14 21:08:33 | windows_entries exec-time 17313373ns
-2025-11-14 21:08:33 | cust_entries exec-time 1504194ns
-2025-11-14 21:08:33 | apps_entries exec-time 6406343ns
-2025-11-14 21:08:33 | hist_entries exec-time 31959367ns
-2025-11-14 21:08:33 | web_entries exec-time 3294064ns
-2025-11-14 21:08:33 | sys_entries exec-time 3948352ns
-2025-11-14 21:08:37 | no selection (user cancelled)
-2025-11-14 21:08:39 | open
-2025-11-14 21:08:39 | windows_entries exec-time 17612065ns
-2025-11-14 21:08:39 | cust_entries exec-time 1488397ns
-2025-11-14 21:08:39 | apps_entries exec-time 5597573ns
-2025-11-14 21:08:39 | hist_entries exec-time 33177572ns
-2025-11-14 21:08:39 | web_entries exec-time 3676427ns
-2025-11-14 21:08:39 | sys_entries exec-time 3669492ns
-2025-11-14 21:08:41 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
-2025-11-14 21:08:41 | label:   󰖟 : ChatGPT
-2025-11-14 21:08:41 | cmd:     chromium --app=https://chat.openai.com
-2025-11-14 21:16:31 | open
-2025-11-14 21:16:31 | windows_entries exec-time 19772400ns
-2025-11-14 21:16:31 | cust_entries exec-time 1750387ns
-2025-11-14 21:16:31 | apps_entries exec-time 7481479ns
-2025-11-14 21:16:31 | hist_entries exec-time 45833170ns
-2025-11-14 21:16:31 | web_entries exec-time 4183260ns
-2025-11-14 21:16:31 | sys_entries exec-time 3840417ns
-2025-11-14 21:16:33 | sel:      : Files	nautilus --new-window
-2025-11-14 21:16:33 | label:    : Files
-2025-11-14 21:16:33 | cmd:     nautilus --new-window
-2025-11-14 21:20:10 | open
-2025-11-14 21:20:16 | clipboard_entries exec-time 4873760311ns
-2025-11-14 21:20:22 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:20:22 | label:    : https://youtu.be/59FWX5HcL70
-2025-11-14 21:20:22 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:32:54 | open
-2025-11-14 21:32:59 | clipboard_entries exec-time 4604348201ns
-2025-11-14 21:33:02 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:33:02 | label:    : https://youtu.be/59FWX5HcL70
-2025-11-14 21:33:02 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:34:59 | open
-2025-11-14 21:35:04 | clipboard_entries exec-time 4622756228ns
-2025-11-14 21:35:04 | no selection (user cancelled)
-2025-11-14 21:35:28 | open
-2025-11-14 21:35:33 | clipboard_entries exec-time 4483198349ns
-2025-11-14 21:35:35 | sel:      : https://youtu.be/59FWX5HcL70	printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:35:35 | label:    : https://youtu.be/59FWX5HcL70
-2025-11-14 21:35:35 | cmd:     printf %s https://youtu.be/59FWX5HcL70 | wl-copy
-2025-11-14 21:36:01 | open
-2025-11-14 21:36:02 | clipboard_entries exec-time 770632236ns
-2025-11-14 21:36:06 | no selection (user cancelled)
-2025-11-14 21:48:40 | open
-2025-11-14 21:48:41 | windows_entries exec-time 18671653ns
-2025-11-14 21:48:41 | cust_entries exec-time 1656650ns
-2025-11-14 21:48:41 | apps_entries exec-time 6320415ns
-2025-11-14 21:48:41 | hist_entries exec-time 39791285ns
-2025-11-14 21:48:41 | web_entries exec-time 3063366ns
-2025-11-14 21:48:41 | sys_entries exec-time 2878957ns
-2025-11-14 21:48:47 | sel:      : 󰐥 PowerOff	systemctl poweroff
-2025-11-14 21:48:47 | label:    : 󰐥 PowerOff
-2025-11-14 21:48:47 | cmd:     systemctl poweroff
-2025-11-17 19:47:50 | open
-2025-11-17 19:47:51 | windows_entries exec-time 18140449ns
-2025-11-17 19:47:51 | cust_entries exec-time 10673549ns
-2025-11-17 19:47:51 | apps_entries exec-time 5944980ns
-2025-11-17 19:47:51 | hist_entries exec-time 70055637ns
-2025-11-17 19:47:51 | web_entries exec-time 9054150ns
-2025-11-17 19:47:51 | sys_entries exec-time 2699425ns
-2025-11-17 19:47:59 | no selection (user cancelled)
-2025-11-17 19:48:17 | open
-2025-11-17 19:48:17 | windows_entries exec-time 17989281ns
-2025-11-17 19:48:17 | cust_entries exec-time 1701996ns
-2025-11-17 19:48:17 | apps_entries exec-time 6053887ns
-2025-11-17 19:48:17 | hist_entries exec-time 29980294ns
-2025-11-17 19:48:17 | web_entries exec-time 2810942ns
-2025-11-17 19:48:17 | sys_entries exec-time 2565938ns
-2025-11-17 19:48:22 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:48:22 | label:    : run_update
-2025-11-17 19:48:22 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:50:44 | open
-2025-11-17 19:50:44 | windows_entries exec-time 16406039ns
-2025-11-17 19:50:44 | cust_entries exec-time 1599752ns
-2025-11-17 19:50:44 | apps_entries exec-time 6425654ns
-2025-11-17 19:50:44 | hist_entries exec-time 29242387ns
-2025-11-17 19:50:44 | web_entries exec-time 2828760ns
-2025-11-17 19:50:44 | sys_entries exec-time 2786716ns
-2025-11-17 19:50:46 | sel:     󰖟 : Plex	chromium --app=https://app.plex.tv
-2025-11-17 19:50:46 | label:   󰖟 : Plex
-2025-11-17 19:50:46 | cmd:     chromium --app=https://app.plex.tv
-2025-11-17 19:51:01 | open
-2025-11-17 19:51:01 | windows_entries exec-time 17454820ns
-2025-11-17 19:51:01 | cust_entries exec-time 1781841ns
-2025-11-17 19:51:01 | apps_entries exec-time 7463843ns
-2025-11-17 19:51:01 | hist_entries exec-time 44217680ns
-2025-11-17 19:51:01 | web_entries exec-time 4298519ns
-2025-11-17 19:51:01 | sys_entries exec-time 3810466ns
-2025-11-17 19:51:03 | sel:     󰋚 : [fish] chromium --app --help	chromium --app --help
-2025-11-17 19:51:03 | label:   󰋚 : [fish] chromium --app --help
-2025-11-17 19:51:03 | cmd:     chromium --app --help
-2025-11-17 19:51:11 | open
-2025-11-17 19:51:11 | windows_entries exec-time 17511570ns
-2025-11-17 19:51:11 | cust_entries exec-time 1630983ns
-2025-11-17 19:51:11 | apps_entries exec-time 6045154ns
-2025-11-17 19:51:11 | hist_entries exec-time 39006551ns
-2025-11-17 19:51:11 | web_entries exec-time 2854603ns
-2025-11-17 19:51:11 | sys_entries exec-time 2494682ns
-2025-11-17 19:51:13 | sel:      : Chromium	/usr/bin/chromium
-2025-11-17 19:51:13 | label:    : Chromium
-2025-11-17 19:51:13 | cmd:     /usr/bin/chromium
-2025-11-17 19:52:09 | open
-2025-11-17 19:52:09 | windows_entries exec-time 17018398ns
-2025-11-17 19:52:09 | cust_entries exec-time 1541428ns
-2025-11-17 19:52:09 | apps_entries exec-time 5576510ns
-2025-11-17 19:52:09 | hist_entries exec-time 32070300ns
-2025-11-17 19:52:09 | web_entries exec-time 3878381ns
-2025-11-17 19:52:09 | sys_entries exec-time 3203796ns
-2025-11-17 19:52:12 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:52:12 | label:    : run_update
-2025-11-17 19:52:12 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:52:52 | open
-2025-11-17 19:52:53 | windows_entries exec-time 16981621ns
-2025-11-17 19:52:53 | cust_entries exec-time 1672497ns
-2025-11-17 19:52:53 | apps_entries exec-time 7748245ns
-2025-11-17 19:52:53 | hist_entries exec-time 43079155ns
-2025-11-17 19:52:53 | web_entries exec-time 4165062ns
-2025-11-17 19:52:53 | sys_entries exec-time 4220762ns
-2025-11-17 19:52:55 | sel:      : Calculator	gnome-calculator
-2025-11-17 19:52:55 | label:    : Calculator
-2025-11-17 19:52:55 | cmd:     gnome-calculator
-2025-11-17 19:53:10 | open
-2025-11-17 19:53:10 | windows_entries exec-time 17366654ns
-2025-11-17 19:53:10 | cust_entries exec-time 1434951ns
-2025-11-17 19:53:10 | apps_entries exec-time 7412079ns
-2025-11-17 19:53:10 | hist_entries exec-time 30821152ns
-2025-11-17 19:53:10 | web_entries exec-time 2516320ns
-2025-11-17 19:53:10 | sys_entries exec-time 2328080ns
-2025-11-17 19:53:12 | sel:      : 󰜉 Restart	systemctl reboot
-2025-11-17 19:53:12 | label:    : 󰜉 Restart
-2025-11-17 19:53:12 | cmd:     systemctl reboot
-2025-11-17 19:54:25 | open
-2025-11-17 19:54:26 | windows_entries exec-time 13184449ns
-2025-11-17 19:54:26 | cust_entries exec-time 4649379ns
-2025-11-17 19:54:26 | apps_entries exec-time 6461454ns
-2025-11-17 19:54:26 | hist_entries exec-time 36680173ns
-2025-11-17 19:54:26 | web_entries exec-time 4164264ns
-2025-11-17 19:54:26 | sys_entries exec-time 2822217ns
-2025-11-17 19:54:34 | no selection (user cancelled)
-2025-11-17 19:54:37 | open
-2025-11-17 19:54:37 | windows_entries exec-time 13531524ns
-2025-11-17 19:54:37 | cust_entries exec-time 1209989ns
-2025-11-17 19:54:37 | apps_entries exec-time 4477681ns
-2025-11-17 19:54:37 | hist_entries exec-time 25771522ns
-2025-11-17 19:54:37 | web_entries exec-time 2435047ns
-2025-11-17 19:54:37 | sys_entries exec-time 2283345ns
-2025-11-17 19:54:41 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:54:41 | label:    : run_update
-2025-11-17 19:54:41 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 19:58:48 | open
-2025-11-17 19:58:48 | windows_entries exec-time 14338092ns
-2025-11-17 19:58:48 | cust_entries exec-time 1365049ns
-2025-11-17 19:58:48 | apps_entries exec-time 4222043ns
-2025-11-17 19:58:48 | hist_entries exec-time 25914851ns
-2025-11-17 19:58:48 | web_entries exec-time 2353449ns
-2025-11-17 19:58:48 | sys_entries exec-time 2204612ns
-2025-11-17 19:58:54 | sel:      : Chromium	/usr/bin/chromium
-2025-11-17 19:58:54 | label:    : Chromium
-2025-11-17 19:58:54 | cmd:     /usr/bin/chromium
-2025-11-17 20:01:50 | open
-2025-11-17 20:01:50 | windows_entries exec-time 13738394ns
-2025-11-17 20:01:50 | cust_entries exec-time 1491345ns
-2025-11-17 20:01:50 | apps_entries exec-time 5868154ns
-2025-11-17 20:01:50 | hist_entries exec-time 34046439ns
-2025-11-17 20:01:50 | web_entries exec-time 3155007ns
-2025-11-17 20:01:50 | sys_entries exec-time 3260565ns
-2025-11-17 20:01:52 | sel:      : Files	nautilus --new-window
-2025-11-17 20:01:52 | label:    : Files
-2025-11-17 20:01:52 | cmd:     nautilus --new-window
-2025-11-17 20:10:13 | open
-2025-11-17 20:10:13 | windows_entries exec-time 12637849ns
-2025-11-17 20:10:13 | cust_entries exec-time 970897ns
-2025-11-17 20:10:13 | apps_entries exec-time 4232672ns
-2025-11-17 20:10:13 | hist_entries exec-time 28119415ns
-2025-11-17 20:10:13 | web_entries exec-time 2321237ns
-2025-11-17 20:10:13 | sys_entries exec-time 2608409ns
-2025-11-17 20:10:28 | sel:      : 󰜉 Restart	systemctl reboot
-2025-11-17 20:10:28 | label:    : 󰜉 Restart
-2025-11-17 20:10:28 | cmd:     systemctl reboot
-2025-11-17 20:14:49 | open
-2025-11-17 20:14:49 | windows_entries exec-time 13087002ns
-2025-11-17 20:14:49 | cust_entries exec-time 1996911ns
-2025-11-17 20:14:49 | apps_entries exec-time 4546437ns
-2025-11-17 20:14:49 | hist_entries exec-time 26804271ns
-2025-11-17 20:14:49 | web_entries exec-time 2950295ns
-2025-11-17 20:14:49 | sys_entries exec-time 2076550ns
-2025-11-17 20:14:57 | sel:      : Chromium	/usr/bin/chromium
-2025-11-17 20:14:57 | label:    : Chromium
-2025-11-17 20:14:57 | cmd:     /usr/bin/chromium
-2025-11-17 20:17:12 | open
-2025-11-17 20:17:12 | windows_entries exec-time 12186856ns
-2025-11-17 20:17:12 | cust_entries exec-time 1463624ns
-2025-11-17 20:17:12 | apps_entries exec-time 4738875ns
-2025-11-17 20:17:12 | hist_entries exec-time 25727428ns
-2025-11-17 20:17:12 | web_entries exec-time 2490113ns
-2025-11-17 20:17:12 | sys_entries exec-time 2150280ns
-2025-11-17 20:17:16 | sel:     󰖟 : Google Drive	chromium --app=https://drive.google.com
-2025-11-17 20:17:16 | label:   󰖟 : Google Drive
-2025-11-17 20:17:16 | cmd:     chromium --app=https://drive.google.com
-2025-11-17 20:17:21 | open
-2025-11-17 20:17:22 | windows_entries exec-time 13550440ns
-2025-11-17 20:17:22 | cust_entries exec-time 1264634ns
-2025-11-17 20:17:22 | apps_entries exec-time 4573418ns
-2025-11-17 20:17:22 | hist_entries exec-time 25317976ns
-2025-11-17 20:17:22 | web_entries exec-time 2385139ns
-2025-11-17 20:17:22 | sys_entries exec-time 2275395ns
-2025-11-17 20:17:26 | sel:     󰖟 : GitHub	chromium --app=https://github.com
-2025-11-17 20:17:26 | label:   󰖟 : GitHub
-2025-11-17 20:17:26 | cmd:     chromium --app=https://github.com
-2025-11-17 20:20:27 | open
-2025-11-17 20:20:28 | windows_entries exec-time 13404359ns
-2025-11-17 20:20:28 | cust_entries exec-time 1247343ns
-2025-11-17 20:20:28 | apps_entries exec-time 4374621ns
-2025-11-17 20:20:28 | hist_entries exec-time 31744827ns
-2025-11-17 20:20:28 | web_entries exec-time 2427494ns
-2025-11-17 20:20:28 | sys_entries exec-time 2133898ns
-2025-11-17 20:20:32 | sel:     󰋚 : [fish] code ~/.config/	code ~/.config/
-2025-11-17 20:20:32 | label:   󰋚 : [fish] code ~/.config/
-2025-11-17 20:20:32 | cmd:     code ~/.config/
-2025-11-17 20:21:12 | open
-2025-11-17 20:21:13 | windows_entries exec-time 14294368ns
-2025-11-17 20:21:13 | cust_entries exec-time 1272533ns
-2025-11-17 20:21:13 | apps_entries exec-time 6293016ns
-2025-11-17 20:21:13 | hist_entries exec-time 33561272ns
-2025-11-17 20:21:13 | web_entries exec-time 3425558ns
-2025-11-17 20:21:13 | sys_entries exec-time 2817113ns
-2025-11-17 20:21:14 | sel:     󰖟 : GitHub	chromium --app=https://github.com
-2025-11-17 20:21:14 | label:   󰖟 : GitHub
-2025-11-17 20:21:14 | cmd:     chromium --app=https://github.com
-2025-11-17 20:22:29 | open
-2025-11-17 20:22:29 | windows_entries exec-time 15906322ns
-2025-11-17 20:22:29 | cust_entries exec-time 1727554ns
-2025-11-17 20:22:29 | apps_entries exec-time 6023572ns
-2025-11-17 20:22:29 | hist_entries exec-time 26757493ns
-2025-11-17 20:22:29 | web_entries exec-time 2457048ns
-2025-11-17 20:22:29 | sys_entries exec-time 2337651ns
-2025-11-17 20:22:31 | sel:      : Files	nautilus --new-window
-2025-11-17 20:22:31 | label:    : Files
-2025-11-17 20:22:31 | cmd:     nautilus --new-window
-2025-11-17 20:25:11 | open
-2025-11-17 20:25:11 | windows_entries exec-time 13623374ns
-2025-11-17 20:25:11 | cust_entries exec-time 1011155ns
-2025-11-17 20:25:11 | apps_entries exec-time 4294426ns
-2025-11-17 20:25:11 | hist_entries exec-time 25529102ns
-2025-11-17 20:25:11 | web_entries exec-time 2312443ns
-2025-11-17 20:25:11 | sys_entries exec-time 2099371ns
-2025-11-17 20:25:12 | sel:      : Files	nautilus --new-window
-2025-11-17 20:25:12 | label:    : Files
-2025-11-17 20:25:12 | cmd:     nautilus --new-window
-2025-11-17 20:25:30 | open
-2025-11-17 20:25:31 | windows_entries exec-time 12339678ns
-2025-11-17 20:25:31 | cust_entries exec-time 965844ns
-2025-11-17 20:25:31 | apps_entries exec-time 4950277ns
-2025-11-17 20:25:31 | hist_entries exec-time 26613380ns
-2025-11-17 20:25:31 | web_entries exec-time 2445789ns
-2025-11-17 20:25:31 | sys_entries exec-time 2149251ns
-2025-11-17 20:25:33 | no selection (user cancelled)
-2025-11-17 20:32:11 | open
-2025-11-17 20:32:12 | windows_entries exec-time 13806937ns
-2025-11-17 20:32:12 | cust_entries exec-time 1190780ns
-2025-11-17 20:32:12 | apps_entries exec-time 4621252ns
-2025-11-17 20:32:12 | hist_entries exec-time 26141343ns
-2025-11-17 20:32:12 | web_entries exec-time 2391960ns
-2025-11-17 20:32:12 | sys_entries exec-time 2158351ns
-2025-11-17 20:32:21 | sel:     󰋚 : [fish] code ~/.config/	code ~/.config/
-2025-11-17 20:32:21 | label:   󰋚 : [fish] code ~/.config/
-2025-11-17 20:32:21 | cmd:     code ~/.config/
-2025-11-17 20:35:50 | open
-2025-11-17 20:35:50 | windows_entries exec-time 12450849ns
-2025-11-17 20:35:50 | cust_entries exec-time 1003051ns
-2025-11-17 20:35:50 | apps_entries exec-time 4248230ns
-2025-11-17 20:35:50 | hist_entries exec-time 28474173ns
-2025-11-17 20:35:50 | web_entries exec-time 2365324ns
-2025-11-17 20:35:50 | sys_entries exec-time 3757341ns
-2025-11-17 20:35:52 | no selection (user cancelled)
-2025-11-17 20:35:55 | open
-2025-11-17 20:35:55 | windows_entries exec-time 12514958ns
-2025-11-17 20:35:55 | cust_entries exec-time 977625ns
-2025-11-17 20:35:55 | apps_entries exec-time 4285279ns
-2025-11-17 20:35:55 | hist_entries exec-time 28571466ns
-2025-11-17 20:35:55 | web_entries exec-time 4547387ns
-2025-11-17 20:35:55 | sys_entries exec-time 2795727ns
-2025-11-17 20:36:01 | no selection (user cancelled)
-2025-11-17 20:38:54 | open
-2025-11-17 20:38:55 | clipboard_entries exec-time 555927804ns
-2025-11-17 20:38:59 | sel:      : ~/.config/AppImages/Vicinae-8aec3f6c4-x86_64.AppImage toggle	printf %s \~/.config/AppImages/Vicinae-8aec3f6c4-x86_64.AppImage\ toggle | wl-copy
-2025-11-17 20:38:59 | label:    : ~/.config/AppImages/Vicinae-8aec3f6c4-x86_64.AppImage toggle
-2025-11-17 20:38:59 | cmd:     printf %s \~/.config/AppImages/Vicinae-8aec3f6c4-x86_64.AppImage\ toggle | wl-copy
-2025-11-17 20:42:21 | open
-2025-11-17 20:42:21 | windows_entries exec-time 14104177ns
-2025-11-17 20:42:21 | cust_entries exec-time 1817208ns
-2025-11-17 20:42:21 | apps_entries exec-time 4450568ns
-2025-11-17 20:42:21 | hist_entries exec-time 29746681ns
-2025-11-17 20:42:21 | web_entries exec-time 2360864ns
-2025-11-17 20:42:21 | sys_entries exec-time 2178008ns
-2025-11-17 20:42:55 | sel:      : Micro	micro
-2025-11-17 20:42:55 | label:    : Micro
-2025-11-17 20:42:55 | cmd:     micro
-2025-11-17 20:43:02 | open
-2025-11-17 20:43:03 | windows_entries exec-time 12516609ns
-2025-11-17 20:43:03 | cust_entries exec-time 995914ns
-2025-11-17 20:43:03 | apps_entries exec-time 7371127ns
-2025-11-17 20:43:03 | hist_entries exec-time 29309662ns
-2025-11-17 20:43:03 | web_entries exec-time 2906212ns
-2025-11-17 20:43:03 | sys_entries exec-time 2330591ns
-2025-11-17 20:43:33 | open
-2025-11-17 20:43:33 | windows_entries exec-time 12469499ns
-2025-11-17 20:43:33 | cust_entries exec-time 1257545ns
-2025-11-17 20:43:33 | apps_entries exec-time 4537054ns
-2025-11-17 20:43:33 | hist_entries exec-time 25830179ns
-2025-11-17 20:43:33 | web_entries exec-time 2399441ns
-2025-11-17 20:43:33 | sys_entries exec-time 2357448ns
-2025-11-17 20:43:52 | no selection (user cancelled)
-2025-11-17 20:43:56 | open
-2025-11-17 20:43:56 | windows_entries exec-time 12456712ns
-2025-11-17 20:43:56 | cust_entries exec-time 1216647ns
-2025-11-17 20:43:56 | apps_entries exec-time 4469479ns
-2025-11-17 20:43:56 | hist_entries exec-time 25228882ns
-2025-11-17 20:43:56 | web_entries exec-time 2503661ns
-2025-11-17 20:43:56 | sys_entries exec-time 2260363ns
-2025-11-17 20:44:06 | sel:      : notification	swaync-client -t
-2025-11-17 20:44:06 | label:    : notification
-2025-11-17 20:44:06 | cmd:     swaync-client -t
-2025-11-17 20:46:23 | open
-2025-11-17 20:46:24 | windows_entries exec-time 13091743ns
-2025-11-17 20:46:24 | cust_entries exec-time 1277227ns
-2025-11-17 20:46:24 | apps_entries exec-time 4450167ns
-2025-11-17 20:46:24 | hist_entries exec-time 25732785ns
-2025-11-17 20:46:24 | web_entries exec-time 2237098ns
-2025-11-17 20:46:24 | sys_entries exec-time 2205897ns
-2025-11-17 20:46:28 | sel:      : Chromium	/usr/bin/chromium
-2025-11-17 20:46:28 | label:    : Chromium
-2025-11-17 20:46:28 | cmd:     /usr/bin/chromium
-2025-11-17 21:11:35 | open
-2025-11-17 21:11:35 | windows_entries exec-time 12740643ns
-2025-11-17 21:11:35 | cust_entries exec-time 1237435ns
-2025-11-17 21:11:35 | apps_entries exec-time 5997258ns
-2025-11-17 21:11:35 | hist_entries exec-time 29875385ns
-2025-11-17 21:11:35 | web_entries exec-time 3003839ns
-2025-11-17 21:11:35 | sys_entries exec-time 2185776ns
-2025-11-17 21:11:40 | sel:      : 󰐥 PowerOff	systemctl poweroff
-2025-11-17 21:11:40 | label:    : 󰐥 PowerOff
-2025-11-17 21:11:40 | cmd:     systemctl poweroff
-2025-11-17 21:45:38 | open
-2025-11-17 21:45:39 | windows_entries exec-time 13956693ns
-2025-11-17 21:45:39 | cust_entries exec-time 4541271ns
-2025-11-17 21:45:39 | apps_entries exec-time 7091933ns
-2025-11-17 21:45:39 | hist_entries exec-time 35660739ns
-2025-11-17 21:45:39 | web_entries exec-time 4269340ns
-2025-11-17 21:45:39 | sys_entries exec-time 2770870ns
-2025-11-17 21:45:40 | sel:      : Octopi	/usr/bin/octopi
-2025-11-17 21:45:40 | label:    : Octopi
-2025-11-17 21:45:40 | cmd:     /usr/bin/octopi
-2025-11-17 21:46:27 | open
-2025-11-17 21:46:27 | apps_entries exec-time 5121210ns
-2025-11-17 21:46:29 | no selection (user cancelled)
-2025-11-17 21:46:30 | open
-2025-11-17 21:46:31 | windows_entries exec-time 15350449ns
-2025-11-17 21:46:31 | cust_entries exec-time 1722368ns
-2025-11-17 21:46:31 | apps_entries exec-time 6021512ns
-2025-11-17 21:46:31 | hist_entries exec-time 33543270ns
-2025-11-17 21:46:31 | web_entries exec-time 3045494ns
-2025-11-17 21:46:31 | sys_entries exec-time 3225322ns
-2025-11-17 21:46:32 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
-2025-11-17 21:46:32 | label:   󰖟 : ChatGPT
-2025-11-17 21:46:32 | cmd:     chromium --app=https://chat.openai.com
-2025-11-17 21:50:42 | open
-2025-11-17 21:50:43 | windows_entries exec-time 13664421ns
-2025-11-17 21:50:43 | cust_entries exec-time 1147822ns
-2025-11-17 21:50:43 | apps_entries exec-time 4444708ns
-2025-11-17 21:50:43 | hist_entries exec-time 25616936ns
-2025-11-17 21:50:43 | web_entries exec-time 2428102ns
-2025-11-17 21:50:43 | sys_entries exec-time 2191357ns
-2025-11-17 21:50:43 | sel:     󰖟 : Plex	chromium --app=https://app.plex.tv
-2025-11-17 21:50:43 | label:   󰖟 : Plex
-2025-11-17 21:50:43 | cmd:     chromium --app=https://app.plex.tv
-2025-11-17 21:52:21 | open
-2025-11-17 21:52:21 | windows_entries exec-time 13253574ns
-2025-11-17 21:52:21 | cust_entries exec-time 1262025ns
-2025-11-17 21:52:21 | apps_entries exec-time 4267520ns
-2025-11-17 21:52:21 | hist_entries exec-time 26153189ns
-2025-11-17 21:52:21 | web_entries exec-time 2297471ns
-2025-11-17 21:52:21 | sys_entries exec-time 2515648ns
-2025-11-17 21:52:24 | no selection (user cancelled)
-2025-11-17 21:52:36 | open
-2025-11-17 21:52:36 | windows_entries exec-time 13631465ns
-2025-11-17 21:52:36 | cust_entries exec-time 1248670ns
-2025-11-17 21:52:36 | apps_entries exec-time 4724401ns
-2025-11-17 21:52:36 | hist_entries exec-time 26975671ns
-2025-11-17 21:52:36 | web_entries exec-time 2276435ns
-2025-11-17 21:52:36 | sys_entries exec-time 2141224ns
-2025-11-17 21:52:38 | no selection (user cancelled)
-2025-11-17 21:52:40 | open
-2025-11-17 21:52:40 | windows_entries exec-time 13136611ns
-2025-11-17 21:52:40 | cust_entries exec-time 1347629ns
-2025-11-17 21:52:40 | apps_entries exec-time 4322504ns
-2025-11-17 21:52:40 | hist_entries exec-time 25836120ns
-2025-11-17 21:52:40 | web_entries exec-time 2334992ns
-2025-11-17 21:52:40 | sys_entries exec-time 2247462ns
-2025-11-17 21:52:44 | sel:      : Octopi	/usr/bin/octopi
-2025-11-17 21:52:44 | label:    : Octopi
-2025-11-17 21:52:44 | cmd:     /usr/bin/octopi
-2025-11-17 21:53:17 | open
-2025-11-17 21:53:18 | windows_entries exec-time 13656009ns
-2025-11-17 21:53:18 | cust_entries exec-time 1240637ns
-2025-11-17 21:53:18 | apps_entries exec-time 6079471ns
-2025-11-17 21:53:18 | hist_entries exec-time 32456698ns
-2025-11-17 21:53:18 | web_entries exec-time 3660804ns
-2025-11-17 21:53:18 | sys_entries exec-time 3398256ns
-2025-11-17 21:53:20 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
-2025-11-17 21:53:20 | label:   󰖟 : ChatGPT
-2025-11-17 21:53:20 | cmd:     chromium --app=https://chat.openai.com
-2025-11-17 21:56:08 | open
-2025-11-17 21:56:09 | windows_entries exec-time 13921058ns
-2025-11-17 21:56:09 | cust_entries exec-time 1256181ns
-2025-11-17 21:56:09 | apps_entries exec-time 4286646ns
-2025-11-17 21:56:09 | hist_entries exec-time 27775786ns
-2025-11-17 21:56:09 | web_entries exec-time 2373004ns
-2025-11-17 21:56:09 | sys_entries exec-time 2267233ns
-2025-11-17 21:56:18 | no selection (user cancelled)
-2025-11-17 21:56:19 | open
-2025-11-17 21:56:19 | windows_entries exec-time 14481638ns
-2025-11-17 21:56:19 | cust_entries exec-time 1017909ns
-2025-11-17 21:56:19 | apps_entries exec-time 4354009ns
-2025-11-17 21:56:19 | hist_entries exec-time 26308028ns
-2025-11-17 21:56:19 | web_entries exec-time 2381032ns
-2025-11-17 21:56:20 | sys_entries exec-time 3053718ns
-2025-11-17 21:56:20 | no selection (user cancelled)
-2025-11-17 21:56:21 | open
-2025-11-17 21:56:21 | windows_entries exec-time 14175953ns
-2025-11-17 21:56:21 | cust_entries exec-time 1647479ns
-2025-11-17 21:56:21 | apps_entries exec-time 4844145ns
-2025-11-17 21:56:21 | hist_entries exec-time 26661620ns
-2025-11-17 21:56:21 | web_entries exec-time 2334717ns
-2025-11-17 21:56:21 | sys_entries exec-time 2214699ns
-2025-11-17 21:56:26 | no selection (user cancelled)
-2025-11-17 21:56:28 | open
-2025-11-17 21:56:28 | windows_entries exec-time 14696480ns
-2025-11-17 21:56:28 | cust_entries exec-time 1527789ns
-2025-11-17 21:56:28 | apps_entries exec-time 4405720ns
-2025-11-17 21:56:28 | hist_entries exec-time 26598148ns
-2025-11-17 21:56:28 | web_entries exec-time 2398045ns
-2025-11-17 21:56:28 | sys_entries exec-time 2385581ns
-2025-11-17 21:56:33 | sel:      : Web	epiphany
-2025-11-17 21:56:33 | label:    : Web
-2025-11-17 21:56:33 | cmd:     epiphany
-2025-11-17 21:58:10 | open
-2025-11-17 21:58:10 | windows_entries exec-time 14651890ns
-2025-11-17 21:58:10 | cust_entries exec-time 1029660ns
-2025-11-17 21:58:10 | apps_entries exec-time 4260324ns
-2025-11-17 21:58:10 | hist_entries exec-time 25373642ns
-2025-11-17 21:58:10 | web_entries exec-time 2253456ns
-2025-11-17 21:58:10 | sys_entries exec-time 2152015ns
-2025-11-17 21:58:11 | no selection (user cancelled)
-2025-11-17 21:58:12 | open
-2025-11-17 21:58:13 | windows_entries exec-time 13358255ns
-2025-11-17 21:58:13 | cust_entries exec-time 1021876ns
-2025-11-17 21:58:13 | apps_entries exec-time 4399605ns
-2025-11-17 21:58:13 | hist_entries exec-time 26459315ns
-2025-11-17 21:58:13 | web_entries exec-time 2325000ns
-2025-11-17 21:58:13 | sys_entries exec-time 2235359ns
-2025-11-17 21:58:42 | no selection (user cancelled)
-2025-11-17 21:58:46 | open
-2025-11-17 21:58:47 | windows_entries exec-time 16795136ns
-2025-11-17 21:58:47 | cust_entries exec-time 1563396ns
-2025-11-17 21:58:47 | apps_entries exec-time 5813653ns
-2025-11-17 21:58:47 | hist_entries exec-time 36135376ns
-2025-11-17 21:58:47 | web_entries exec-time 3269347ns
-2025-11-17 21:58:47 | sys_entries exec-time 2960693ns
-2025-11-17 21:58:54 | sel:     󰋚 : [fish] code ~/.config/fzfLauncher/	code ~/.config/fzfLauncher/
-2025-11-17 21:58:54 | label:   󰋚 : [fish] code ~/.config/fzfLauncher/
-2025-11-17 21:58:54 | cmd:     code ~/.config/fzfLauncher/
-2025-11-17 22:00:52 | open
-2025-11-17 22:00:53 | windows_entries exec-time 14609094ns
-2025-11-17 22:00:53 | cust_entries exec-time 1519960ns
-2025-11-17 22:00:53 | apps_entries exec-time 4408459ns
-2025-11-17 22:00:53 | hist_entries exec-time 10763055ns
-2025-11-17 22:00:53 | web_entries exec-time 2388415ns
-2025-11-17 22:00:53 | sys_entries exec-time 3790673ns
-2025-11-17 22:00:55 | no selection (user cancelled)
-2025-11-17 22:00:56 | open
-2025-11-17 22:00:57 | windows_entries exec-time 12417272ns
-2025-11-17 22:00:57 | cust_entries exec-time 998423ns
-2025-11-17 22:00:57 | apps_entries exec-time 7034265ns
-2025-11-17 22:00:57 | hist_entries exec-time 11525610ns
-2025-11-17 22:00:57 | web_entries exec-time 2313434ns
-2025-11-17 22:00:57 | sys_entries exec-time 2207844ns
-2025-11-17 22:00:57 | no selection (user cancelled)
-2025-11-17 22:00:58 | open
-2025-11-17 22:00:59 | windows_entries exec-time 15619649ns
-2025-11-17 22:00:59 | cust_entries exec-time 1292433ns
-2025-11-17 22:00:59 | apps_entries exec-time 4378441ns
-2025-11-17 22:00:59 | hist_entries exec-time 11020153ns
-2025-11-17 22:00:59 | web_entries exec-time 3631467ns
-2025-11-17 22:00:59 | sys_entries exec-time 3340527ns
-2025-11-17 22:01:00 | no selection (user cancelled)
-2025-11-17 22:02:21 | open
-2025-11-17 22:02:22 | windows_entries exec-time 13885387ns
-2025-11-17 22:02:22 | cust_entries exec-time 1031581ns
-2025-11-17 22:02:22 | apps_entries exec-time 4316549ns
-2025-11-17 22:02:22 | hist_entries exec-time 10799556ns
-2025-11-17 22:02:22 | web_entries exec-time 2350244ns
-2025-11-17 22:02:22 | sys_entries exec-time 2262962ns
-2025-11-17 22:02:32 | sel:      : 󰜉 Restart	systemctl reboot
-2025-11-17 22:02:32 | label:    : 󰜉 Restart
-2025-11-17 22:02:32 | cmd:     systemctl reboot
-2025-11-17 22:03:52 | open
-2025-11-17 22:03:53 | windows_entries exec-time 13696181ns
-2025-11-17 22:03:53 | cust_entries exec-time 5414022ns
-2025-11-17 22:03:53 | apps_entries exec-time 6338222ns
-2025-11-17 22:03:53 | hist_entries exec-time 16663827ns
-2025-11-17 22:03:53 | web_entries exec-time 3977695ns
-2025-11-17 22:03:53 | sys_entries exec-time 3616671ns
-2025-11-17 22:03:54 | sel:      : Octopi	/usr/bin/octopi
-2025-11-17 22:03:54 | label:    : Octopi
-2025-11-17 22:03:54 | cmd:     /usr/bin/octopi
-2025-11-17 22:07:07 | open
-2025-11-17 22:07:08 | windows_entries exec-time 13449253ns
-2025-11-17 22:07:08 | cust_entries exec-time 1212204ns
-2025-11-17 22:07:08 | apps_entries exec-time 4579723ns
-2025-11-17 22:07:08 | hist_entries exec-time 11184530ns
-2025-11-17 22:07:08 | web_entries exec-time 2311746ns
-2025-11-17 22:07:08 | sys_entries exec-time 2363576ns
-2025-11-17 22:07:12 | sel:      : 󰍃 Logout	loginctl terminate-user "jgarza"
-2025-11-17 22:07:12 | label:    : 󰍃 Logout
-2025-11-17 22:07:12 | cmd:     loginctl terminate-user "jgarza"
-2025-11-17 22:10:42 | open
-2025-11-17 22:10:43 | windows_entries exec-time 14700915ns
-2025-11-17 22:10:43 | cust_entries exec-time 3446915ns
-2025-11-17 22:10:43 | apps_entries exec-time 7050724ns
-2025-11-17 22:10:43 | hist_entries exec-time 18295852ns
-2025-11-17 22:10:43 | web_entries exec-time 4620692ns
-2025-11-17 22:10:43 | sys_entries exec-time 3467327ns
-2025-11-17 22:10:44 | sel:      : Octopi	/usr/bin/octopi
-2025-11-17 22:10:44 | label:    : Octopi
-2025-11-17 22:10:44 | cmd:     /usr/bin/octopi
-2025-11-17 22:12:54 | open
-2025-11-17 22:12:55 | windows_entries exec-time 13897100ns
-2025-11-17 22:12:55 | cust_entries exec-time 1036485ns
-2025-11-17 22:12:55 | apps_entries exec-time 4247451ns
-2025-11-17 22:12:55 | hist_entries exec-time 11103552ns
-2025-11-17 22:12:55 | web_entries exec-time 2345616ns
-2025-11-17 22:12:55 | sys_entries exec-time 2204222ns
-2025-11-17 22:12:58 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
-2025-11-17 22:12:58 | label:   󰖟 : ChatGPT
-2025-11-17 22:12:58 | cmd:     chromium --app=https://chat.openai.com
-2025-11-17 22:22:11 | open
-2025-11-17 22:22:12 | windows_entries exec-time 13322560ns
-2025-11-17 22:22:12 | cust_entries exec-time 1450226ns
-2025-11-17 22:22:12 | apps_entries exec-time 4738315ns
-2025-11-17 22:22:12 | hist_entries exec-time 11078983ns
-2025-11-17 22:22:12 | web_entries exec-time 2449530ns
-2025-11-17 22:22:12 | sys_entries exec-time 2402171ns
-2025-11-17 22:22:13 | sel:      : 󰜉 Restart	systemctl reboot
-2025-11-17 22:22:13 | label:    : 󰜉 Restart
-2025-11-17 22:22:13 | cmd:     systemctl reboot
-2025-11-17 22:24:52 | open
-2025-11-17 22:24:52 | windows_entries exec-time 14016416ns
-2025-11-17 22:24:52 | cust_entries exec-time 2154182ns
-2025-11-17 22:24:52 | apps_entries exec-time 4636145ns
-2025-11-17 22:24:52 | hist_entries exec-time 11766274ns
-2025-11-17 22:24:52 | web_entries exec-time 2954624ns
-2025-11-17 22:24:52 | sys_entries exec-time 2112163ns
-2025-11-17 22:24:55 | sel:      : Chromium	/usr/bin/chromium
-2025-11-17 22:24:55 | label:    : Chromium
-2025-11-17 22:24:55 | cmd:     /usr/bin/chromium
-2025-11-17 22:25:00 | open
-2025-11-17 22:25:00 | windows_entries exec-time 14681511ns
-2025-11-17 22:25:00 | cust_entries exec-time 1016708ns
-2025-11-17 22:25:00 | apps_entries exec-time 5741768ns
-2025-11-17 22:25:00 | hist_entries exec-time 16265190ns
-2025-11-17 22:25:00 | web_entries exec-time 3502709ns
-2025-11-17 22:25:00 | sys_entries exec-time 2820003ns
-2025-11-17 22:25:01 | sel:      : Firefox	/usr/lib/firefox/firefox
-2025-11-17 22:25:01 | label:    : Firefox
-2025-11-17 22:25:01 | cmd:     /usr/lib/firefox/firefox
-2025-11-17 22:27:33 | open
-2025-11-17 22:27:34 | windows_entries exec-time 13098623ns
-2025-11-17 22:27:34 | cust_entries exec-time 1253221ns
-2025-11-17 22:27:34 | apps_entries exec-time 4630162ns
-2025-11-17 22:27:34 | hist_entries exec-time 10980200ns
-2025-11-17 22:27:34 | web_entries exec-time 2435283ns
-2025-11-17 22:27:34 | sys_entries exec-time 2184030ns
-2025-11-17 22:27:37 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:27:37 | label:    : run_update
-2025-11-17 22:27:37 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:27:52 | open
-2025-11-17 22:27:53 | windows_entries exec-time 13660353ns
-2025-11-17 22:27:53 | cust_entries exec-time 1342677ns
-2025-11-17 22:27:53 | apps_entries exec-time 6523962ns
-2025-11-17 22:27:53 | hist_entries exec-time 15147507ns
-2025-11-17 22:27:53 | web_entries exec-time 3554777ns
-2025-11-17 22:27:53 | sys_entries exec-time 3172782ns
-2025-11-17 22:27:55 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:27:55 | label:    : run_update
-2025-11-17 22:27:55 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:28:30 | open
-2025-11-17 22:28:31 | windows_entries exec-time 12265973ns
-2025-11-17 22:28:31 | cust_entries exec-time 1139966ns
-2025-11-17 22:28:31 | apps_entries exec-time 5440103ns
-2025-11-17 22:28:31 | hist_entries exec-time 14016250ns
-2025-11-17 22:28:31 | web_entries exec-time 2388937ns
-2025-11-17 22:28:31 | sys_entries exec-time 2195093ns
-2025-11-17 22:28:34 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:28:34 | label:    : run_update
-2025-11-17 22:28:34 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:28:58 | open
-2025-11-17 22:28:58 | windows_entries exec-time 13276126ns
-2025-11-17 22:28:58 | cust_entries exec-time 1181034ns
-2025-11-17 22:28:58 | apps_entries exec-time 4628094ns
-2025-11-17 22:28:58 | hist_entries exec-time 10933417ns
-2025-11-17 22:28:58 | web_entries exec-time 2363337ns
-2025-11-17 22:28:58 | sys_entries exec-time 2315709ns
-2025-11-17 22:29:01 | sel:      : 󰍃 Logout	loginctl terminate-user "jgarza"
-2025-11-17 22:29:01 | label:    : 󰍃 Logout
-2025-11-17 22:29:01 | cmd:     loginctl terminate-user "jgarza"
-2025-11-17 22:31:15 | open
-2025-11-17 22:31:15 | windows_entries exec-time 15124740ns
-2025-11-17 22:31:15 | cust_entries exec-time 4551921ns
-2025-11-17 22:31:15 | apps_entries exec-time 4631292ns
-2025-11-17 22:31:15 | hist_entries exec-time 12956437ns
-2025-11-17 22:31:15 | web_entries exec-time 3813873ns
-2025-11-17 22:31:15 | sys_entries exec-time 2155920ns
-2025-11-17 22:31:19 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:31:19 | label:    : run_update
-2025-11-17 22:31:19 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
-2025-11-17 22:32:40 | open
-2025-11-17 22:32:40 | windows_entries exec-time 13383294ns
-2025-11-17 22:32:40 | cust_entries exec-time 1284337ns
-2025-11-17 22:32:40 | apps_entries exec-time 4452293ns
-2025-11-17 22:32:40 | hist_entries exec-time 11172004ns
-2025-11-17 22:32:40 | web_entries exec-time 2345433ns
-2025-11-17 22:32:40 | sys_entries exec-time 2273246ns
-2025-11-17 22:32:41 | no selection (user cancelled)
-2025-11-17 22:34:54 | open
-2025-11-17 22:34:55 | windows_entries exec-time 13823632ns
-2025-11-17 22:34:55 | cust_entries exec-time 1248911ns
-2025-11-17 22:34:55 | apps_entries exec-time 4684169ns
-2025-11-17 22:34:55 | hist_entries exec-time 11033290ns
-2025-11-17 22:34:55 | web_entries exec-time 2408515ns
-2025-11-17 22:34:55 | sys_entries exec-time 2473262ns
-2025-11-17 22:44:28 | open
-2025-11-17 22:44:28 | windows_entries exec-time 13915593ns
-2025-11-17 22:44:28 | cust_entries exec-time 1184310ns
-2025-11-17 22:44:28 | apps_entries exec-time 4542690ns
-2025-11-17 22:44:28 | hist_entries exec-time 10704599ns
-2025-11-17 22:44:28 | web_entries exec-time 2414478ns
-2025-11-17 22:44:28 | sys_entries exec-time 2202843ns
-2025-11-17 22:44:35 | no selection (user cancelled)
-2025-11-17 22:46:21 | open
-2025-11-17 22:46:22 | windows_entries exec-time 13813580ns
-2025-11-17 22:46:22 | cust_entries exec-time 1177447ns
-2025-11-17 22:46:22 | apps_entries exec-time 5398965ns
-2025-11-17 22:46:22 | hist_entries exec-time 11211433ns
-2025-11-17 22:46:22 | web_entries exec-time 2390678ns
-2025-11-17 22:46:22 | sys_entries exec-time 2348414ns
-2025-11-17 22:46:24 | sel:      : 󰍃 Logout	loginctl terminate-user "jgarza"
-2025-11-17 22:46:24 | label:    : 󰍃 Logout
-2025-11-17 22:46:24 | cmd:     loginctl terminate-user "jgarza"
-2025-11-18 21:00:17 | open
-2025-11-18 21:00:18 | windows_entries exec-time 16486563ns
-2025-11-18 21:00:18 | cust_entries exec-time 1720212ns
-2025-11-18 21:00:18 | apps_entries exec-time 4709051ns
-2025-11-18 21:00:18 | hist_entries exec-time 10939931ns
-2025-11-18 21:00:18 | web_entries exec-time 4646578ns
-2025-11-18 21:00:18 | sys_entries exec-time 3036212ns
-2025-11-18 21:00:20 | no selection (user cancelled)
-2025-11-18 21:01:41 | open
-2025-11-18 21:01:42 | windows_entries exec-time 15397050ns
-2025-11-18 21:01:42 | cust_entries exec-time 1828769ns
-2025-11-18 21:01:42 | apps_entries exec-time 6318356ns
-2025-11-18 21:01:42 | hist_entries exec-time 15563818ns
-2025-11-18 21:01:42 | web_entries exec-time 3560514ns
-2025-11-18 21:01:42 | sys_entries exec-time 3484551ns
-2025-11-18 21:01:43 | sel:      : Files	nautilus --new-window
-2025-11-18 21:01:43 | label:    : Files
-2025-11-18 21:01:43 | cmd:     nautilus --new-window
+2025-11-21 13:40:27 | windows_entries count 0
+2025-11-21 13:40:27 | cust_entries exec-time 1672205ns
+2025-11-21 13:40:27 | cust_entries count 5
+2025-11-21 13:40:27 | apps_entries exec-time 4966321ns
+2025-11-21 13:40:27 | apps_entries count 295
+2025-11-21 13:40:27 | hist_entries exec-time 17668181ns
+2025-11-21 13:40:27 | hist_entries count 130
+2025-11-21 13:40:27 | web_entries exec-time 2791151ns
+2025-11-21 13:40:27 | web_entries count 116
+2025-11-21 13:40:27 | sys_entries exec-time 1645926ns
+2025-11-21 13:40:27 | sys_entries count 6
+2025-11-21 13:40:37 | no selection (user cancelled)
+2025-11-21 13:40:55 | open
+2025-11-21 13:40:55 | running set_app_cache,sh
+2025-11-21 13:40:56 | windows_entries exec-time 532547743ns
+2025-11-21 13:40:56 | windows_entries count 0
+2025-11-21 13:40:56 | cust_entries exec-time 1079021ns
+2025-11-21 13:40:56 | cust_entries count 5
+2025-11-21 13:40:56 | apps_entries exec-time 6982753ns
+2025-11-21 13:40:56 | apps_entries count 295
+2025-11-21 13:40:56 | hist_entries exec-time 14622387ns
+2025-11-21 13:40:56 | hist_entries count 130
+2025-11-21 13:40:56 | web_entries exec-time 4163324ns
+2025-11-21 13:40:56 | web_entries count 116
+2025-11-21 13:40:56 | sys_entries exec-time 1790504ns
+2025-11-21 13:40:56 | sys_entries count 6
+2025-11-21 13:41:09 | sel:      : 2 | □ ■ □ □  ~/fzfLauncher - fish kitty	/home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-21 13:41:09 | label:    : 2 | □ ■ □ □  ~/fzfLauncher - fish kitty
+2025-11-21 13:41:09 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 4
+2025-11-21 13:46:20 | open
+2025-11-21 13:46:20 | running set_app_cache,sh
+2025-11-21 13:46:22 | windows_entries exec-time 536691020ns
+2025-11-21 13:46:22 | windows_entries count 0
+2025-11-21 13:46:22 | cust_entries exec-time 1124681ns
+2025-11-21 13:46:22 | cust_entries count 5
+2025-11-21 13:46:22 | apps_entries exec-time 4804682ns
+2025-11-21 13:46:22 | apps_entries count 295
+2025-11-21 13:46:22 | hist_entries exec-time 18765659ns
+2025-11-21 13:46:22 | hist_entries count 130
+2025-11-21 13:46:22 | web_entries exec-time 2563703ns
+2025-11-21 13:46:22 | web_entries count 116
+2025-11-21 13:46:22 | sys_entries exec-time 1659048ns
+2025-11-21 13:46:22 | sys_entries count 6
+2025-11-21 13:46:29 | no selection (user cancelled)
+2025-11-21 13:46:37 | open
+2025-11-21 13:46:37 | running set_app_cache,sh
+2025-11-21 13:46:38 | windows_entries exec-time 535486162ns
+2025-11-21 13:46:38 | windows_entries count 0
+2025-11-21 13:46:38 | cust_entries exec-time 1078088ns
+2025-11-21 13:46:38 | cust_entries count 5
+2025-11-21 13:46:38 | apps_entries exec-time 4798135ns
+2025-11-21 13:46:38 | apps_entries count 295
+2025-11-21 13:46:38 | hist_entries exec-time 18347595ns
+2025-11-21 13:46:38 | hist_entries count 130
+2025-11-21 13:46:38 | web_entries exec-time 2569410ns
+2025-11-21 13:46:38 | web_entries count 116
+2025-11-21 13:46:38 | sys_entries exec-time 1642733ns
+2025-11-21 13:46:38 | sys_entries count 6
+2025-11-21 13:46:42 | no selection (user cancelled)
+2025-11-21 13:47:22 | open
+2025-11-21 13:47:22 | running set_app_cache,sh
+2025-11-21 13:47:23 | windows_entries exec-time 533106327ns
+2025-11-21 13:47:23 | windows_entries count 0
+2025-11-21 13:47:23 | cust_entries exec-time 2031919ns
+2025-11-21 13:47:23 | cust_entries count 5
+2025-11-21 13:47:23 | apps_entries exec-time 5643182ns
+2025-11-21 13:47:23 | apps_entries count 295
+2025-11-21 13:47:23 | hist_entries exec-time 14757772ns
+2025-11-21 13:47:23 | hist_entries count 130
+2025-11-21 13:47:23 | web_entries exec-time 4167479ns
+2025-11-21 13:47:23 | web_entries count 116
+2025-11-21 13:47:23 | sys_entries exec-time 1703707ns
+2025-11-21 13:47:23 | sys_entries count 6
+2025-11-21 13:47:44 | no selection (user cancelled)
+2025-11-21 13:48:06 | open
+2025-11-21 13:48:06 | running set_app_cache,sh
+2025-11-21 13:48:07 | windows_entries exec-time 472513615ns
+2025-11-21 13:48:07 | windows_entries count 0
+2025-11-21 13:48:07 | cust_entries exec-time 1055133ns
+2025-11-21 13:48:07 | cust_entries count 5
+2025-11-21 13:48:07 | apps_entries exec-time 7843629ns
+2025-11-21 13:48:07 | apps_entries count 295
+2025-11-21 13:48:07 | hist_entries exec-time 15378254ns
+2025-11-21 13:48:07 | hist_entries count 130
+2025-11-21 13:48:07 | web_entries exec-time 2795636ns
+2025-11-21 13:48:07 | web_entries count 116
+2025-11-21 13:48:07 | sys_entries exec-time 2448113ns
+2025-11-21 13:48:07 | sys_entries count 6
+2025-11-21 13:48:18 | no selection (user cancelled)
+2025-11-21 13:51:05 | open
+2025-11-21 13:51:05 | running set_app_cache,sh
+2025-11-21 13:51:06 | windows_entries exec-time 476188391ns
+2025-11-21 13:51:06 | windows_entries count 0
+2025-11-21 13:51:06 | cust_entries exec-time 1136845ns
+2025-11-21 13:51:06 | cust_entries count 5
+2025-11-21 13:51:06 | apps_entries exec-time 4814590ns
+2025-11-21 13:51:06 | apps_entries count 295
+2025-11-21 13:51:06 | hist_entries exec-time 17021944ns
+2025-11-21 13:51:06 | hist_entries count 130
+2025-11-21 13:51:06 | web_entries exec-time 2594358ns
+2025-11-21 13:51:06 | web_entries count 116
+2025-11-21 13:51:06 | sys_entries exec-time 1544419ns
+2025-11-21 13:51:06 | sys_entries count 6
+2025-11-21 13:51:27 | no selection (user cancelled)
+2025-11-21 13:51:38 | open
+2025-11-21 13:51:38 | running set_app_cache,sh
+2025-11-21 13:51:39 | windows_entries exec-time 476316269ns
+2025-11-21 13:51:39 | windows_entries count 0
+2025-11-21 13:51:39 | cust_entries exec-time 1209620ns
+2025-11-21 13:51:39 | cust_entries count 5
+2025-11-21 13:51:39 | apps_entries exec-time 4783830ns
+2025-11-21 13:51:39 | apps_entries count 295
+2025-11-21 13:51:39 | hist_entries exec-time 17945701ns
+2025-11-21 13:51:39 | hist_entries count 130
+2025-11-21 13:51:39 | web_entries exec-time 2581558ns
+2025-11-21 13:51:39 | web_entries count 116
+2025-11-21 13:51:39 | sys_entries exec-time 1511548ns
+2025-11-21 13:51:39 | sys_entries count 6
+2025-11-21 13:51:43 | no selection (user cancelled)
+2025-11-21 13:51:51 | open
+2025-11-21 13:51:51 | running set_app_cache,sh
+2025-11-21 13:51:52 | windows_entries exec-time 471557421ns
+2025-11-21 13:51:52 | windows_entries count 0
+2025-11-21 13:51:52 | cust_entries exec-time 1884784ns
+2025-11-21 13:51:52 | cust_entries count 5
+2025-11-21 13:51:52 | apps_entries exec-time 4964117ns
+2025-11-21 13:51:52 | apps_entries count 295
+2025-11-21 13:51:52 | hist_entries exec-time 15819977ns
+2025-11-21 13:51:52 | hist_entries count 130
+2025-11-21 13:51:52 | web_entries exec-time 3648632ns
+2025-11-21 13:51:52 | web_entries count 116
+2025-11-21 13:51:52 | sys_entries exec-time 1615093ns
+2025-11-21 13:51:52 | sys_entries count 6
+2025-11-21 13:52:01 | no selection (user cancelled)
+2025-11-21 13:52:17 | open
+2025-11-21 13:52:17 | running set_app_cache,sh
+2025-11-21 13:52:18 | windows_entries exec-time 477781756ns
+2025-11-21 13:52:18 | windows_entries count 0
+2025-11-21 13:52:18 | cust_entries exec-time 1138482ns
+2025-11-21 13:52:18 | cust_entries count 5
+2025-11-21 13:52:18 | apps_entries exec-time 4790104ns
+2025-11-21 13:52:18 | apps_entries count 295
+2025-11-21 13:52:18 | hist_entries exec-time 18832581ns
+2025-11-21 13:52:18 | hist_entries count 130
+2025-11-21 13:52:18 | web_entries exec-time 2521404ns
+2025-11-21 13:52:18 | web_entries count 116
+2025-11-21 13:52:18 | sys_entries exec-time 1603284ns
+2025-11-21 13:52:18 | sys_entries count 6
+2025-11-21 13:52:27 | sel:      : 10 | ■               fzfLauncher kitty	/home/jgarza/.config/fzfLauncher/niri_jump.sh 317
+2025-11-21 13:52:27 | label:    : 10 | ■               fzfLauncher kitty
+2025-11-21 13:52:27 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 317
+2025-11-21 13:52:31 | sel:      : 5 |      Screenshots org.gnome.Nautilus	/home/jgarza/.config/fzfLauncher/niri_jump.sh 154
+2025-11-21 13:52:31 | label:    : 5 |      Screenshots org.gnome.Nautilus
+2025-11-21 13:52:31 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 154
+2025-11-21 13:52:37 | open
+2025-11-21 13:52:37 | running set_app_cache,sh
+2025-11-21 13:52:38 | windows_entries exec-time 397836316ns
+2025-11-21 13:52:38 | windows_entries count 0
+2025-11-21 13:52:38 | cust_entries exec-time 1048496ns
+2025-11-21 13:52:38 | cust_entries count 5
+2025-11-21 13:52:38 | apps_entries exec-time 4666815ns
+2025-11-21 13:52:38 | apps_entries count 295
+2025-11-21 13:52:38 | hist_entries exec-time 16715288ns
+2025-11-21 13:52:38 | hist_entries count 130
+2025-11-21 13:52:38 | web_entries exec-time 2655223ns
+2025-11-21 13:52:38 | web_entries count 116
+2025-11-21 13:52:38 | sys_entries exec-time 1518577ns
+2025-11-21 13:52:38 | sys_entries count 6
+2025-11-21 13:52:47 | no selection (user cancelled)
+2025-11-21 13:53:11 | open
+2025-11-21 13:53:11 | running set_app_cache,sh
+2025-11-21 13:53:12 | windows_entries exec-time 433156508ns
+2025-11-21 13:53:12 | windows_entries count 0
+2025-11-21 13:53:12 | cust_entries exec-time 1047529ns
+2025-11-21 13:53:12 | cust_entries count 5
+2025-11-21 13:53:12 | apps_entries exec-time 4890430ns
+2025-11-21 13:53:12 | apps_entries count 295
+2025-11-21 13:53:12 | hist_entries exec-time 18336397ns
+2025-11-21 13:53:12 | hist_entries count 130
+2025-11-21 13:53:12 | web_entries exec-time 2653844ns
+2025-11-21 13:53:12 | web_entries count 116
+2025-11-21 13:53:12 | sys_entries exec-time 1609322ns
+2025-11-21 13:53:12 | sys_entries count 6
+2025-11-21 13:53:45 | no selection (user cancelled)
+2025-11-21 13:55:48 | open
+2025-11-21 13:55:48 | running set_app_cache,sh
+2025-11-21 13:55:49 | windows_entries exec-time 434732772ns
+2025-11-21 13:55:49 | windows_entries count 0
+2025-11-21 13:55:49 | cust_entries exec-time 1106239ns
+2025-11-21 13:55:49 | cust_entries count 5
+2025-11-21 13:55:49 | apps_entries exec-time 4917379ns
+2025-11-21 13:55:49 | apps_entries count 295
+2025-11-21 13:55:49 | hist_entries exec-time 17560538ns
+2025-11-21 13:55:49 | hist_entries count 130
+2025-11-21 13:55:49 | web_entries exec-time 2544665ns
+2025-11-21 13:55:49 | web_entries count 116
+2025-11-21 13:55:49 | sys_entries exec-time 1474632ns
+2025-11-21 13:55:49 | sys_entries count 6
+2025-11-21 13:56:54 | sel:      : 4 |               fzfLauncher org.gnome.Nautilus	/home/jgarza/.config/fzfLauncher/niri_jump.sh 3
+2025-11-21 13:56:54 | label:    : 4 |               fzfLauncher org.gnome.Nautilus
+2025-11-21 13:56:54 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 3
+2025-11-21 13:58:38 | open
+2025-11-21 13:58:38 | running set_app_cache,sh
+2025-11-21 13:58:39 | windows_entries exec-time 451702639ns
+2025-11-21 13:58:39 | windows_entries count 0
+2025-11-21 13:58:39 | cust_entries exec-time 1108334ns
+2025-11-21 13:58:39 | cust_entries count 5
+2025-11-21 13:58:39 | apps_entries exec-time 4759008ns
+2025-11-21 13:58:39 | apps_entries count 295
+2025-11-21 13:58:39 | hist_entries exec-time 18580768ns
+2025-11-21 13:58:39 | hist_entries count 130
+2025-11-21 13:58:39 | web_entries exec-time 2558248ns
+2025-11-21 13:58:39 | web_entries count 116
+2025-11-21 13:58:39 | sys_entries exec-time 1632783ns
+2025-11-21 13:58:39 | sys_entries count 6
+2025-11-21 14:06:25 | open
+2025-11-21 14:06:25 | running set_app_cache,sh
+2025-11-21 14:06:26 | windows_entries exec-time 113663090ns
+2025-11-21 14:06:26 | windows_entries count 0
+2025-11-21 14:06:26 | cust_entries exec-time 1666275ns
+2025-11-21 14:06:26 | cust_entries count 5
+2025-11-21 14:06:26 | apps_entries exec-time 7159182ns
+2025-11-21 14:06:26 | apps_entries count 295
+2025-11-21 14:06:26 | hist_entries exec-time 19581217ns
+2025-11-21 14:06:26 | hist_entries count 130
+2025-11-21 14:06:26 | web_entries exec-time 3759208ns
+2025-11-21 14:06:26 | web_entries count 116
+2025-11-21 14:06:26 | sys_entries exec-time 1995330ns
+2025-11-21 14:06:26 | sys_entries count 6
+2025-11-21 14:06:28 | sel:      : 󰐥 PowerOff	systemctl poweroff
+2025-11-21 14:06:28 | label:    : 󰐥 PowerOff
+2025-11-21 14:06:28 | cmd:     systemctl poweroff
+2025-11-21 20:45:17 | open
+2025-11-21 20:45:17 | running set_app_cache,sh
+2025-11-21 20:45:17 | windows_entries exec-time 74487538ns
+2025-11-21 20:45:17 | windows_entries count 0
+2025-11-21 20:45:17 | cust_entries exec-time 1019593ns
+2025-11-21 20:45:17 | cust_entries count 5
+2025-11-21 20:45:17 | apps_entries exec-time 5073250ns
+2025-11-21 20:45:17 | apps_entries count 295
+2025-11-21 20:45:17 | hist_entries exec-time 15773733ns
+2025-11-21 20:45:17 | hist_entries count 130
+2025-11-21 20:45:17 | web_entries exec-time 2814987ns
+2025-11-21 20:45:17 | web_entries count 116
+2025-11-21 20:45:17 | sys_entries exec-time 1456951ns
+2025-11-21 20:45:17 | sys_entries count 6
+2025-11-21 20:45:30 | sel:      : code - configs	code ~/.config/
+2025-11-21 20:45:30 | label:    : code - configs
+2025-11-21 20:45:30 | cmd:     code ~/.config/
+2025-11-21 20:46:39 | open
+2025-11-21 20:46:39 | running set_app_cache,sh
+2025-11-21 20:46:40 | windows_entries exec-time 108046039ns
+2025-11-21 20:46:40 | windows_entries count 0
+2025-11-21 20:46:40 | cust_entries exec-time 1256335ns
+2025-11-21 20:46:40 | cust_entries count 5
+2025-11-21 20:46:40 | apps_entries exec-time 5873451ns
+2025-11-21 20:46:40 | apps_entries count 295
+2025-11-21 20:46:40 | hist_entries exec-time 20559815ns
+2025-11-21 20:46:40 | hist_entries count 130
+2025-11-21 20:46:40 | web_entries exec-time 3445251ns
+2025-11-21 20:46:40 | web_entries count 116
+2025-11-21 20:46:40 | sys_entries exec-time 2181242ns
+2025-11-21 20:46:40 | sys_entries count 6
+2025-11-21 20:46:41 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-21 20:46:41 | label:   󰖟 : ChatGPT
+2025-11-21 20:46:41 | cmd:     chromium --app=https://chat.openai.com
+2025-11-21 20:48:10 | open
+2025-11-21 20:48:10 | running set_app_cache,sh
+2025-11-21 20:48:11 | windows_entries exec-time 108456143ns
+2025-11-21 20:48:11 | windows_entries count 0
+2025-11-21 20:48:11 | cust_entries exec-time 1005501ns
+2025-11-21 20:48:11 | cust_entries count 5
+2025-11-21 20:48:11 | apps_entries exec-time 4587740ns
+2025-11-21 20:48:11 | apps_entries count 295
+2025-11-21 20:48:11 | hist_entries exec-time 14689415ns
+2025-11-21 20:48:11 | hist_entries count 130
+2025-11-21 20:48:11 | web_entries exec-time 2515052ns
+2025-11-21 20:48:11 | web_entries count 116
+2025-11-21 20:48:11 | sys_entries exec-time 1502103ns
+2025-11-21 20:48:11 | sys_entries count 6
+2025-11-21 20:48:16 | sel:      : Code - OSS	code-oss
+2025-11-21 20:48:16 | label:    : Code - OSS
+2025-11-21 20:48:16 | cmd:     code-oss
+2025-11-21 20:49:23 | open
+2025-11-21 20:49:23 | running set_app_cache,sh
+2025-11-21 20:49:23 | windows_entries exec-time 109476608ns
+2025-11-21 20:49:23 | windows_entries count 0
+2025-11-21 20:49:23 | cust_entries exec-time 1064909ns
+2025-11-21 20:49:23 | cust_entries count 5
+2025-11-21 20:49:23 | apps_entries exec-time 4671779ns
+2025-11-21 20:49:23 | apps_entries count 295
+2025-11-21 20:49:23 | hist_entries exec-time 14664543ns
+2025-11-21 20:49:23 | hist_entries count 130
+2025-11-21 20:49:23 | web_entries exec-time 2375635ns
+2025-11-21 20:49:23 | web_entries count 116
+2025-11-21 20:49:23 | sys_entries exec-time 1482543ns
+2025-11-21 20:49:23 | sys_entries count 6
+2025-11-21 20:49:30 | sel:      : Mission Center	flatpak run io.missioncenter.MissionCenter
+2025-11-21 20:49:30 | label:    : Mission Center
+2025-11-21 20:49:30 | cmd:     flatpak run io.missioncenter.MissionCenter
+2025-11-21 20:49:55 | open
+2025-11-21 20:49:55 | running set_app_cache,sh
+2025-11-21 20:49:55 | windows_entries exec-time 110101305ns
+2025-11-21 20:49:55 | windows_entries count 0
+2025-11-21 20:49:55 | cust_entries exec-time 1155613ns
+2025-11-21 20:49:55 | cust_entries count 5
+2025-11-21 20:49:55 | apps_entries exec-time 4815018ns
+2025-11-21 20:49:55 | apps_entries count 295
+2025-11-21 20:49:55 | hist_entries exec-time 14684108ns
+2025-11-21 20:49:55 | hist_entries count 130
+2025-11-21 20:49:55 | web_entries exec-time 2524102ns
+2025-11-21 20:49:55 | web_entries count 116
+2025-11-21 20:49:55 | sys_entries exec-time 1467220ns
+2025-11-21 20:49:55 | sys_entries count 6
+2025-11-21 20:50:03 | sel:      : System Monitor	plasma-systemmonitor
+2025-11-21 20:50:03 | label:    : System Monitor
+2025-11-21 20:50:03 | cmd:     plasma-systemmonitor
+2025-11-21 20:50:12 | open
+2025-11-21 20:50:12 | running set_app_cache,sh
+2025-11-21 20:50:12 | windows_entries exec-time 109680352ns
+2025-11-21 20:50:12 | windows_entries count 0
+2025-11-21 20:50:12 | cust_entries exec-time 1085326ns
+2025-11-21 20:50:12 | cust_entries count 5
+2025-11-21 20:50:12 | apps_entries exec-time 4822921ns
+2025-11-21 20:50:12 | apps_entries count 295
+2025-11-21 20:50:12 | hist_entries exec-time 14311966ns
+2025-11-21 20:50:12 | hist_entries count 130
+2025-11-21 20:50:12 | web_entries exec-time 2469354ns
+2025-11-21 20:50:12 | web_entries count 116
+2025-11-21 20:50:12 | sys_entries exec-time 1460451ns
+2025-11-21 20:50:12 | sys_entries count 6
+2025-11-21 20:50:21 | sel:      : GNOME System Monitor	gnome-system-monitor
+2025-11-21 20:50:21 | label:    : GNOME System Monitor
+2025-11-21 20:50:21 | cmd:     gnome-system-monitor
+2025-11-21 20:50:49 | open
+2025-11-21 20:50:49 | running set_app_cache,sh
+2025-11-21 20:50:50 | windows_entries exec-time 97696270ns
+2025-11-21 20:50:50 | windows_entries count 0
+2025-11-21 20:50:50 | cust_entries exec-time 1100055ns
+2025-11-21 20:50:50 | cust_entries count 5
+2025-11-21 20:50:50 | apps_entries exec-time 4688273ns
+2025-11-21 20:50:50 | apps_entries count 295
+2025-11-21 20:50:50 | hist_entries exec-time 14731333ns
+2025-11-21 20:50:50 | hist_entries count 130
+2025-11-21 20:50:50 | web_entries exec-time 2538892ns
+2025-11-21 20:50:50 | web_entries count 116
+2025-11-21 20:50:50 | sys_entries exec-time 1530685ns
+2025-11-21 20:50:50 | sys_entries count 6
+2025-11-21 20:50:52 | sel:      : Code - OSS	code-oss
+2025-11-21 20:50:52 | label:    : Code - OSS
+2025-11-21 20:50:52 | cmd:     code-oss
+2025-11-21 20:52:25 | open
+2025-11-21 20:52:25 | running set_app_cache,sh
+2025-11-21 20:52:26 | windows_entries exec-time 116943180ns
+2025-11-21 20:52:26 | windows_entries count 0
+2025-11-21 20:52:26 | cust_entries exec-time 1031054ns
+2025-11-21 20:52:26 | cust_entries count 5
+2025-11-21 20:52:26 | apps_entries exec-time 5036692ns
+2025-11-21 20:52:26 | apps_entries count 295
+2025-11-21 20:52:26 | hist_entries exec-time 15040522ns
+2025-11-21 20:52:26 | hist_entries count 130
+2025-11-21 20:52:26 | web_entries exec-time 2387689ns
+2025-11-21 20:52:26 | web_entries count 116
+2025-11-21 20:52:26 | sys_entries exec-time 1508329ns
+2025-11-21 20:52:26 | sys_entries count 6
+2025-11-21 20:52:27 | no selection (user cancelled)
+2025-11-21 20:52:32 | open
+2025-11-21 20:52:32 | running set_app_cache,sh
+2025-11-21 20:52:32 | windows_entries exec-time 117381975ns
+2025-11-21 20:52:32 | windows_entries count 0
+2025-11-21 20:52:32 | cust_entries exec-time 1015712ns
+2025-11-21 20:52:32 | cust_entries count 5
+2025-11-21 20:52:32 | apps_entries exec-time 4640541ns
+2025-11-21 20:52:32 | apps_entries count 295
+2025-11-21 20:52:32 | hist_entries exec-time 14685189ns
+2025-11-21 20:52:32 | hist_entries count 130
+2025-11-21 20:52:32 | web_entries exec-time 2456461ns
+2025-11-21 20:52:32 | web_entries count 116
+2025-11-21 20:52:32 | sys_entries exec-time 1585758ns
+2025-11-21 20:52:32 | sys_entries count 6
+2025-11-21 20:52:34 | sel:      : Octopi	/usr/bin/octopi
+2025-11-21 20:52:34 | label:    : Octopi
+2025-11-21 20:52:34 | cmd:     /usr/bin/octopi
+2025-11-21 20:52:56 | open
+2025-11-21 20:52:56 | running set_app_cache,sh
+2025-11-21 20:52:57 | windows_entries exec-time 97230140ns
+2025-11-21 20:52:57 | windows_entries count 0
+2025-11-21 20:52:57 | cust_entries exec-time 1041200ns
+2025-11-21 20:52:57 | cust_entries count 5
+2025-11-21 20:52:57 | apps_entries exec-time 4565827ns
+2025-11-21 20:52:57 | apps_entries count 295
+2025-11-21 20:52:57 | hist_entries exec-time 14830474ns
+2025-11-21 20:52:57 | hist_entries count 130
+2025-11-21 20:52:57 | web_entries exec-time 2414932ns
+2025-11-21 20:52:57 | web_entries count 116
+2025-11-21 20:52:57 | sys_entries exec-time 1482540ns
+2025-11-21 20:52:57 | sys_entries count 6
+2025-11-21 20:53:02 | no selection (user cancelled)
+2025-11-21 20:53:09 | open
+2025-11-21 20:53:09 | running set_app_cache,sh
+2025-11-21 20:53:10 | windows_entries exec-time 110007478ns
+2025-11-21 20:53:10 | windows_entries count 0
+2025-11-21 20:53:10 | cust_entries exec-time 1078097ns
+2025-11-21 20:53:10 | cust_entries count 5
+2025-11-21 20:53:10 | apps_entries exec-time 4722584ns
+2025-11-21 20:53:10 | apps_entries count 295
+2025-11-21 20:53:10 | hist_entries exec-time 14652770ns
+2025-11-21 20:53:10 | hist_entries count 130
+2025-11-21 20:53:10 | web_entries exec-time 2544628ns
+2025-11-21 20:53:10 | web_entries count 116
+2025-11-21 20:53:10 | sys_entries exec-time 1583437ns
+2025-11-21 20:53:10 | sys_entries count 6
+2025-11-21 20:53:14 | no selection (user cancelled)
+2025-11-21 20:53:46 | open
+2025-11-21 20:53:46 | running set_app_cache,sh
+2025-11-21 20:53:47 | windows_entries exec-time 109926185ns
+2025-11-21 20:53:47 | windows_entries count 0
+2025-11-21 20:53:47 | cust_entries exec-time 1011174ns
+2025-11-21 20:53:47 | cust_entries count 5
+2025-11-21 20:53:47 | apps_entries exec-time 4626313ns
+2025-11-21 20:53:47 | apps_entries count 295
+2025-11-21 20:53:47 | hist_entries exec-time 14990611ns
+2025-11-21 20:53:47 | hist_entries count 130
+2025-11-21 20:53:47 | web_entries exec-time 2531440ns
+2025-11-21 20:53:47 | web_entries count 116
+2025-11-21 20:53:47 | sys_entries exec-time 1484075ns
+2025-11-21 20:53:47 | sys_entries count 6
+2025-11-21 20:53:49 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-21 20:53:49 | label:    : run_update
+2025-11-21 20:53:49 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-21 20:57:46 | open
+2025-11-21 20:57:46 | running set_app_cache,sh
+2025-11-21 20:57:47 | windows_entries exec-time 616027607ns
+2025-11-21 20:57:47 | windows_entries count 0
+2025-11-21 20:57:47 | cust_entries exec-time 1687150ns
+2025-11-21 20:57:47 | cust_entries count 5
+2025-11-21 20:57:47 | apps_entries exec-time 9130863ns
+2025-11-21 20:57:47 | apps_entries count 295
+2025-11-21 20:57:47 | hist_entries exec-time 60113852ns
+2025-11-21 20:57:47 | hist_entries count 130
+2025-11-21 20:57:47 | web_entries exec-time 4016970ns
+2025-11-21 20:57:47 | web_entries count 116
+2025-11-21 20:57:47 | sys_entries exec-time 5198687ns
+2025-11-21 20:57:47 | sys_entries count 6
+2025-11-21 20:57:49 | sel:      : Chromium	/usr/bin/chromium
+2025-11-21 20:57:49 | label:    : Chromium
+2025-11-21 20:57:49 | cmd:     /usr/bin/chromium
+2025-11-21 20:58:55 | open
+2025-11-21 20:58:55 | running set_app_cache,sh
+2025-11-21 20:58:55 | windows_entries exec-time 270569955ns
+2025-11-21 20:58:55 | windows_entries count 0
+2025-11-21 20:58:55 | cust_entries exec-time 2047218ns
+2025-11-21 20:58:55 | cust_entries count 5
+2025-11-21 20:58:55 | apps_entries exec-time 7456417ns
+2025-11-21 20:58:55 | apps_entries count 295
+2025-11-21 20:58:56 | hist_entries exec-time 27095034ns
+2025-11-21 20:58:56 | hist_entries count 130
+2025-11-21 20:58:56 | web_entries exec-time 3264094ns
+2025-11-21 20:58:56 | web_entries count 116
+2025-11-21 20:58:56 | sys_entries exec-time 2339883ns
+2025-11-21 20:58:56 | sys_entries count 6
+2025-11-21 20:58:59 | sel:     󰋚 : [fish] files ~/Wallpapers/	files ~/Wallpapers/
+2025-11-21 20:58:59 | label:   󰋚 : [fish] files ~/Wallpapers/
+2025-11-21 20:58:59 | cmd:     files ~/Wallpapers/
+2025-11-21 20:59:43 | open
+2025-11-21 20:59:43 | running set_app_cache,sh
+2025-11-21 20:59:44 | windows_entries exec-time 266300728ns
+2025-11-21 20:59:44 | windows_entries count 0
+2025-11-21 20:59:44 | cust_entries exec-time 1611295ns
+2025-11-21 20:59:44 | cust_entries count 5
+2025-11-21 20:59:44 | apps_entries exec-time 7023236ns
+2025-11-21 20:59:44 | apps_entries count 295
+2025-11-21 20:59:44 | hist_entries exec-time 22303722ns
+2025-11-21 20:59:44 | hist_entries count 130
+2025-11-21 20:59:44 | web_entries exec-time 3202064ns
+2025-11-21 20:59:44 | web_entries count 116
+2025-11-21 20:59:44 | sys_entries exec-time 1877619ns
+2025-11-21 20:59:44 | sys_entries count 6
+2025-11-21 21:00:02 | sel:     󰋚 : [fish] files ~/Wallpapers/	files ~/Wallpapers/
+2025-11-21 21:00:02 | label:   󰋚 : [fish] files ~/Wallpapers/
+2025-11-21 21:00:02 | cmd:     files ~/Wallpapers/
+2025-11-21 21:09:31 | open
+2025-11-21 21:09:31 | running set_app_cache,sh
+2025-11-21 21:09:32 | windows_entries exec-time 258489693ns
+2025-11-21 21:09:32 | windows_entries count 0
+2025-11-21 21:09:32 | cust_entries exec-time 2063664ns
+2025-11-21 21:09:32 | cust_entries count 5
+2025-11-21 21:09:32 | apps_entries exec-time 6781396ns
+2025-11-21 21:09:32 | apps_entries count 295
+2025-11-21 21:09:32 | hist_entries exec-time 20932500ns
+2025-11-21 21:09:32 | hist_entries count 130
+2025-11-21 21:09:32 | web_entries exec-time 3536299ns
+2025-11-21 21:09:32 | web_entries count 116
+2025-11-21 21:09:32 | sys_entries exec-time 2107362ns
+2025-11-21 21:09:32 | sys_entries count 6
+2025-11-21 21:09:33 | sel:      :  Lock	hyprlock
+2025-11-21 21:09:33 | label:    :  Lock
+2025-11-21 21:09:33 | cmd:     hyprlock
+2025-11-21 21:09:54 | open
+2025-11-21 21:09:54 | running set_app_cache,sh
+2025-11-21 21:09:55 | windows_entries exec-time 146001426ns
+2025-11-21 21:09:55 | windows_entries count 0
+2025-11-21 21:09:55 | cust_entries exec-time 1150630ns
+2025-11-21 21:09:55 | cust_entries count 5
+2025-11-21 21:09:55 | apps_entries exec-time 8364690ns
+2025-11-21 21:09:55 | apps_entries count 295
+2025-11-21 21:09:55 | hist_entries exec-time 14801370ns
+2025-11-21 21:09:55 | hist_entries count 130
+2025-11-21 21:09:55 | web_entries exec-time 2689671ns
+2025-11-21 21:09:55 | web_entries count 116
+2025-11-21 21:09:55 | sys_entries exec-time 2472199ns
+2025-11-21 21:09:55 | sys_entries count 6
+2025-11-21 21:10:20 | sel:      : 4 |                 Wallpapers - Chromium chromium	/home/jgarza/.config/fzfLauncher/niri_jump.sh 31
+2025-11-21 21:10:20 | label:    : 4 |                 Wallpapers - Chromium chromium
+2025-11-21 21:10:20 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 31
+2025-11-21 21:10:27 | open
+2025-11-21 21:10:27 | running set_app_cache,sh
+2025-11-21 21:10:27 | windows_entries exec-time 130228664ns
+2025-11-21 21:10:27 | windows_entries count 0
+2025-11-21 21:10:27 | cust_entries exec-time 1049590ns
+2025-11-21 21:10:27 | cust_entries count 5
+2025-11-21 21:10:27 | apps_entries exec-time 4735032ns
+2025-11-21 21:10:27 | apps_entries count 295
+2025-11-21 21:10:27 | hist_entries exec-time 14593756ns
+2025-11-21 21:10:27 | hist_entries count 130
+2025-11-21 21:10:27 | web_entries exec-time 2545235ns
+2025-11-21 21:10:27 | web_entries count 116
+2025-11-21 21:10:27 | sys_entries exec-time 1555197ns
+2025-11-21 21:10:27 | sys_entries count 6
+2025-11-21 21:10:46 | sel:      : 3 |                Codex - Chromium chromium	/home/jgarza/.config/fzfLauncher/niri_jump.sh 11
+2025-11-21 21:10:46 | label:    : 3 |                Codex - Chromium chromium
+2025-11-21 21:10:46 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 11
+2025-11-21 21:11:08 | open
+2025-11-21 21:11:08 | running set_app_cache,sh
+2025-11-21 21:11:09 | windows_entries exec-time 117132872ns
+2025-11-21 21:11:09 | windows_entries count 0
+2025-11-21 21:11:09 | cust_entries exec-time 1026667ns
+2025-11-21 21:11:09 | cust_entries count 5
+2025-11-21 21:11:09 | apps_entries exec-time 4946868ns
+2025-11-21 21:11:09 | apps_entries count 295
+2025-11-21 21:11:09 | hist_entries exec-time 15202631ns
+2025-11-21 21:11:09 | hist_entries count 130
+2025-11-21 21:11:09 | web_entries exec-time 2517478ns
+2025-11-21 21:11:09 | web_entries count 116
+2025-11-21 21:11:09 | sys_entries exec-time 1472505ns
+2025-11-21 21:11:09 | sys_entries count 6
+2025-11-21 21:11:16 | sel:     󰋚 : [fish] code ~/.config/fzfLauncher/	code ~/.config/fzfLauncher/
+2025-11-21 21:11:16 | label:   󰋚 : [fish] code ~/.config/fzfLauncher/
+2025-11-21 21:11:16 | cmd:     code ~/.config/fzfLauncher/
+2025-11-21 21:11:26 | open
+2025-11-21 21:11:26 | running set_app_cache,sh
+2025-11-21 21:11:26 | windows_entries exec-time 14587182ns
+2025-11-21 21:11:26 | windows_entries count 5
+2025-11-21 21:11:26 | cust_entries exec-time 1293192ns
+2025-11-21 21:11:26 | cust_entries count 5
+2025-11-21 21:11:26 | apps_entries exec-time 4849160ns
+2025-11-21 21:11:26 | apps_entries count 295
+2025-11-21 21:11:26 | hist_entries exec-time 14528840ns
+2025-11-21 21:11:26 | hist_entries count 130
+2025-11-21 21:11:26 | web_entries exec-time 2586078ns
+2025-11-21 21:11:26 | web_entries count 116
+2025-11-21 21:11:27 | sys_entries exec-time 1641017ns
+2025-11-21 21:11:27 | sys_entries count 6
+2025-11-21 21:11:44 | no selection (user cancelled)
+2025-11-21 21:11:47 | open
+2025-11-21 21:11:47 | running set_app_cache,sh
+2025-11-21 21:11:48 | windows_entries exec-time 14789230ns
+2025-11-21 21:11:48 | windows_entries count 5
+2025-11-21 21:11:48 | cust_entries exec-time 1291567ns
+2025-11-21 21:11:48 | cust_entries count 5
+2025-11-21 21:11:48 | apps_entries exec-time 5002404ns
+2025-11-21 21:11:48 | apps_entries count 295
+2025-11-21 21:11:48 | hist_entries exec-time 14500801ns
+2025-11-21 21:11:48 | hist_entries count 130
+2025-11-21 21:11:48 | web_entries exec-time 2473783ns
+2025-11-21 21:11:48 | web_entries count 116
+2025-11-21 21:11:48 | sys_entries exec-time 1549796ns
+2025-11-21 21:11:48 | sys_entries count 6
+2025-11-21 21:11:49 | no selection (user cancelled)
+2025-11-21 21:12:50 | open
+2025-11-21 21:12:50 | running set_app_cache,sh
+2025-11-21 21:12:51 | windows_entries exec-time 162667570ns
+2025-11-21 21:12:51 | windows_entries count 0
+2025-11-21 21:12:51 | cust_entries exec-time 987507ns
+2025-11-21 21:12:51 | cust_entries count 5
+2025-11-21 21:12:51 | apps_entries exec-time 5019969ns
+2025-11-21 21:12:51 | apps_entries count 295
+2025-11-21 21:12:51 | hist_entries exec-time 14571363ns
+2025-11-21 21:12:51 | hist_entries count 130
+2025-11-21 21:12:51 | web_entries exec-time 2599515ns
+2025-11-21 21:12:51 | web_entries count 116
+2025-11-21 21:12:51 | sys_entries exec-time 1572131ns
+2025-11-21 21:12:51 | sys_entries count 6
+2025-11-21 21:12:54 | no selection (user cancelled)
+2025-11-21 21:13:00 | open
+2025-11-21 21:13:00 | running set_app_cache,sh
+2025-11-21 21:13:01 | windows_entries exec-time 188448047ns
+2025-11-21 21:13:01 | windows_entries count 0
+2025-11-21 21:13:01 | cust_entries exec-time 1339029ns
+2025-11-21 21:13:01 | cust_entries count 5
+2025-11-21 21:13:01 | apps_entries exec-time 4958439ns
+2025-11-21 21:13:01 | apps_entries count 295
+2025-11-21 21:13:01 | hist_entries exec-time 17756389ns
+2025-11-21 21:13:01 | hist_entries count 130
+2025-11-21 21:13:01 | web_entries exec-time 2730460ns
+2025-11-21 21:13:01 | web_entries count 116
+2025-11-21 21:13:01 | sys_entries exec-time 1535058ns
+2025-11-21 21:13:01 | sys_entries count 6
+2025-11-21 21:13:12 | sel:      : 3 |               ~ - fish kitty	/home/jgarza/.config/fzfLauncher/niri_jump.sh 49
+2025-11-21 21:13:12 | label:    : 3 |               ~ - fish kitty
+2025-11-21 21:13:12 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 49
+2025-11-21 21:13:28 | open
+2025-11-21 21:13:28 | running set_app_cache,sh
+2025-11-21 21:13:29 | windows_entries exec-time 153556404ns
+2025-11-21 21:13:29 | windows_entries count 0
+2025-11-21 21:13:29 | cust_entries exec-time 1058017ns
+2025-11-21 21:13:29 | cust_entries count 5
+2025-11-21 21:13:29 | apps_entries exec-time 4922598ns
+2025-11-21 21:13:29 | apps_entries count 295
+2025-11-21 21:13:29 | hist_entries exec-time 14953208ns
+2025-11-21 21:13:29 | hist_entries count 130
+2025-11-21 21:13:29 | web_entries exec-time 2546157ns
+2025-11-21 21:13:29 | web_entries count 116
+2025-11-21 21:13:29 | sys_entries exec-time 1520322ns
+2025-11-21 21:13:29 | sys_entries count 6
+2025-11-21 21:15:01 | open
+2025-11-21 21:15:01 | running set_app_cache,sh
+2025-11-21 21:15:01 | windows_entries exec-time 222309008ns
+2025-11-21 21:15:01 | windows_entries count 0
+2025-11-21 21:15:01 | cust_entries exec-time 1328044ns
+2025-11-21 21:15:01 | cust_entries count 5
+2025-11-21 21:15:01 | apps_entries exec-time 4739847ns
+2025-11-21 21:15:01 | apps_entries count 295
+2025-11-21 21:15:01 | hist_entries exec-time 17448739ns
+2025-11-21 21:15:01 | hist_entries count 130
+2025-11-21 21:15:01 | web_entries exec-time 2900086ns
+2025-11-21 21:15:01 | web_entries count 116
+2025-11-21 21:15:01 | sys_entries exec-time 1489527ns
+2025-11-21 21:15:01 | sys_entries count 6
+2025-11-21 21:15:37 | sel:      : 3 | 󰄶                fzfLauncher kitty	/home/jgarza/.config/fzfLauncher/niri_jump.sh 56
+2025-11-21 21:15:37 | label:    : 3 | 󰄶                fzfLauncher kitty
+2025-11-21 21:15:37 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 56
+2025-11-21 21:16:41 | open
+2025-11-21 21:16:41 | running set_app_cache,sh
+2025-11-21 21:16:42 | windows_entries exec-time 226409084ns
+2025-11-21 21:16:42 | windows_entries count 0
+2025-11-21 21:16:42 | cust_entries exec-time 998964ns
+2025-11-21 21:16:42 | cust_entries count 5
+2025-11-21 21:16:42 | apps_entries exec-time 4844540ns
+2025-11-21 21:16:42 | apps_entries count 295
+2025-11-21 21:16:42 | hist_entries exec-time 19019171ns
+2025-11-21 21:16:42 | hist_entries count 130
+2025-11-21 21:16:42 | web_entries exec-time 2473069ns
+2025-11-21 21:16:42 | web_entries count 116
+2025-11-21 21:16:42 | sys_entries exec-time 1498810ns
+2025-11-21 21:16:42 | sys_entries count 6
+2025-11-21 21:17:09 | no selection (user cancelled)
+2025-11-21 21:18:25 | open
+2025-11-21 21:18:25 | running set_app_cache,sh
+2025-11-21 21:18:26 | windows_entries exec-time 115096429ns
+2025-11-21 21:18:26 | windows_entries count 0
+2025-11-21 21:18:26 | cust_entries exec-time 1066949ns
+2025-11-21 21:18:26 | cust_entries count 5
+2025-11-21 21:18:26 | apps_entries exec-time 4712760ns
+2025-11-21 21:18:26 | apps_entries count 295
+2025-11-21 21:18:26 | hist_entries exec-time 14659714ns
+2025-11-21 21:18:26 | hist_entries count 130
+2025-11-21 21:18:26 | web_entries exec-time 2468449ns
+2025-11-21 21:18:26 | web_entries count 116
+2025-11-21 21:18:26 | sys_entries exec-time 1587600ns
+2025-11-21 21:18:26 | sys_entries count 6
+2025-11-21 21:18:48 | no selection (user cancelled)
+2025-11-21 21:21:12 | open
+2025-11-21 21:21:12 | running set_app_cache,sh
+2025-11-21 21:21:13 | windows_entries exec-time 91134632ns
+2025-11-21 21:21:13 | windows_entries count 0
+2025-11-21 21:21:13 | cust_entries exec-time 1000416ns
+2025-11-21 21:21:13 | cust_entries count 5
+2025-11-21 21:21:13 | apps_entries exec-time 4723274ns
+2025-11-21 21:21:13 | apps_entries count 295
+2025-11-21 21:21:13 | hist_entries exec-time 14705633ns
+2025-11-21 21:21:13 | hist_entries count 130
+2025-11-21 21:21:13 | web_entries exec-time 2468552ns
+2025-11-21 21:21:13 | web_entries count 116
+2025-11-21 21:21:13 | sys_entries exec-time 1614740ns
+2025-11-21 21:21:13 | sys_entries count 6
+2025-11-21 21:21:13 | no selection (user cancelled)
+2025-11-21 21:22:39 | open
+2025-11-21 21:22:39 | running set_app_cache,sh
+2025-11-21 21:22:40 | windows_entries exec-time 190910451ns
+2025-11-21 21:22:40 | windows_entries count 0
+2025-11-21 21:22:40 | cust_entries exec-time 1615126ns
+2025-11-21 21:22:40 | cust_entries count 5
+2025-11-21 21:22:40 | apps_entries exec-time 9741151ns
+2025-11-21 21:22:40 | apps_entries count 295
+2025-11-21 21:22:40 | hist_entries exec-time 35882190ns
+2025-11-21 21:22:40 | hist_entries count 130
+2025-11-21 21:22:40 | web_entries exec-time 4656125ns
+2025-11-21 21:22:40 | web_entries count 116
+2025-11-21 21:22:40 | sys_entries exec-time 3392375ns
+2025-11-21 21:22:40 | sys_entries count 6
+2025-11-21 21:22:43 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-21 21:22:43 | label:    : run_update
+2025-11-21 21:22:43 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-21 21:30:25 | open
+2025-11-21 21:30:25 | running set_app_cache,sh
+2025-11-21 21:30:25 | windows_entries exec-time 82527791ns
+2025-11-21 21:30:25 | windows_entries count 0
+2025-11-21 21:30:25 | cust_entries exec-time 1045078ns
+2025-11-21 21:30:25 | cust_entries count 5
+2025-11-21 21:30:25 | apps_entries exec-time 4939730ns
+2025-11-21 21:30:25 | apps_entries count 295
+2025-11-21 21:30:25 | hist_entries exec-time 14844023ns
+2025-11-21 21:30:25 | hist_entries count 130
+2025-11-21 21:30:25 | web_entries exec-time 2498785ns
+2025-11-21 21:30:25 | web_entries count 116
+2025-11-21 21:30:25 | sys_entries exec-time 1472279ns
+2025-11-21 21:30:25 | sys_entries count 6
+2025-11-21 21:30:27 | sel:      : 󰐥 PowerOff	systemctl poweroff
+2025-11-21 21:30:27 | label:    : 󰐥 PowerOff
+2025-11-21 21:30:27 | cmd:     systemctl poweroff
+2025-11-23 16:51:19 | open
+2025-11-23 16:51:19 | running set_app_cache,sh
+2025-11-23 16:51:20 | windows_entries exec-time 80514970ns
+2025-11-23 16:51:20 | windows_entries count 0
+2025-11-23 16:51:20 | cust_entries exec-time 1107895ns
+2025-11-23 16:51:20 | cust_entries count 5
+2025-11-23 16:51:20 | apps_entries exec-time 5046874ns
+2025-11-23 16:51:20 | apps_entries count 295
+2025-11-23 16:51:20 | hist_entries exec-time 15360666ns
+2025-11-23 16:51:20 | hist_entries count 130
+2025-11-23 16:51:20 | web_entries exec-time 2758488ns
+2025-11-23 16:51:20 | web_entries count 116
+2025-11-23 16:51:20 | sys_entries exec-time 1718934ns
+2025-11-23 16:51:20 | sys_entries count 6
+2025-11-23 16:51:20 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-23 16:51:20 | label:   󰖟 : ChatGPT
+2025-11-23 16:51:20 | cmd:     chromium --app=https://chat.openai.com
+2025-11-23 16:58:16 | open
+2025-11-23 16:58:16 | running set_app_cache,sh
+2025-11-23 16:58:17 | windows_entries exec-time 104157130ns
+2025-11-23 16:58:17 | windows_entries count 0
+2025-11-23 16:58:17 | cust_entries exec-time 1032830ns
+2025-11-23 16:58:17 | cust_entries count 5
+2025-11-23 16:58:17 | apps_entries exec-time 4625930ns
+2025-11-23 16:58:17 | apps_entries count 295
+2025-11-23 16:58:17 | hist_entries exec-time 14830346ns
+2025-11-23 16:58:17 | hist_entries count 130
+2025-11-23 16:58:17 | web_entries exec-time 2417763ns
+2025-11-23 16:58:17 | web_entries count 116
+2025-11-23 16:58:17 | sys_entries exec-time 1550527ns
+2025-11-23 16:58:17 | sys_entries count 6
+2025-11-23 16:58:20 | sel:      : run_update	~/.config/niri/scripts/pkgupdate.sh
+2025-11-23 16:58:20 | label:    : run_update
+2025-11-23 16:58:20 | cmd:     ~/.config/niri/scripts/pkgupdate.sh
+2025-11-23 17:03:45 | open
+2025-11-23 17:03:45 | running set_app_cache,sh
+2025-11-23 17:03:46 | windows_entries exec-time 368792265ns
+2025-11-23 17:03:46 | windows_entries count 0
+2025-11-23 17:03:46 | cust_entries exec-time 3128398ns
+2025-11-23 17:03:46 | cust_entries count 5
+2025-11-23 17:03:46 | apps_entries exec-time 12759271ns
+2025-11-23 17:03:46 | apps_entries count 295
+2025-11-23 17:03:46 | hist_entries exec-time 47747037ns
+2025-11-23 17:03:46 | hist_entries count 130
+2025-11-23 17:03:46 | web_entries exec-time 15369175ns
+2025-11-23 17:03:46 | web_entries count 116
+2025-11-23 17:03:47 | sys_entries exec-time 4079591ns
+2025-11-23 17:03:47 | sys_entries count 6
+2025-11-23 17:03:52 | no selection (user cancelled)
+2025-11-23 17:07:35 | open
+2025-11-23 17:07:35 | running set_app_cache,sh
+2025-11-23 17:07:36 | windows_entries exec-time 213607796ns
+2025-11-23 17:07:36 | windows_entries count 0
+2025-11-23 17:07:36 | cust_entries exec-time 1456999ns
+2025-11-23 17:07:36 | cust_entries count 5
+2025-11-23 17:07:36 | apps_entries exec-time 6348476ns
+2025-11-23 17:07:36 | apps_entries count 295
+2025-11-23 17:07:36 | hist_entries exec-time 20459400ns
+2025-11-23 17:07:36 | hist_entries count 130
+2025-11-23 17:07:36 | web_entries exec-time 3787919ns
+2025-11-23 17:07:36 | web_entries count 116
+2025-11-23 17:07:36 | sys_entries exec-time 1892577ns
+2025-11-23 17:07:36 | sys_entries count 6
+2025-11-23 17:07:38 | sel:      : Files	nautilus --new-window
+2025-11-23 17:07:38 | label:    : Files
+2025-11-23 17:07:38 | cmd:     nautilus --new-window
+2025-11-23 17:24:47 | open
+2025-11-23 17:24:47 | running set_app_cache,sh
+2025-11-23 17:24:47 | windows_entries exec-time 188222933ns
+2025-11-23 17:24:47 | windows_entries count 0
+2025-11-23 17:24:47 | cust_entries exec-time 1068666ns
+2025-11-23 17:24:47 | cust_entries count 5
+2025-11-23 17:24:47 | apps_entries exec-time 4767416ns
+2025-11-23 17:24:47 | apps_entries count 295
+2025-11-23 17:24:47 | hist_entries exec-time 14829206ns
+2025-11-23 17:24:47 | hist_entries count 130
+2025-11-23 17:24:47 | web_entries exec-time 2514469ns
+2025-11-23 17:24:47 | web_entries count 116
+2025-11-23 17:24:47 | sys_entries exec-time 1588816ns
+2025-11-23 17:24:47 | sys_entries count 6
+2025-11-23 17:24:58 | no selection (user cancelled)
+2025-11-23 17:25:02 | open
+2025-11-23 17:25:02 | running set_app_cache,sh
+2025-11-23 17:25:02 | windows_entries exec-time 187483175ns
+2025-11-23 17:25:02 | windows_entries count 0
+2025-11-23 17:25:02 | cust_entries exec-time 1034715ns
+2025-11-23 17:25:02 | cust_entries count 5
+2025-11-23 17:25:02 | apps_entries exec-time 4825943ns
+2025-11-23 17:25:02 | apps_entries count 295
+2025-11-23 17:25:02 | hist_entries exec-time 15007346ns
+2025-11-23 17:25:02 | hist_entries count 130
+2025-11-23 17:25:02 | web_entries exec-time 2470761ns
+2025-11-23 17:25:02 | web_entries count 116
+2025-11-23 17:25:02 | sys_entries exec-time 1598559ns
+2025-11-23 17:25:02 | sys_entries count 6
+2025-11-23 17:25:10 | no selection (user cancelled)
+2025-11-23 17:27:50 | open
+2025-11-23 17:27:50 | running set_app_cache,sh
+2025-11-23 17:27:50 | windows_entries exec-time 80238724ns
+2025-11-23 17:27:50 | windows_entries count 0
+2025-11-23 17:27:50 | cust_entries exec-time 1044714ns
+2025-11-23 17:27:50 | cust_entries count 5
+2025-11-23 17:27:51 | apps_entries exec-time 4812912ns
+2025-11-23 17:27:51 | apps_entries count 295
+2025-11-23 17:27:51 | hist_entries exec-time 15230081ns
+2025-11-23 17:27:51 | hist_entries count 130
+2025-11-23 17:27:51 | web_entries exec-time 2429891ns
+2025-11-23 17:27:51 | web_entries count 116
+2025-11-23 17:27:51 | sys_entries exec-time 1563797ns
+2025-11-23 17:27:51 | sys_entries count 6
+2025-11-23 17:27:56 | sel:      : 󰜉 Reboot	systemctl reboot
+2025-11-23 17:27:56 | label:    : 󰜉 Reboot
+2025-11-23 17:27:56 | cmd:     systemctl reboot
+2025-11-23 17:29:04 | open
+2025-11-23 17:29:04 | running set_app_cache,sh
+2025-11-23 17:29:05 | windows_entries exec-time 82315908ns
+2025-11-23 17:29:05 | windows_entries count 0
+2025-11-23 17:29:05 | cust_entries exec-time 1066086ns
+2025-11-23 17:29:05 | cust_entries count 5
+2025-11-23 17:29:05 | apps_entries exec-time 5940254ns
+2025-11-23 17:29:05 | apps_entries count 295
+2025-11-23 17:29:05 | hist_entries exec-time 16400517ns
+2025-11-23 17:29:05 | hist_entries count 130
+2025-11-23 17:29:05 | web_entries exec-time 2937800ns
+2025-11-23 17:29:05 | web_entries count 116
+2025-11-23 17:29:05 | sys_entries exec-time 1585198ns
+2025-11-23 17:29:05 | sys_entries count 6
+2025-11-23 17:29:13 | sel:      : Bluetooth Manager	blueman-manager
+2025-11-23 17:29:13 | label:    : Bluetooth Manager
+2025-11-23 17:29:13 | cmd:     blueman-manager
+2025-11-23 17:30:55 | open
+2025-11-23 17:30:55 | running set_app_cache,sh
+2025-11-23 17:30:55 | windows_entries exec-time 80132870ns
+2025-11-23 17:30:55 | windows_entries count 0
+2025-11-23 17:30:55 | cust_entries exec-time 1038748ns
+2025-11-23 17:30:55 | cust_entries count 5
+2025-11-23 17:30:55 | apps_entries exec-time 4703907ns
+2025-11-23 17:30:55 | apps_entries count 295
+2025-11-23 17:30:55 | hist_entries exec-time 15148968ns
+2025-11-23 17:30:55 | hist_entries count 130
+2025-11-23 17:30:55 | web_entries exec-time 2397296ns
+2025-11-23 17:30:55 | web_entries count 116
+2025-11-23 17:30:55 | sys_entries exec-time 1474760ns
+2025-11-23 17:30:55 | sys_entries count 6
+2025-11-23 17:31:02 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-23 17:31:02 | label:   󰖟 : ChatGPT
+2025-11-23 17:31:02 | cmd:     chromium --app=https://chat.openai.com
+2025-11-23 17:33:26 | open
+2025-11-23 17:33:26 | running set_app_cache,sh
+2025-11-23 17:33:27 | windows_entries exec-time 100848704ns
+2025-11-23 17:33:27 | windows_entries count 0
+2025-11-23 17:33:27 | cust_entries exec-time 1335929ns
+2025-11-23 17:33:27 | cust_entries count 5
+2025-11-23 17:33:27 | apps_entries exec-time 5971504ns
+2025-11-23 17:33:27 | apps_entries count 295
+2025-11-23 17:33:27 | hist_entries exec-time 21821559ns
+2025-11-23 17:33:27 | hist_entries count 130
+2025-11-23 17:33:27 | web_entries exec-time 3355893ns
+2025-11-23 17:33:27 | web_entries count 116
+2025-11-23 17:33:27 | sys_entries exec-time 2693345ns
+2025-11-23 17:33:27 | sys_entries count 6
+2025-11-23 17:33:28 | sel:     󰖟 : ChatGPT	chromium --app=https://chat.openai.com
+2025-11-23 17:33:28 | label:   󰖟 : ChatGPT
+2025-11-23 17:33:28 | cmd:     chromium --app=https://chat.openai.com
+2025-11-23 17:33:35 | open
+2025-11-23 17:33:35 | running set_app_cache,sh
+2025-11-23 17:33:36 | windows_entries exec-time 118537771ns
+2025-11-23 17:33:36 | windows_entries count 0
+2025-11-23 17:33:36 | cust_entries exec-time 1244693ns
+2025-11-23 17:33:36 | cust_entries count 5
+2025-11-23 17:33:36 | apps_entries exec-time 5990915ns
+2025-11-23 17:33:36 | apps_entries count 295
+2025-11-23 17:33:36 | hist_entries exec-time 21176066ns
+2025-11-23 17:33:36 | hist_entries count 130
+2025-11-23 17:33:36 | web_entries exec-time 4047201ns
+2025-11-23 17:33:36 | web_entries count 116
+2025-11-23 17:33:36 | sys_entries exec-time 2350271ns
+2025-11-23 17:33:36 | sys_entries count 6
+2025-11-23 17:33:37 | sel:      : Chromium	/usr/bin/chromium
+2025-11-23 17:33:37 | label:    : Chromium
+2025-11-23 17:33:37 | cmd:     /usr/bin/chromium
+2025-11-23 17:37:47 | open
+2025-11-23 17:37:47 | running set_app_cache,sh
+2025-11-23 17:37:47 | windows_entries exec-time 138537446ns
+2025-11-23 17:37:47 | windows_entries count 0
+2025-11-23 17:37:47 | cust_entries exec-time 1072276ns
+2025-11-23 17:37:47 | cust_entries count 5
+2025-11-23 17:37:47 | apps_entries exec-time 4928409ns
+2025-11-23 17:37:47 | apps_entries count 295
+2025-11-23 17:37:47 | hist_entries exec-time 14694348ns
+2025-11-23 17:37:47 | hist_entries count 130
+2025-11-23 17:37:47 | web_entries exec-time 2488648ns
+2025-11-23 17:37:47 | web_entries count 116
+2025-11-23 17:37:47 | sys_entries exec-time 1613491ns
+2025-11-23 17:37:47 | sys_entries count 6
+2025-11-23 17:37:50 | sel:      : Files	nautilus --new-window
+2025-11-23 17:37:50 | label:    : Files
+2025-11-23 17:37:50 | cmd:     nautilus --new-window
+2025-11-23 17:39:04 | open
+2025-11-23 17:39:04 | running set_app_cache,sh
+2025-11-23 17:39:05 | windows_entries exec-time 151752470ns
+2025-11-23 17:39:05 | windows_entries count 0
+2025-11-23 17:39:05 | cust_entries exec-time 1126876ns
+2025-11-23 17:39:05 | cust_entries count 5
+2025-11-23 17:39:05 | apps_entries exec-time 4781566ns
+2025-11-23 17:39:05 | apps_entries count 295
+2025-11-23 17:39:05 | hist_entries exec-time 14673858ns
+2025-11-23 17:39:05 | hist_entries count 130
+2025-11-23 17:39:05 | web_entries exec-time 2536217ns
+2025-11-23 17:39:05 | web_entries count 116
+2025-11-23 17:39:05 | sys_entries exec-time 1602834ns
+2025-11-23 17:39:05 | sys_entries count 6
+2025-11-23 17:39:06 | no selection (user cancelled)
+2025-11-23 17:39:24 | open
+2025-11-23 17:39:24 | running set_app_cache,sh
+2025-11-23 17:39:25 | windows_entries exec-time 153045610ns
+2025-11-23 17:39:25 | windows_entries count 0
+2025-11-23 17:39:25 | cust_entries exec-time 1090685ns
+2025-11-23 17:39:25 | cust_entries count 5
+2025-11-23 17:39:25 | apps_entries exec-time 4824435ns
+2025-11-23 17:39:25 | apps_entries count 295
+2025-11-23 17:39:25 | hist_entries exec-time 14606697ns
+2025-11-23 17:39:25 | hist_entries count 130
+2025-11-23 17:39:25 | web_entries exec-time 2445409ns
+2025-11-23 17:39:25 | web_entries count 116
+2025-11-23 17:39:25 | sys_entries exec-time 1576061ns
+2025-11-23 17:39:25 | sys_entries count 6
+2025-11-23 17:39:26 | sel:      : Files	nautilus --new-window
+2025-11-23 17:39:26 | label:    : Files
+2025-11-23 17:39:26 | cmd:     nautilus --new-window
+2025-11-23 17:46:37 | open
+2025-11-23 17:46:37 | running set_app_cache,sh
+2025-11-23 17:46:38 | windows_entries exec-time 226068171ns
+2025-11-23 17:46:38 | windows_entries count 0
+2025-11-23 17:46:38 | cust_entries exec-time 1046660ns
+2025-11-23 17:46:38 | cust_entries count 5
+2025-11-23 17:46:38 | apps_entries exec-time 4746538ns
+2025-11-23 17:46:38 | apps_entries count 295
+2025-11-23 17:46:38 | hist_entries exec-time 13301220ns
+2025-11-23 17:46:38 | hist_entries count 130
+2025-11-23 17:46:38 | web_entries exec-time 2620569ns
+2025-11-23 17:46:38 | web_entries count 116
+2025-11-23 17:46:38 | sys_entries exec-time 1606354ns
+2025-11-23 17:46:38 | sys_entries count 6
+2025-11-23 17:46:52 | sel:      : 3 |                ~ - fish kitty	/home/jgarza/.config/fzfLauncher/niri_jump.sh 29
+2025-11-23 17:46:52 | label:    : 3 |                ~ - fish kitty
+2025-11-23 17:46:52 | cmd:     /home/jgarza/.config/fzfLauncher/niri_jump.sh 29
+2025-11-23 17:46:59 | open
+2025-11-23 17:46:59 | running set_app_cache,sh
+2025-11-23 17:47:00 | windows_entries exec-time 78955716ns
+2025-11-23 17:47:00 | windows_entries count 0
+2025-11-23 17:47:00 | cust_entries exec-time 1027288ns
+2025-11-23 17:47:00 | cust_entries count 5
+2025-11-23 17:47:00 | apps_entries exec-time 4713020ns
+2025-11-23 17:47:00 | apps_entries count 295
+2025-11-23 17:47:00 | hist_entries exec-time 13919162ns
+2025-11-23 17:47:00 | hist_entries count 130
+2025-11-23 17:47:00 | web_entries exec-time 2408319ns
+2025-11-23 17:47:00 | web_entries count 116
+2025-11-23 17:47:00 | sys_entries exec-time 1450926ns
+2025-11-23 17:47:00 | sys_entries count 6
+2025-11-23 17:47:00 | no selection (user cancelled)
+2025-11-23 17:47:27 | open
+2025-11-23 17:47:27 | running set_app_cache,sh
+2025-11-23 17:47:28 | windows_entries exec-time 80238103ns
+2025-11-23 17:47:28 | windows_entries count 0
+2025-11-23 17:47:28 | cust_entries exec-time 1029771ns
+2025-11-23 17:47:28 | cust_entries count 5
+2025-11-23 17:47:28 | apps_entries exec-time 4767801ns
+2025-11-23 17:47:28 | apps_entries count 295
+2025-11-23 17:47:28 | hist_entries exec-time 13164985ns
+2025-11-23 17:47:28 | hist_entries count 130
+2025-11-23 17:47:28 | web_entries exec-time 2441582ns
+2025-11-23 17:47:28 | web_entries count 116
+2025-11-23 17:47:28 | sys_entries exec-time 1568363ns
+2025-11-23 17:47:28 | sys_entries count 6
+2025-11-23 17:47:44 | sel:     󰋚 : [fish] tty-clock	tty-clock
+2025-11-23 17:47:44 | label:   󰋚 : [fish] tty-clock
+2025-11-23 17:47:44 | cmd:     tty-clock
+2025-11-23 17:48:17 | open
+2025-11-23 17:48:17 | running set_app_cache,sh
+2025-11-23 17:48:17 | windows_entries exec-time 89790990ns
+2025-11-23 17:48:17 | windows_entries count 0
+2025-11-23 17:48:17 | cust_entries exec-time 1074266ns
+2025-11-23 17:48:17 | cust_entries count 5
+2025-11-23 17:48:17 | apps_entries exec-time 4649493ns
+2025-11-23 17:48:17 | apps_entries count 295
+2025-11-23 17:48:17 | hist_entries exec-time 13424558ns
+2025-11-23 17:48:17 | hist_entries count 130
+2025-11-23 17:48:17 | web_entries exec-time 2475009ns
+2025-11-23 17:48:17 | web_entries count 116
+2025-11-23 17:48:17 | sys_entries exec-time 1488301ns
+2025-11-23 17:48:17 | sys_entries count 6

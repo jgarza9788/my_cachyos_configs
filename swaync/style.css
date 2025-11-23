@@ -68,6 +68,7 @@
   .body {
   margin: 0.5rem;
   color: var(--noti-bg-hover-alt);
+  opacity: 0.9;
 }
 
 .floating-notifications.background
@@ -194,7 +195,8 @@
   .notification-background
   .notification
   .notification-content {
-  color: var(--noti-fg);
+  display: flex;
+  flex-direction: column;
 }
 
 .control-center
@@ -203,9 +205,9 @@
   .notification
   .notification-content
   .summary {
-  margin: 0.5rem;
+  margin: 0.25rem 0 0.1rem 0;
+  font-weight: 600;
   color: var(--noti-fg);
-  font-weight: bold;
 }
 
 .control-center
@@ -215,7 +217,9 @@
   .notification-content
   .body {
   margin: 0.5rem;
-  color: var(--noti-bg-hover-alt);
+  /* color: var(--noti-bg-hover-alt); */
+  color: var(--noti-fg);
+  opacity: 0.9;
 }
 
 .control-center

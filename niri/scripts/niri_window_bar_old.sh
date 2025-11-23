@@ -42,6 +42,14 @@ while :; do
       | . + {order: (.layout.pos_in_scrolling_layout[0] // 999999)}
     ] | sort_by(.order)
   ')"
+  # arr="$(printf '%s' "$windows"  '
+  #   [ .[]? 
+  #     | select(((.workspace.id // .workspace // .workspace_id) | tostring) == $ws_id)
+  #     | . + {order: (.layout.pos_in_scrolling_layout[0] // 999999)}
+  #   ] | sort_by(.order)
+  # ')"
+
+  echo $arr
 
   count="$(printf '%s' "$arr" | jq 'length')"
   idx="$(printf '%s' "$arr" | jq 'map(.focused==true or .is_focused==true) | index(true)')"
@@ -84,4 +92,5 @@ while :; do
   echo "$text"
 
   sleep 0.2
+  exit
 done
