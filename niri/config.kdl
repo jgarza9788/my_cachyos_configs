@@ -86,6 +86,7 @@ layout {
     // preset-window-heights { }
     // You can change the default width of the new windows.
     default-column-width { proportion 0.5; }
+<<<<<<< HEAD
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
     // By default focus ring and border are rendered as a solid background rectangle
@@ -98,6 +99,13 @@ layout {
     //
     // Alternatively, you can override it with a window rule called
     // `draw-border-with-background`.
+=======
+    focus-ring {
+        width 3
+        active-color "#c5cfa5"
+        inactive-color "#66954F"
+    }
+>>>>>>> f188f37580fc25395eea916e04b66b223acba73e
     border {
         off
         width 4

@@ -241,6 +241,7 @@ chromium
 firefox
 brave
 chromium
+<<<<<<< HEAD
 firefox
 brave
 chromium
@@ -265,3 +266,5 @@ chromium
 firefox
 brave
 chromium
+=======
+>>>>>>> f188f37580fc25395eea916e04b66b223acba73e
