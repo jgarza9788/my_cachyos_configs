@@ -11,8 +11,6 @@ URGENT="󰎃"
 FACTIVE="󰄶"
 FINACTIVE="󰄷"
 
-
-
 get() { niri msg -j "$1" 2>/dev/null || niri msg --json "$1" 2>/dev/null || true; }
 
 

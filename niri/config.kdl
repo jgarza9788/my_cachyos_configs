@@ -1,14 +1,20 @@
-//---------------------- cursor ----------------------\\
-cursor {
-    //Look in /home/jgarza/.icons
-    //xcursor-theme "Bibata-Modern-Ice"
-    //xcursor-theme "DeppinDark-cursors" 
-    xcursor-theme "capitaine-cursors" 
-
-    xcursor-size 32
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
+config-notification {
+    disable-failed
 }
 
+gestures {
+    hot-corners {
+        off
+    }
+}
 
+// Input device configuration.
+// Find the full list of options on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 //---------------------- input ----------------------\\
 input {
     keyboard {
@@ -41,97 +47,129 @@ input {
 }
 
 
-
-
-
-//---------------------- decoration ----------------------\\
+// You can configure outputs by their name, which you can find
+// by running `niri msg outputs` while inside a niri instance.
+// The built-in laptop monitor is usually called "eDP-1".
+// Find more information on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
+// Remember to uncomment the node by removing "/-"!
+/-output "eDP-2" {
+    mode "2560x1600@239.998993"
+    position x=2560 y=0
+    variable-refresh-rate
+}
+// Settings that influence how windows are positioned and sized.
+// Find more information on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
 layout {
-    //gaps 24
-    gaps 10
-    always-center-single-column
+    // Set gaps around windows in logical pixels.
+    background-color "transparent"
+    // When to center a column when changing focus, options are:
+    // - "never", default behavior, focusing an off-screen column will keep at the left
+    //   or right edge of the screen.
+    // - "always", the focused column will always be centered.
+    // - "on-overflow", focusing a column will center it if it doesn't fit
+    //   together with the previously focused column.
     center-focused-column "never"
-
+    // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
+        // Proportion sets the width as a fraction of the output width, taking gaps into account.
+        // For example, you can perfectly fit four windows sized "proportion 0.25" on an output.
+        // The default preset widths are 1/3, 1/2 and 2/3 of the output.
         proportion 0.33333
         proportion 0.5
         proportion 0.66667
-        proportion 1.0
+        // Fixed sets the width in logical pixels exactly.
+        // fixed 1920
     }
-    preset-window-heights {
-        proportion 0.33333
-        proportion 0.5
-        proportion 0.66667
-        proportion 1.0
-    }
+    // You can also customize the heights that "switch-preset-window-height" (Mod+Shift+R) toggles between.
+    // preset-window-heights { }
+    // You can change the default width of the new windows.
     default-column-width { proportion 0.5; }
-    focus-ring {
-        width 3
-        active-color "#d3d8d8"
-        inactive-color "#909292"
-    }
+    // If you leave the brackets empty, the windows themselves will decide their initial width.
+    // default-column-width {}
+    // By default focus ring and border are rendered as a solid background rectangle
+    // behind windows. That is, they will show up through semitransparent windows.
+    // This is because windows using client-side decorations can have an arbitrary shape.
+    //
+    // If you don't like that, you should uncomment `prefer-no-csd` below.
+    // Niri will draw focus ring and border *around* windows that agree to omit their
+    // client-side decorations.
+    //
+    // Alternatively, you can override it with a window rule called
+    // `draw-border-with-background`.
     border {
         off
+        width 4
+        active-color   "#707070"      // Neutral gray
+        inactive-color "#d0d0d0"      // Light gray
+        urgent-color   "#cc4444"      // Softer red
+    }
+    shadow {
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
     }
     struts {
-        left 0
-        right 0
-        top 0
-        bottom 0
     }
-    background-color "transparent"
-
 }
-
-
-//---------------------- startup ----------------------\\
-spawn-at-startup "waybar"
-spawn-at-startup "swaync"
-spawn-sh-at-startup "wl-paste --watch cliphist store"
-spawn-sh-at-startup "sh ~/.config/niri/scripts/startup.sh"
-spawn-sh-at-startup "sh ~/.config/niri/scripts/polkit.sh"
-
-spawn-sh-at-startup "sh ~/.config/niri/scripts/wallpaper.sh"
-spawn-sh-at-startup "sh ~/.config/niri/scripts/wallpaperSelect.sh"
-
-//run this for flatpak
-spawn-sh-at-startup "sh ~/.config/niri/scripts/flatpak_enable.sh"
-
-//spawn-sh-at-startup "sh ~/.config/tofi/scripts/app_cache.sh"
-
-//Vicinae
-//spawn-sh-at-startup "sh ~/.config/AppImages/Vicinae-8aec3f6c4-x86_64.AppImage server"
-
-
-//---------------------- layer rules ----------------------\\
 layer-rule {
-    match namespace="^swww-daemon$"
+    match namespace="^quickshell$"
     place-within-backdrop true
 }
-
-layer-rule {
-    // Get the namespace with: `niri msg layers`
-    match namespace="^rofi$"
-    //match namespace="^tofi$"
-
-
-    // Properties that apply continuously.
-    opacity 1.0
-
-    shadow {
-        on
-        // off
-        softness 120
-        spread 30
-        offset x=0 y=60
-        draw-behind-window false
-        color "#00000077"
+overview {
+    workspace-shadow {
+        off
     }
-
-    geometry-corner-radius 30
-    place-within-backdrop false
-    //baba-is-float true
 }
+// Add lines like this to spawn processes at startup.
+// Note that running niri as a session supports xdg-desktop-autostart,
+// which may be more convenient to use.
+// See the binds section below for more spawn examples.
+// This line starts waybar, a commonly used bar for Wayland compositors.
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+environment {
+  XDG_CURRENT_DESKTOP "niri"
+}
+hotkey-overlay {
+    skip-at-startup
+}
+prefer-no-csd
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
+// animations {
+//     workspace-switch {
+//         spring damping-ratio=0.80 stiffness=523 epsilon=0.0001
+//     }
+//     window-open {
+//         duration-ms 150
+//         curve "ease-out-expo"
+//     }
+//     window-close {
+//         duration-ms 150
+//         curve "ease-out-quad"
+//     }
+//     horizontal-view-movement {
+//         spring damping-ratio=0.85 stiffness=423 epsilon=0.0001
+//     }
+//     window-movement {
+//         spring damping-ratio=0.75 stiffness=323 epsilon=0.0001
+//     }
+//     window-resize {
+//         spring damping-ratio=0.85 stiffness=423 epsilon=0.0001
+//     }
+//     config-notification-open-close {
+//         spring damping-ratio=0.65 stiffness=923 epsilon=0.001
+//     }
+//     screenshot-ui-open {
+//         duration-ms 200
+//         curve "ease-out-quad"
+//     }
+//     overview-open-close {
+//         spring damping-ratio=0.85 stiffness=800 epsilon=0.0001
+//     }
+// }
 
 //---------------------- animations ----------------------\\
 animations {
@@ -183,17 +221,87 @@ animations {
     }
 }
 
-overview {
-	zoom 0.25
-	//backdrop-color "#263238"
-    backdrop-color "#000000ff"
+
+// Window rules let you adjust behavior for individual windows.
+// Find more information on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
+// Work around WezTerm's initial configure bug
+// by setting an empty default-column-width.
+
+// window-rule {
+//     // This regular expression is intentionally made as specific as possible,
+//     // since this is the default config, and we want no false positives.
+//     // You can get away with just app-id="wezterm" if you want.
+//     match app-id=r#"^org\.wezfurlong\.wezterm$"#
+//     default-column-width {}
+// }
+
+window-rule {
+    match app-id=r#"^org\.gnome\."#
+    draw-border-with-background false
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
+window-rule {
+    match app-id=r#"^gnome-control-center$"#
+    match app-id=r#"^pavucontrol$"#
+    match app-id=r#"^nm-connection-editor$"#
+    default-column-width { proportion 0.5; }
+    open-floating false
+}
+
+window-rule {
+    match app-id=r#"^gnome-calculator$"#
+    match app-id=r#"^galculator$"#
+    match app-id=r#"^blueman-manager$"#
+    match app-id=r#"^org\.gnome\.Nautilus$"#
+    match app-id=r#"^steam$"#
+    match app-id=r#"^xdg-desktop-portal$"#
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"^org\.wezfurlong\.wezterm$"#
+    match app-id="Alacritty"
+    match app-id="zen"
+    match app-id="com.mitchellh.ghostty"
+    match app-id="kitty"
+    draw-border-with-background false
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id="zoom"
+    open-floating true
+}
+
+// Open dms windows as floating by default
+window-rule {
+    match app-id=r#"org.quickshell$"#
+    open-floating true
+}
+
+debug {
+    honor-xdg-activation-with-invalid-serial
+}
+
+// Override to disable super+tab
+recent-windows {
+    binds {
+        Alt+Tab         { next-window scope="output"; }
+        Alt+Shift+Tab   { previous-window scope="output"; }
+        Alt+grave       { next-window filter="app-id"; }
+        Alt+Shift+grave { previous-window filter="app-id"; }
+    }
 }
 
 //---------------------- window rules ----------------------\\
-window-rule {
-    geometry-corner-radius 8
-    clip-to-geometry true
-}
 
 window-rule {
     match app-id="firefox"
@@ -293,369 +401,12 @@ window-rule {
 }
 
 
+// Include dms files
+include "dms/colors.kdl"
+include "dms/layout.kdl"
+include "dms/alttab.kdl"
+include "dms/binds.kdl"
 
+include "basicsettings.kdl" // Added by niri-settings
 
-//---------------------- keybinds ----------------------\\
-binds {
-
-    //// applications
-    //Mod+Return           { spawn-sh "kitty"; }
-    //Mod+D                { spawn-sh "~/.config/niri/scripts/menu.sh"; }
-    //Mod+Shift+D          { spawn-sh "~/.config/niri/scripts/rofi-emoji.sh"; }
-    //Mod+E                { spawn-sh "dolphin"; }
-    //Mod+B                { spawn-sh "~/.config/niri/scripts/browser.sh"; }
-    //Mod+Alt+B            { spawn-sh "~/.config/niri/scripts/default_browser.sh"; }
-    //Mod+Shift+Slash      { show-hotkey-overlay; }
-    //Mod+Shift+Backspace  { spawn "hyprlock"; }
-//
-    //// Backlight and Audio
-    //F4                    allow-when-locked=true { spawn-sh "~/.config/niri/scripts/brightness.sh up" ; }
-    //F3                    allow-when-locked=true { spawn-sh "~/.config/niri/scripts/brightness.sh down" ; }
-    //F9                    allow-when-locked=true { spawn-sh "~/.config/niri/scripts/volumecontrol.sh --toggle"; }
-    //F10                   allow-when-locked=true { spawn-sh "~/.config/niri/scripts/volumecontrol.sh --dec"; }
-    //F11                   allow-when-locked=true { spawn-sh "~/.config/niri/scripts/volumecontrol.sh --inc"; }
-//
-    //XF86MonBrightnessUp   allow-when-locked=true { spawn-sh "~/.config/niri/scripts/brightness.sh up" ; }
-    //XF86MonBrightnessDown allow-when-locked=true { spawn-sh "~/.config/niri/scripts/brightness.sh down" ; }
-    //XF86AudioRaiseVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+"; }
-    //XF86AudioLowerVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-"; }
-    //XF86AudioMute         allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-    //XF86AudioPlay         allow-when-locked=true { spawn-sh "playerctl play-pause"; }
-    //XF86AudioPause        allow-when-locked=true { spawn-sh "playerctl pause"; }
-    //XF86AudioNext         allow-when-locked=true { spawn-sh "playerctl next"; }
-    //XF86AudioPrev         allow-when-locked=true { spawn-sh "playerctl previous"; }
-//
-    //// Windows and Columns
-    //Mod+Q                { close-window; }
-    //Mod+X                { spawn-sh "wlogout -b 4 --layout ~/.config/wlogout/layout --css ~/.config/wlogout/style.css"; }
-    //Mod+Alt+C            { spawn-sh "~/.config/niri/scripts/cliphist.sh c"; }
-    //Mod+Alt+W            { spawn-sh "~/.config/niri/scripts/cliphist.sh w"; }
-    //Mod+V                { toggle-window-floating; }
-    //Mod+F                { maximize-column; }
-    //Mod+Shift+F          { fullscreen-window; }
-    //Mod+H                { focus-column-left; }
-    //Mod+L                { focus-column-right; }
-    //Mod+J                { focus-window-down; }
-    //Mod+K                { focus-window-up; }
-    //Mod+Ctrl+H           { move-column-left; }
-    //Mod+Ctrl+L           { move-column-right; }
-    //Mod+Ctrl+J           { move-window-down; }
-    //Mod+Ctrl+K           { move-window-up; }
-    //Mod+Home             { focus-column-first; }
-    //Mod+End              { focus-column-last; }
-    //Mod+Ctrl+Home        { move-column-to-first; }
-    //Mod+Ctrl+End         { move-column-to-last; }
-    //Mod+Shift+h          { set-column-width "-10%"; }
-    //Mod+Shift+l          { set-column-width "+10%"; }
-    //Mod+Shift+k          { set-window-height "-10%"; }
-    //Mod+Shift+j          { set-window-height "+10%"; }
-    //Mod+BracketLeft      { consume-or-expel-window-left; }
-    //Mod+BracketRight     { consume-or-expel-window-right; }
-    //Mod+Comma            { consume-window-into-column; }
-    //Mod+Period           { expel-window-from-column; }
-    //Ctrl+Escape          { spawn-sh "~/.config/niri/scripts/waybar-reload.sh --reload"; }
-//
-    //// wallpapers
-    //Mod+W                { spawn-sh "~/.config/niri/scripts/Wallpaper.sh"; }
-    //Mod+Shift+W          { spawn-sh "~/.config/niri/scripts/WallpaperSelect.sh thm1"; }
-//
-    //// Workspaces
-    //Mod+Page_Down        { focus-workspace-down; }
-    //Mod+Page_Up          { focus-workspace-up; }
-    //Mod+Ctrl+Page_Down   { move-column-to-workspace-down; }
-    //Mod+Ctrl+Page_Up     { move-column-to-workspace-up; }
-    //Mod+1                { focus-workspace 1; }
-    //Mod+2                { focus-workspace 2; }
-    //Mod+3                { focus-workspace 3; }
-    //Mod+4                { focus-workspace 4; }
-    //Mod+5                { focus-workspace 5; }
-    //Mod+6                { focus-workspace 6; }
-    //Mod+7                { focus-workspace 7; }
-    //Mod+8                { focus-workspace 8; }
-    //Mod+9                { focus-workspace 9; }
-    //Mod+Ctrl+1           { move-column-to-workspace 1; }
-    //Mod+Ctrl+2           { move-column-to-workspace 2; }
-    //Mod+Ctrl+3           { move-column-to-workspace 3; }
-    //Mod+Ctrl+4           { move-column-to-workspace 4; }
-    //Mod+Ctrl+5           { move-column-to-workspace 5; }
-    //Mod+Ctrl+6           { move-column-to-workspace 6; }
-    //Mod+Ctrl+7           { move-column-to-workspace 7; }
-    //Mod+Ctrl+8           { move-column-to-workspace 8; }
-    //Mod+Ctrl+9           { move-column-to-workspace 9; }
-    //Mod+Ctrl+0           { move-column-to-workspace 10; }
-    //Mod+A                { toggle-overview; }
-//
-    // Screenshots
-    //Print                { screenshot-screen; }
-    //Shift+Print          { screenshot; }
-    //Ctrl+Print           { screenshot-window; }
-
-//####################################################################################
-
-// Help / overlay
-Mod+Shift+Slash { show-hotkey-overlay; }
-
-// Terminal
-//Mod+T  { spawn "alacritty"; }
-Mod+T  { spawn "kitty"; }
-
-// Lock screen
-Super+Alt+L  { spawn "swaylock-fancy"; }
-
-// Accessibility / system toggles
-Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
-
-// Media keys
-XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
-XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
-XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-XF86AudioMicMute     allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
-
-// Brightness
-XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
-
-// Overview / window ops
-Mod+O repeat=false { toggle-overview; }
-Mod+Q repeat=false { close-window; }
-
-// Focus (columns/windows/workspaces)
-Mod+Left  { focus-column-left; }
-Mod+Right { focus-column-right; }
-Mod+Down  { focus-workspace-down; }
-Mod+Up    { focus-workspace-up; }
-Mod+J     { focus-column-left; }
-Mod+K     { focus-window-down; }
-Mod+I     { focus-window-up; }
-Mod+L     { focus-column-right; }
-
-
-
-
-// Move (columns/windows)
-Mod+Ctrl+Left  { move-column-left; }
-//Mod+Ctrl+Down  { move-window-down; }
-//Mod+Ctrl+Up    { move-window-up; }
-Mod+Ctrl+Down  { move-column-to-workspace-down;  }
-Mod+Ctrl+Up    { move-column-to-workspace-up;  }
-Mod+Ctrl+Right { move-column-right; }
-Mod+Ctrl+H     { move-column-left; }
-Mod+Ctrl+J     { move-window-down; }
-Mod+Ctrl+K     { move-window-up; }
-Mod+Ctrl+L     { move-column-right; }
-
-// Column navigation
-Mod+Home { focus-column-first; }
-Mod+End  { focus-column-last; }
-Mod+Ctrl+Home { move-column-to-first; }
-Mod+Ctrl+End  { move-column-to-last; }
-
-// Monitor focus/move
-Mod+Shift+Left  { focus-monitor-left; }
-Mod+Shift+Down  { focus-monitor-down; }
-Mod+Shift+Up    { focus-monitor-up; }
-Mod+Shift+Right { focus-monitor-right; }
-Mod+Shift+H     { focus-monitor-left; }
-Mod+Shift+J     { focus-monitor-down; }
-Mod+Shift+K     { focus-monitor-up; }
-Mod+Shift+L     { focus-monitor-right; }
-
-Mod+Shift+Ctrl+Left  { move-column-to-monitor-left; }
-Mod+Shift+Ctrl+Down  { move-column-to-monitor-down; }
-Mod+Shift+Ctrl+Up    { move-column-to-monitor-up; }
-Mod+Shift+Ctrl+Right { move-column-to-monitor-right; }
-Mod+Shift+Ctrl+H     { move-column-to-monitor-left; }
-Mod+Shift+Ctrl+J     { move-column-to-monitor-down; }
-Mod+Shift+Ctrl+K     { move-column-to-monitor-up; }
-Mod+Shift+Ctrl+L     { move-column-to-monitor-right; }
-// Mod+Shift+Ctrl+Left  { move-window-to-monitor-left; }
-// Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
-
-// Workspace focus/move
-Mod+Page_Down      { focus-workspace-down; }
-Mod+Page_Up        { focus-workspace-up; }
-//Mod+U              { focus-workspace-down; }
-//Mod+I              { focus-workspace-up; }
-
-Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
-Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
-//Mod+Ctrl+U         { move-column-to-workspace-down; }
-//Mod+Ctrl+I         { move-column-to-workspace-up; }
-// Mod+Ctrl+Page_Down { move-window-to-workspace-down; }
-
-Mod+Shift+Page_Down { move-workspace-down; }
-Mod+Shift+Page_Up   { move-workspace-up; }
-//Mod+Shift+U         { move-workspace-down; }
-//Mod+Shift+I         { move-workspace-up; }
-
-// Scroll bindings
-Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
-Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
-Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
-Mod+Ctrl+WheelScrollUp   cooldown-ms=150 { move-column-to-workspace-up; }
-
-Mod+WheelScrollRight      { focus-column-right; }
-Mod+WheelScrollLeft       { focus-column-left; }
-Mod+Ctrl+WheelScrollRight { move-column-right; }
-Mod+Ctrl+WheelScrollLeft  { move-column-left; }
-
-Mod+Shift+WheelScrollDown      { focus-column-right; }
-Mod+Shift+WheelScrollUp        { focus-column-left; }
-Mod+Ctrl+Shift+WheelScrollDown { move-column-right; }
-Mod+Ctrl+Shift+WheelScrollUp   { move-column-left; }
-// Mod+TouchpadScrollDown { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.02+"; }
-// Mod+TouchpadScrollUp   { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.02-"; }
-
-// Direct workspace indices
-Mod+1 { focus-workspace 1; }
-Mod+2 { focus-workspace 2; }
-Mod+3 { focus-workspace 3; }
-Mod+4 { focus-workspace 4; }
-Mod+5 { focus-workspace 5; }
-Mod+6 { focus-workspace 6; }
-Mod+7 { focus-workspace 7; }
-Mod+8 { focus-workspace 8; }
-Mod+9 { focus-workspace 9; }
-Mod+Ctrl+1 { move-column-to-workspace 1; }
-Mod+Ctrl+2 { move-column-to-workspace 2; }
-Mod+Ctrl+3 { move-column-to-workspace 3; }
-Mod+Ctrl+4 { move-column-to-workspace 4; }
-Mod+Ctrl+5 { move-column-to-workspace 5; }
-Mod+Ctrl+6 { move-column-to-workspace 6; }
-Mod+Ctrl+7 { move-column-to-workspace 7; }
-Mod+Ctrl+8 { move-column-to-workspace 8; }
-Mod+Ctrl+9 { move-column-to-workspace 9; }
-// Mod+Ctrl+1 { move-window-to-workspace 1; }
-// Mod+Tab { focus-workspace-previous; }
-
-// Column consume/expel + tabbing
-Mod+BracketLeft  { consume-or-expel-window-left; }
-Mod+BracketRight { consume-or-expel-window-right; }
-Mod+Comma  { consume-window-into-column; }
-Mod+Period { expel-window-from-column; }
-Mod+W { toggle-column-tabbed-display; }
-
-// Layout / sizing
-Mod+R { switch-preset-column-width; }
-// Mod+R { switch-preset-column-width-back; }
-Mod+Shift+R { switch-preset-window-height; }
-Mod+Ctrl+R { reset-window-height; }
-Mod+F { maximize-column; }
-Mod+Shift+F { fullscreen-window; }
-Mod+Ctrl+F { expand-column-to-available-width; }
-Mod+C { center-column; }
-Mod+Ctrl+C { center-visible-columns; }
-Mod+Minus { set-column-width "-10%"; }
-Mod+Equal { set-column-width "+10%"; }
-Mod+Shift+Minus { set-window-height "-10%"; }
-Mod+Shift+Equal { set-window-height "+10%"; }
-// Mod+Space       { switch-layout "next"; }
-// Mod+Shift+Space { switch-layout "prev"; }
-
-// Floating
-Mod+P       { toggle-window-floating; }
-Mod+Shift+P { switch-focus-between-floating-and-tiling; }
-
-// Screenshots
-Print { screenshot; }
-Ctrl+Print { screenshot-screen; }
-Alt+Print { screenshot-window; }
-
-// Inhibit keyboard shortcuts
-Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
-
-// Quit / power
-Mod+Shift+E { quit; }
-Ctrl+Alt+Delete { quit; }
-//Mod+Shift+P { power-off-monitors; }
-
-// Launchers
-//Mod+D  { spawn "fuzzel"; }
-//Mod+Space  { spawn "fuzzel"; }
-//Mod+D { spawn "wofi" "--show" "drun";}
-//Mod+Space { spawn "wofi" "--show" "drun";}
-//Mod+Space { spawn "rofi" "-show" "drun";}
-//Mod+D       { spawn "~/.config/wofi/scripts/swofi.sh";}
-//Mod+Space   { spawn "~/.config/wofi/scripts/swofi.sh";}
-
-//Mod+D       { spawn "~/.config/tofi/scripts/stofi.sh";}
-//Mod+Space   { spawn "~/.config/tofi/scripts/stofi.sh";}
-
-//Mod+D       { spawn "~/.config/rofi/scripts/srofi.sh";}
-//Mod+Space   { spawn "~/.config/rofi/scripts/srofi.sh";}
-
-//Z for Ze windows!
-Mod+Z       { spawn "~/.config/fzfLauncher/launchWINDOWS.sh";}
-
-//X for everything
-Mod+X       { spawn "~/.config/fzfLauncher/launchALL.sh";}
-
-//space for everything except for clipboard
-Mod+Space   { spawn "~/.config/fzfLauncher/launchFAST.sh";}
-
-//A for Apps
-Mod+A       { spawn "~/.config/fzfLauncher/launchAPPS.sh";}
-
-// Clipboard
-//Mod+V  { spawn "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
-//Mod+V  { spawn "~/.config/wofi/scripts/wofi-clip.sh";}
-//Mod+V  { spawn "~/.config/rofi/scripts/clipboard.sh";}
-//Mod+V  { spawn "~/.config/tofi/scripts/clipboard.sh";}
-
-//V for the clipboard
-Mod+V    { spawn "~/.config/fzfLauncher/launchCLIPBOARD.sh";}
-
-// Web apps
-//Mod+A  { spawn "~/.config/niri/scripts/webApp.sh" "https://chatgpt.com/";}
-Mod+M  { spawn "~/.config/niri/scripts/webApp.sh" "https://gmail.com/";}
-
-//// wallpapers
-//Mod+W                { spawn-sh "~/.config/niri/scripts/Wallpaper.sh"; }
-Mod+Shift+W          { spawn-sh "~/.config/niri/scripts/WallpaperSelect.sh"; }
-
-//notification
-Mod+N {spawn-sh "swaync-client -t";}
-
-
-// Vicinae
-//Mod+Space {spawn "~/.config/AppImages/vicinae_launcher.sh"; }
-
-}
-
-
-//---------------------- misc configuration ----------------------\\
-screenshot-path "~/Pictures/Screenshots/screenshot_niri_%Y-%m-%d %H-%M-%S.png"
-prefer-no-csd
-hotkey-overlay {
-    skip-at-startup
-}
-
-//---------------------- environment ----------------------\\
-
-environment {
-
-    //DISPLAY ":1"
-    //ELECTRON_OZONE_PLATFORM_HINT "auto"
-    //QT_QPA_PLATFORM "wayland"
-    //QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
-    //XDG_CURRENT_DESKTOP "KDE"
-    //KDE_SESSION_VERSION "6"
-
-    //QT Style 
-    QT_STYLE_OVERRIDE "kvantum"
-    QT_QPA_PLATFORMTHEME "qt5ct:qt6ct"
-
-    //XDG_SESSION_TYPE "wayland"
-    //XDG_CURRENT_DESKTOP "niri"
-
-    ///usr/share/themes
-    ///home/jgarza/.themes
-    //GTK_THEME "TokyoNight"
-    //GTK_THEME "Adwaita:dark"
-    GTK_THEME "Colloid-Dark"
-
-    ///usr/share/icons
-    //"ICON_THEME" "Reversal"
-    ICON_THEME "Colloid-Dark"
-}
-
+include "keybinds.kdl" // Added by niri-settings
