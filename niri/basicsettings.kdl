@@ -3,12 +3,12 @@
 // prefer-no-csd
 
 overview {
-    zoom 0.20000000000000007
+    zoom 0.2
 }
 
 animations {
     on
-    slowdown 2.000000000000001
+    slowdown 2.0
 }
 
 layout {
@@ -17,7 +17,7 @@ layout {
     }
 
     gaps 8
-    default-column-display "tabbed"
+    default-column-display "normal"
     default-column-width { proportion 0.5;}
     center-focused-column "never"
     // empty-workspace-above-first
@@ -32,14 +32,14 @@ layout {
     focus-ring {
         on
         width 4
-        active-color "#7fc8ff"
+        active-color "#00bcd4"
         inactive-color "#505050"
     }
 
     border {
         off
         width 4
-        active-color "#7fc8ff"
+        active-color "#00bcd4"
         inactive-color "#505050"
     }
 
