@@ -125,3 +125,7 @@ cursor {
     // hide-when-typing 
     // hide-after-inactive-ms {self.behavior_tab.inactive_spinbox.value()}
 }
+
+
+
+spawn-at-startup "hamr"

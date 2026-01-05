@@ -324,4 +324,11 @@ Mod+N {spawn-sh "swaync-client -t";}
 // Vicinae
 //Mod+Space {spawn "~/.config/AppImages/vicinae_launcher.sh"; }
 
+
+//HAMR
+//// Toggle Hamr with Ctrl+Space
+//Ctrl+Space { spawn-sh "~/.config/niri/scripts/open_hamr.sh"; }
+//// Or with Mod+Space (Super key)
+//Mod+Space { spawn-sh "~/.config/niri/scripts/open_hamr.sh"; }
+
 }
